@@ -858,3 +858,11 @@ div, svg {
 ._dash-undo-redo {
     display: none;
 }
+
+/* Others
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+#banner {
+    display: flex;
+    flex: 1;
+}
