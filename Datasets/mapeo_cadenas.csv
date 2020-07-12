@@ -1,54 +1,54 @@
-HS;DescripciÛn HS;ID_ADR;CADENA_PRODUCTIVA_ADR;ENA;ACTIVOSPRODUCTIVO;ASISTENCIATECNICA;ADT
-01;Animales vivos;0201;GANADERIA;;GanaderÌa;GANADERIA;
+ÔªøHS;Descripci√≥n HS;ID_ADR;CADENA_PRODUCTIVA_ADR;ENA;ACTIVOSPRODUCTIVO;ASISTENCIATECNICA;ADT
+01;Animales vivos;0201;GANADERIA;;Ganader√≠a;GANADERIA;
 01;Animales vivos;0201;GANADERIA;;;GANADERIA ;
 01;Animales vivos;0201;GANADERIA;;;GANADERIA DP;
-01;Animales vivos;0201;GANADERIA;;;GANADERÕA DP;
+01;Animales vivos;0201;GANADERIA;;;GANADER√çA DP;
 01;Animales vivos;0201;GANADERIA;;Productivo-sistemas ganaderos;;
 01;Animales vivos;02;PECUARIO;;Pecuario;;
 01;Animales vivos;02;PECUARIO;;Productivo-Pecuario;;
 01;Animales vivos;0201;GANADERIA;;;;GANADERIA
 01;Animales vivos;0201;GANADERIA;;;;GANADERO
-01;Animales vivos;0201;GANADERIA;;;;GANADERÕA
-01;Animales vivos;0201;GANADERIA;;;;GANADERÕA DE DOBLE PROP”SITO
-01;Animales vivos;0201;GANADERIA;;;;GANADERÕA DOBLE PROP”SITO
-01;Animales vivos;0201;GANADERIA;;;;GANADERÕA DOBLE PROP”SITO CULTIVOS DE CACAO
-01;Animales vivos;0201;GANADERIA;;;;GANADERÕA DOBLE PROP”SITO CULTIVOS DE MAÕZ
-01;Animales vivos;0201;GANADERIA;;;;GANADERÕA EXTENSIVA
-01;Animales vivos;0201;GANADERIA;;;;GANADERÕA INTENSIVA
-01;Animales vivos;0201;GANADERIA;;;;GANADERÕA Y CRÕA DE ESPECIES MENORES
-01;Animales vivos;0201;GANADERIA;;;;GANADERÕA.
+01;Animales vivos;0201;GANADERIA;;;;GANADER√çA
+01;Animales vivos;0201;GANADERIA;;;;GANADER√çA DE DOBLE PROP√ìSITO
+01;Animales vivos;0201;GANADERIA;;;;GANADER√çA DOBLE PROP√ìSITO
+01;Animales vivos;0201;GANADERIA;;;;GANADER√çA DOBLE PROP√ìSITO CULTIVOS DE CACAO
+01;Animales vivos;0201;GANADERIA;;;;GANADER√çA DOBLE PROP√ìSITO CULTIVOS DE MA√çZ
+01;Animales vivos;0201;GANADERIA;;;;GANADER√çA EXTENSIVA
+01;Animales vivos;0201;GANADERIA;;;;GANADER√çA INTENSIVA
+01;Animales vivos;0201;GANADERIA;;;;GANADER√çA Y CR√çA DE ESPECIES MENORES
+01;Animales vivos;0201;GANADERIA;;;;GANADER√çA.
 01;Animales vivos;0201;GANADERIA;;;;GANADO
-01;Animales vivos;0201;GANADERIA;;;;GANADO DOBLE PROP”SITO
+01;Animales vivos;0201;GANADERIA;;;;GANADO DOBLE PROP√ìSITO
 01;Animales vivos;0201;GANADERIA;;;;GANADO LECHERO
 01;Animales vivos;02;PECUARIO;;;;PECUARIA
 01;Animales vivos;02;PECUARIO;;;;PECUARIOS COMO VACAS PARA LECHE
-0105;"Gallos, gallinas, patos, gansos, pavos ""gallipavos"" y pintadas, de las especies domÈsticas, ...";0202;AVICULTURA;;Avicultura;;
-0105;"Gallos, gallinas, patos, gansos, pavos ""gallipavos"" y pintadas, de las especies domÈsticas, ...";0202;AVICULTURA;;;;AVICULTURA
-0105;"Gallos, gallinas, patos, gansos, pavos ""gallipavos"" y pintadas, de las especies domÈsticas, ...";0202;AVICULTURA;;;;AVÕCOLA
-0106;Animales vivos, n.c.o.p. (exc. caballos, asnos, mulos, burdÈganos, bovinos, porcinos, ovinos, ...;0203;APICULTURA;;Apicultura;;
-03;Pescados y crust·ceos, moluscos y dem·s invertebrados acu·ticos;06;ACUICULTURA;;AcuÌcola;ACUICULTURA;
-03;Pescados y crust·ceos, moluscos y dem·s invertebrados acu·ticos;06;ACUICULTURA;;Pesca Artesanal;;
-04;"Leche y productos l·cteos; huevos de ave; miel natural; productos comestibles de origen animal ...";020103;LACTEO;;Productivo-TransformaciÛn Lacteo;;
-060110;Bulbos, cebollas, tubÈrculos, raÌces y bulbos tuberosos, turiones y rizomas, en reposo vegetativo ...;010201;CEBOLLA;;;;
-060110;Bulbos, cebollas, tubÈrculos, raÌces y bulbos tuberosos, turiones y rizomas, en reposo vegetativo ...;010202;CEBOLLA DE BULBO;CEBOLLA DE BULBO;;;
-060110;Bulbos, cebollas, tubÈrculos, raÌces y bulbos tuberosos, turiones y rizomas, en reposo vegetativo ...;010203;CEBOLLA DE RAMA;CEBOLLA DE RAMA;;;
-060110;Bulbos, cebollas, tubÈrculos, raÌces y bulbos tuberosos, turiones y rizomas, en reposo vegetativo ...;010204;CEBOLLIN;CEBOLLIN;;;
-060110;Bulbos, cebollas, tubÈrculos, raÌces y bulbos tuberosos, turiones y rizomas, en reposo vegetativo ...;010201;CEBOLLA;;;;CEBOLLA
-060110;Bulbos, cebollas, tubÈrculos, raÌces y bulbos tuberosos, turiones y rizomas, en reposo vegetativo ...;010201;CEBOLLA;;;;CEBOLLA CABEZONA
-060110;Bulbos, cebollas, tubÈrculos, raÌces y bulbos tuberosos, turiones y rizomas, en reposo vegetativo ...;010201;CEBOLLA;;;;CEBOLLA CABEZONA Y JUNCA
-060110;Bulbos, cebollas, tubÈrculos, raÌces y bulbos tuberosos, turiones y rizomas, en reposo vegetativo ...;010203;CEBOLLA DE RAMA;;;;CEBOLLA JUNCA
-060110;Bulbos, cebollas, tubÈrculos, raÌces y bulbos tuberosos, turiones y rizomas, en reposo vegetativo ...;010201;CEBOLLA;;;;CEBOLLA JUNCA Y CABEZONA
-060110;Bulbos, cebollas, tubÈrculos, raÌces y bulbos tuberosos, turiones y rizomas, en reposo vegetativo ...;010203;CEBOLLA DE RAMA;;;;CEBOLLA LARGA
-060220;¡rboles, arbustos y matas, de frutas o de otros frutos comestibles, incl. injertados;010301;CADUCIFOLIOS;CADUCIFOLIOS;;;
-060220;¡rboles, arbustos y matas, de frutas o de otros frutos comestibles, incl. injertados;010302;CANYARANA;CANYARANA;;;
-060290;Plantas vivas, incl. sus raÌces, y micelios (exc. bulbos, cebollas, tubÈrculos, raÌces y bulbos ...;010303;PLANTULAS;PLANTULAS;;;
-0603;Flores y capullos, cortados para ramos o adornos, frescos, secos, blanqueados, teÒidos, impregnados ...;0104;FLORES Y FOLLAJES;FLORES Y FOLLAJES;;;
-0603;Flores y capullos, cortados para ramos o adornos, frescos, secos, blanqueados, teÒidos, impregnados ...;0104;FLORES Y FOLLAJES;;;;FLORICULTURA
-0603;Flores y capullos, cortados para ramos o adornos, frescos, secos, blanqueados, teÒidos, impregnados ...;0104;FLORES Y FOLLAJES;;;;FOLLAJES RUSCOS
+0105;"Gallos, gallinas, patos, gansos, pavos ""gallipavos"" y pintadas, de las especies dom√©sticas, ...";0202;AVICULTURA;;Avicultura;;
+0105;"Gallos, gallinas, patos, gansos, pavos ""gallipavos"" y pintadas, de las especies dom√©sticas, ...";0202;AVICULTURA;;;;AVICULTURA
+0105;"Gallos, gallinas, patos, gansos, pavos ""gallipavos"" y pintadas, de las especies dom√©sticas, ...";0202;AVICULTURA;;;;AV√çCOLA
+0106;Animales vivos, n.c.o.p. (exc. caballos, asnos, mulos, burd√©ganos, bovinos, porcinos, ovinos, ...;0203;APICULTURA;;Apicultura;;
+03;Pescados y crust√°ceos, moluscos y dem√°s invertebrados acu√°ticos;06;ACUICULTURA;;Acu√≠cola;ACUICULTURA;
+03;Pescados y crust√°ceos, moluscos y dem√°s invertebrados acu√°ticos;06;ACUICULTURA;;Pesca Artesanal;;
+04;"Leche y productos l√°cteos; huevos de ave; miel natural; productos comestibles de origen animal ...";020103;LACTEO;;Productivo-Transformaci√≥n Lacteo;;
+060110;Bulbos, cebollas, tub√©rculos, ra√≠ces y bulbos tuberosos, turiones y rizomas, en reposo vegetativo ...;010201;CEBOLLA;;;;
+060110;Bulbos, cebollas, tub√©rculos, ra√≠ces y bulbos tuberosos, turiones y rizomas, en reposo vegetativo ...;010202;CEBOLLA DE BULBO;CEBOLLA DE BULBO;;;
+060110;Bulbos, cebollas, tub√©rculos, ra√≠ces y bulbos tuberosos, turiones y rizomas, en reposo vegetativo ...;010203;CEBOLLA DE RAMA;CEBOLLA DE RAMA;;;
+060110;Bulbos, cebollas, tub√©rculos, ra√≠ces y bulbos tuberosos, turiones y rizomas, en reposo vegetativo ...;010204;CEBOLLIN;CEBOLLIN;;;
+060110;Bulbos, cebollas, tub√©rculos, ra√≠ces y bulbos tuberosos, turiones y rizomas, en reposo vegetativo ...;010201;CEBOLLA;;;;CEBOLLA
+060110;Bulbos, cebollas, tub√©rculos, ra√≠ces y bulbos tuberosos, turiones y rizomas, en reposo vegetativo ...;010201;CEBOLLA;;;;CEBOLLA CABEZONA
+060110;Bulbos, cebollas, tub√©rculos, ra√≠ces y bulbos tuberosos, turiones y rizomas, en reposo vegetativo ...;010201;CEBOLLA;;;;CEBOLLA CABEZONA Y JUNCA
+060110;Bulbos, cebollas, tub√©rculos, ra√≠ces y bulbos tuberosos, turiones y rizomas, en reposo vegetativo ...;010203;CEBOLLA DE RAMA;;;;CEBOLLA JUNCA
+060110;Bulbos, cebollas, tub√©rculos, ra√≠ces y bulbos tuberosos, turiones y rizomas, en reposo vegetativo ...;010201;CEBOLLA;;;;CEBOLLA JUNCA Y CABEZONA
+060110;Bulbos, cebollas, tub√©rculos, ra√≠ces y bulbos tuberosos, turiones y rizomas, en reposo vegetativo ...;010203;CEBOLLA DE RAMA;;;;CEBOLLA LARGA
+060220;√Årboles, arbustos y matas, de frutas o de otros frutos comestibles, incl. injertados;010301;CADUCIFOLIOS;CADUCIFOLIOS;;;
+060220;√Årboles, arbustos y matas, de frutas o de otros frutos comestibles, incl. injertados;010302;CANYARANA;CANYARANA;;;
+060290;Plantas vivas, incl. sus ra√≠ces, y micelios (exc. bulbos, cebollas, tub√©rculos, ra√≠ces y bulbos ...;010303;PLANTULAS;PLANTULAS;;;
+0603;Flores y capullos, cortados para ramos o adornos, frescos, secos, blanqueados, te√±idos, impregnados ...;0104;FLORES Y FOLLAJES;FLORES Y FOLLAJES;;;
+0603;Flores y capullos, cortados para ramos o adornos, frescos, secos, blanqueados, te√±idos, impregnados ...;0104;FLORES Y FOLLAJES;;;;FLORICULTURA
+0603;Flores y capullos, cortados para ramos o adornos, frescos, secos, blanqueados, te√±idos, impregnados ...;0104;FLORES Y FOLLAJES;;;;FOLLAJES RUSCOS
 060311;"Rosas ""flores y capullos"", cortadas para ramos o adornos, frescas";010401;ROSA;ROSA;;;
 060311;"Rosas ""flores y capullos"", cortadas para ramos o adornos, frescas";010401;ROSA;;;;ROSA
 060312;"Claveles ""flores y capullos"", cortados para ramos o adornos, frescos";010402;CLAVEL;CLAVEL;;;
-060313;"OrquÌdeas ""flores y capullos"", cortadas para ramos o adornos, frescas";010403;ORQUIDEA;ORQUIDEA;;;
+060313;"Orqu√≠deas ""flores y capullos"", cortadas para ramos o adornos, frescas";010403;ORQUIDEA;ORQUIDEA;;;
 060314;"Crisantemos ""flores y capullos"", cortados para ramos o adornos, frescos";010404;CRISANTEMOS;;;;
 060314;"Crisantemos ""flores y capullos"", cortados para ramos o adornos, frescos";010404;CRISANTEMOS;;;;CRISANTEMOS
 060315;"Lirios frescos cortados ""Lilium spp."" y las yemas, de una, para ramos o adornos";010405;ANTURIO;ANTURIO;;;
@@ -74,9 +74,9 @@ HS;DescripciÛn HS;ID_ADR;CADENA_PRODUCTIVA_ADR;ENA;ACTIVOSPRODUCTIVO;ASISTENCIAT
 060319;Flores frescas y capullos, cortados, de una, para ramos o adornos (excepto rosas, claveles, ...;010423;TREE FERN;TREE FERN;;;
 060319;Flores frescas y capullos, cortados, de una, para ramos o adornos (excepto rosas, claveles, ...;010304;EUCALIPTO BABY BLUE;;;;EUCALIPTO ORNAMENTAL
 060319;Flores frescas y capullos, cortados, de una, para ramos o adornos (excepto rosas, claveles, ...;010410;FLOR DE SAFARI;;;;FLORES (ANTURIOS
-060319;Flores frescas y capullos, cortados, de una, para ramos o adornos (excepto rosas, claveles, ...;010410;FLOR DE SAFARI;;;;FLORES EX”TICAS
+060319;Flores frescas y capullos, cortados, de una, para ramos o adornos (excepto rosas, claveles, ...;010410;FLOR DE SAFARI;;;;FLORES EX√ìTICAS
 060319;Flores frescas y capullos, cortados, de una, para ramos o adornos (excepto rosas, claveles, ...;010412;GLADIOLO;;;;GLADIOLOS
-060319;Flores frescas y capullos, cortados, de una, para ramos o adornos (excepto rosas, claveles, ...;010411;GERBERAS;;;;G…RBERAS)
+060319;Flores frescas y capullos, cortados, de una, para ramos o adornos (excepto rosas, claveles, ...;010411;GERBERAS;;;;G√âRBERAS)
 060319;Flores frescas y capullos, cortados, de una, para ramos o adornos (excepto rosas, claveles, ...;010413;HELECHO;;;;HELECHO
 060319;Flores frescas y capullos, cortados, de una, para ramos o adornos (excepto rosas, claveles, ...;010414;HELECHO CUERO;;;;HELECHO CUERO
 060319;Flores frescas y capullos, cortados, de una, para ramos o adornos (excepto rosas, claveles, ...;010416;HORTENSIA;;;;HORTICULTURA
@@ -96,11 +96,11 @@ HS;DescripciÛn HS;ID_ADR;CADENA_PRODUCTIVA_ADR;ENA;ACTIVOSPRODUCTIVO;ASISTENCIAT
 070200;Tomates frescos o refrigerados;010602;TOMATE INVERNADERO;;;;TOMATE TABACO
 070320;Ajos frescos o refrigerados;010701;AJO;AJO;;;
 070320;Ajos frescos o refrigerados;010701;AJO;;;;AJO
-070390;"Puerros y dem·s hortalizas ali·ceas, incl. ""silvestres"", frescos o refrigerados (exc. cebollas, ...";010702;PUERRO;PUERRO;;;
-070410;"Coles y brÈcoles ""broccoli"", frescos o refrigerados";010801;BROCOLI;BROCOLI;;;
-070410;"Coles y brÈcoles ""broccoli"", frescos o refrigerados";010802;COL;COL;;;
-070410;"Coles y brÈcoles ""broccoli"", frescos o refrigerados";010801;BROCOLI;;;;BR”COLI
-070410;"Coles y brÈcoles ""broccoli"", frescos o refrigerados";010802;COL;;;;COL
+070390;"Puerros y dem√°s hortalizas ali√°ceas, incl. ""silvestres"", frescos o refrigerados (exc. cebollas, ...";010702;PUERRO;PUERRO;;;
+070410;"Coles y br√©coles ""broccoli"", frescos o refrigerados";010801;BROCOLI;BROCOLI;;;
+070410;"Coles y br√©coles ""broccoli"", frescos o refrigerados";010802;COL;COL;;;
+070410;"Coles y br√©coles ""broccoli"", frescos o refrigerados";010801;BROCOLI;;;;BR√ìCOLI
+070410;"Coles y br√©coles ""broccoli"", frescos o refrigerados";010802;COL;;;;COL
 070490;Coles, incl. los repollos, y coliflores, coles rizadas, colinabos y productos comestibles simil. ...;010803;COLIFLOR;COLIFLOR;;;
 070490;Coles, incl. los repollos, y coliflores, coles rizadas, colinabos y productos comestibles simil. ...;010804;REPOLLO;REPOLLO;;;
 070490;Coles, incl. los repollos, y coliflores, coles rizadas, colinabos y productos comestibles simil. ...;010803;COLIFLOR;;;;COLIFLOR
@@ -113,61 +113,61 @@ HS;DescripciÛn HS;ID_ADR;CADENA_PRODUCTIVA_ADR;ENA;ACTIVOSPRODUCTIVO;ASISTENCIAT
 070511;Lechugas repolladas, frescas o refrigeradas;010806;LECHUGA;;;;LECHUGAS
 070610;Zanahorias y nabos, frescos o refrigerados (exc. remolachas para ensalada);010901;NABO;NABO;;;
 070610;Zanahorias y nabos, frescos o refrigerados (exc. remolachas para ensalada);010902;ZANAHORIA;ZANAHORIA;;;
-070690;Remolachas para ensalada, salsifÌes, apionabos, r·banos y raÌces comestibles, frescas o refrigeradas ...;010807;ACELGA;ACELGA;;;
-070690;Remolachas para ensalada, salsifÌes, apionabos, r·banos y raÌces comestibles, frescas o refrigeradas ...;010903;RABANO;RABANO;;;
-070690;Remolachas para ensalada, salsifÌes, apionabos, r·banos y raÌces comestibles, frescas o refrigeradas ...;010904;REMOLACHA;REMOLACHA;;;
-070690;Remolachas para ensalada, salsifÌes, apionabos, r·banos y raÌces comestibles, frescas o refrigeradas ...;010807;ACELGA;;;;ACELGA
-070690;Remolachas para ensalada, salsifÌes, apionabos, r·banos y raÌces comestibles, frescas o refrigeradas ...;010904;REMOLACHA;;;;REMOLACHA
+070690;Remolachas para ensalada, salsif√≠es, apionabos, r√°banos y ra√≠ces comestibles, frescas o refrigeradas ...;010807;ACELGA;ACELGA;;;
+070690;Remolachas para ensalada, salsif√≠es, apionabos, r√°banos y ra√≠ces comestibles, frescas o refrigeradas ...;010903;RABANO;RABANO;;;
+070690;Remolachas para ensalada, salsif√≠es, apionabos, r√°banos y ra√≠ces comestibles, frescas o refrigeradas ...;010904;REMOLACHA;REMOLACHA;;;
+070690;Remolachas para ensalada, salsif√≠es, apionabos, r√°banos y ra√≠ces comestibles, frescas o refrigeradas ...;010807;ACELGA;;;;ACELGA
+070690;Remolachas para ensalada, salsif√≠es, apionabos, r√°banos y ra√≠ces comestibles, frescas o refrigeradas ...;010904;REMOLACHA;;;;REMOLACHA
 070700;Pepinos y pepinillos, frescos o refrigerados;011001;PEPINO COHOMBRO;PEPINO COHOMBRO;;;
 070700;Pepinos y pepinillos, frescos o refrigerados;011002;PEPINO GUISO;PEPINO GUISO;;;
 070700;Pepinos y pepinillos, frescos o refrigerados;011001;PEPINO COHOMBRO;;;;PEPINO
 070700;Pepinos y pepinillos, frescos o refrigerados;011001;PEPINO COHOMBRO;;;;PEPINO COHOMBRO
-070810;"Guisantes ""arvejas, chÌcharos"" ""Pisum sativum"", aunque estÈn desvainados, frescos o refrigerados";011101;ARVEJA;ARVEJA;;;
-070810;"Guisantes ""arvejas, chÌcharos"" ""Pisum sativum"", aunque estÈn desvainados, frescos o refrigerados";011101;ARVEJA;;;;ALVERJA
-070810;"Guisantes ""arvejas, chÌcharos"" ""Pisum sativum"", aunque estÈn desvainados, frescos o refrigerados";011101;ARVEJA;;;;ALVERJAS
-070810;"Guisantes ""arvejas, chÌcharos"" ""Pisum sativum"", aunque estÈn desvainados, frescos o refrigerados";011101;ARVEJA;;;;ARVEJA
-070820;"JudÌas ""porotos, alubias, frijoles, frÈjoles"" ""Vigna spp."", ""Phaseolus spp."", frescas o re ...";011102;CHACHAFRUTO;CHACHAFRUTO;;;
-070820;"JudÌas ""porotos, alubias, frijoles, frÈjoles"" ""Vigna spp."", ""Phaseolus spp."", frescas o re ...";011103;FRIJOL;FRIJOL;;;
-070820;"JudÌas ""porotos, alubias, frijoles, frÈjoles"" ""Vigna spp."", ""Phaseolus spp."", frescas o re ...";011104;FRIJOL ARBUSTIVO;FRIJOL ARBUSTIVO;;;
-070820;"JudÌas ""porotos, alubias, frijoles, frÈjoles"" ""Vigna spp."", ""Phaseolus spp."", frescas o re ...";011105;FRIJOL LADERA;FRIJOL LADERA;;;
-070820;"JudÌas ""porotos, alubias, frijoles, frÈjoles"" ""Vigna spp."", ""Phaseolus spp."", frescas o re ...";011106;FRIJOL PLANA;FRIJOL PLANA;;;
-070820;"JudÌas ""porotos, alubias, frijoles, frÈjoles"" ""Vigna spp."", ""Phaseolus spp."", frescas o re ...";011107;FRIJOL VOLUBLE;FRIJOL VOLUBLE;;;
-070820;"JudÌas ""porotos, alubias, frijoles, frÈjoles"" ""Vigna spp."", ""Phaseolus spp."", frescas o re ...";011108;GUANDUL;GUANDUL;;;
-070820;"JudÌas ""porotos, alubias, frijoles, frÈjoles"" ""Vigna spp."", ""Phaseolus spp."", frescas o re ...";011109;HABICHUELA;HABICHUELA;;;
-070820;"JudÌas ""porotos, alubias, frijoles, frÈjoles"" ""Vigna spp."", ""Phaseolus spp."", frescas o re ...";011103;FRIJOL;;;;FRIJOL
-070820;"JudÌas ""porotos, alubias, frijoles, frÈjoles"" ""Vigna spp."", ""Phaseolus spp."", frescas o re ...";011104;FRIJOL ARBUSTIVO;;;;FRIJOL CARGAMANTO Y BOLA ROJA
-070820;"JudÌas ""porotos, alubias, frijoles, frÈjoles"" ""Vigna spp."", ""Phaseolus spp."", frescas o re ...";011106;FRIJOL PLANA;;;;FRIJOL TECNIFICADO
-070820;"JudÌas ""porotos, alubias, frijoles, frÈjoles"" ""Vigna spp."", ""Phaseolus spp."", frescas o re ...";011103;FRIJOL;;;;FRÕJOL
-070820;"JudÌas ""porotos, alubias, frijoles, frÈjoles"" ""Vigna spp."", ""Phaseolus spp."", frescas o re ...";011103;FRIJOL;;;;FRÕJOL ALVERJAS
-070820;"JudÌas ""porotos, alubias, frijoles, frÈjoles"" ""Vigna spp."", ""Phaseolus spp."", frescas o re ...";011106;FRIJOL PLANA;;;;FRÕJOL VERDE
-070820;"JudÌas ""porotos, alubias, frijoles, frÈjoles"" ""Vigna spp."", ""Phaseolus spp."", frescas o re ...";011109;HABICHUELA;;;;HABICHUELA
+070810;"Guisantes ""arvejas, ch√≠charos"" ""Pisum sativum"", aunque est√©n desvainados, frescos o refrigerados";011101;ARVEJA;ARVEJA;;;
+070810;"Guisantes ""arvejas, ch√≠charos"" ""Pisum sativum"", aunque est√©n desvainados, frescos o refrigerados";011101;ARVEJA;;;;ALVERJA
+070810;"Guisantes ""arvejas, ch√≠charos"" ""Pisum sativum"", aunque est√©n desvainados, frescos o refrigerados";011101;ARVEJA;;;;ALVERJAS
+070810;"Guisantes ""arvejas, ch√≠charos"" ""Pisum sativum"", aunque est√©n desvainados, frescos o refrigerados";011101;ARVEJA;;;;ARVEJA
+070820;"Jud√≠as ""porotos, alubias, frijoles, fr√©joles"" ""Vigna spp."", ""Phaseolus spp."", frescas o re ...";011102;CHACHAFRUTO;CHACHAFRUTO;;;
+070820;"Jud√≠as ""porotos, alubias, frijoles, fr√©joles"" ""Vigna spp."", ""Phaseolus spp."", frescas o re ...";011103;FRIJOL;FRIJOL;;;
+070820;"Jud√≠as ""porotos, alubias, frijoles, fr√©joles"" ""Vigna spp."", ""Phaseolus spp."", frescas o re ...";011104;FRIJOL ARBUSTIVO;FRIJOL ARBUSTIVO;;;
+070820;"Jud√≠as ""porotos, alubias, frijoles, fr√©joles"" ""Vigna spp."", ""Phaseolus spp."", frescas o re ...";011105;FRIJOL LADERA;FRIJOL LADERA;;;
+070820;"Jud√≠as ""porotos, alubias, frijoles, fr√©joles"" ""Vigna spp."", ""Phaseolus spp."", frescas o re ...";011106;FRIJOL PLANA;FRIJOL PLANA;;;
+070820;"Jud√≠as ""porotos, alubias, frijoles, fr√©joles"" ""Vigna spp."", ""Phaseolus spp."", frescas o re ...";011107;FRIJOL VOLUBLE;FRIJOL VOLUBLE;;;
+070820;"Jud√≠as ""porotos, alubias, frijoles, fr√©joles"" ""Vigna spp."", ""Phaseolus spp."", frescas o re ...";011108;GUANDUL;GUANDUL;;;
+070820;"Jud√≠as ""porotos, alubias, frijoles, fr√©joles"" ""Vigna spp."", ""Phaseolus spp."", frescas o re ...";011109;HABICHUELA;HABICHUELA;;;
+070820;"Jud√≠as ""porotos, alubias, frijoles, fr√©joles"" ""Vigna spp."", ""Phaseolus spp."", frescas o re ...";011103;FRIJOL;;;;FRIJOL
+070820;"Jud√≠as ""porotos, alubias, frijoles, fr√©joles"" ""Vigna spp."", ""Phaseolus spp."", frescas o re ...";011104;FRIJOL ARBUSTIVO;;;;FRIJOL CARGAMANTO Y BOLA ROJA
+070820;"Jud√≠as ""porotos, alubias, frijoles, fr√©joles"" ""Vigna spp."", ""Phaseolus spp."", frescas o re ...";011106;FRIJOL PLANA;;;;FRIJOL TECNIFICADO
+070820;"Jud√≠as ""porotos, alubias, frijoles, fr√©joles"" ""Vigna spp."", ""Phaseolus spp."", frescas o re ...";011103;FRIJOL;;;;FR√çJOL
+070820;"Jud√≠as ""porotos, alubias, frijoles, fr√©joles"" ""Vigna spp."", ""Phaseolus spp."", frescas o re ...";011103;FRIJOL;;;;FR√çJOL ALVERJAS
+070820;"Jud√≠as ""porotos, alubias, frijoles, fr√©joles"" ""Vigna spp."", ""Phaseolus spp."", frescas o re ...";011106;FRIJOL PLANA;;;;FR√çJOL VERDE
+070820;"Jud√≠as ""porotos, alubias, frijoles, fr√©joles"" ""Vigna spp."", ""Phaseolus spp."", frescas o re ...";011109;HABICHUELA;;;;HABICHUELA
 070910;"Alcachofas ""alcauciles"", frescas o refrigeradas";011201;ALCACHOFA;ALCACHOFA;;;
-070920;Esp·rragos, frescos o refrigerados;011202;ASPARRAGUS;ASPARRAGUS;;;
-070920;Esp·rragos, frescos o refrigerados;011203;ESPARRAGO;ESPARRAGO;;;
+070920;Esp√°rragos, frescos o refrigerados;011202;ASPARRAGUS;ASPARRAGUS;;;
+070920;Esp√°rragos, frescos o refrigerados;011203;ESPARRAGO;ESPARRAGO;;;
 070930;Berenjenas, frescas o refrigeradas;011204;BERENJENA;BERENJENA;;;
 070930;Berenjenas, frescas o refrigeradas;011204;BERENJENA;;;;BERENJENA
 070940;Apio, fresco o refrigerado (exc. apionabo);010505;APIO;APIO;;;
 070940;Apio, fresco o refrigerado (exc. apionabo);010506;ARRACACHA;ARRACACHA;;;
 070940;Apio, fresco o refrigerado (exc. apionabo);010505;APIO;;;;APIO
 070940;Apio, fresco o refrigerado (exc. apionabo);010506;ARRACACHA;;;;ARRACACHA
-070959;"Setas y dem·s hongos, comestibles, frescas o refrigeradas (exc. hongos del gÈnero ""Agaricus"" ...";011207;CHAMPI—ON;CHAMPI—ON;;;
-070959;"Setas y dem·s hongos, comestibles, frescas o refrigeradas (exc. hongos del gÈnero ""Agaricus"" ...";011208;ORELLANA;ORELLANA;;;
-070960;"Frutos de las gÈneros ""Capsicum"" o ""Pimenta"", frescos o refrigerados";011209;AJI;AJI;;;
-070960;"Frutos de las gÈneros ""Capsicum"" o ""Pimenta"", frescos o refrigerados";011210;AJI DULCE;AJI DULCE;;;
-070960;"Frutos de las gÈneros ""Capsicum"" o ""Pimenta"", frescos o refrigerados";011211;AJI TABASCO;AJI TABASCO;;;
-070960;"Frutos de las gÈneros ""Capsicum"" o ""Pimenta"", frescos o refrigerados";011209;AJI;;;;AJÕ
-070960;"Frutos de las gÈneros ""Capsicum"" o ""Pimenta"", frescos o refrigerados";011210;AJI DULCE;;;;AJÕ DULCE
-070960;"Frutos de las gÈneros ""Capsicum"" o ""Pimenta"", frescos o refrigerados";011211;AJI TABASCO;;;;AJÕ TABASCO
+070959;"Setas y dem√°s hongos, comestibles, frescas o refrigeradas (exc. hongos del g√©nero ""Agaricus"" ...";011207;CHAMPI√ëON;CHAMPI√ëON;;;
+070959;"Setas y dem√°s hongos, comestibles, frescas o refrigeradas (exc. hongos del g√©nero ""Agaricus"" ...";011208;ORELLANA;ORELLANA;;;
+070960;"Frutos de las g√©neros ""Capsicum"" o ""Pimenta"", frescos o refrigerados";011209;AJI;AJI;;;
+070960;"Frutos de las g√©neros ""Capsicum"" o ""Pimenta"", frescos o refrigerados";011210;AJI DULCE;AJI DULCE;;;
+070960;"Frutos de las g√©neros ""Capsicum"" o ""Pimenta"", frescos o refrigerados";011211;AJI TABASCO;AJI TABASCO;;;
+070960;"Frutos de las g√©neros ""Capsicum"" o ""Pimenta"", frescos o refrigerados";011209;AJI;;;;AJ√ç
+070960;"Frutos de las g√©neros ""Capsicum"" o ""Pimenta"", frescos o refrigerados";011210;AJI DULCE;;;;AJ√ç DULCE
+070960;"Frutos de las g√©neros ""Capsicum"" o ""Pimenta"", frescos o refrigerados";011211;AJI TABASCO;;;;AJ√ç TABASCO
 070970;Espinacas, incl. las de Nueva Zelanda, y armuelles, frescas o refrigeradas;011212;ESPINACA;ESPINACA;;;
 070970;Espinacas, incl. las de Nueva Zelanda, y armuelles, frescas o refrigeradas;011212;ESPINACA;;;;ESPINACA
-070990;Las dem·s hortalizas, frescas o refrigeradas : Las dem·s;011220;HORTALIZAS VARIAS;HORTALIZAS VARIAS;;;
-070990;Las dem·s hortalizas, frescas o refrigeradas : Las dem·s;011220;HORTALIZAS VARIAS;;;;HORTALIZA
-070990;Las dem·s hortalizas, frescas o refrigeradas : Las dem·s;011220;HORTALIZAS VARIAS;;;;HORTALIZAS
-070990;Las dem·s hortalizas, frescas o refrigeradas : Las dem·s;011220;HORTALIZAS VARIAS;;;;LEGUMBRES
-070990;Las dem·s hortalizas, frescas o refrigeradas : Las dem·s;011220;HORTALIZAS VARIAS;;;;LEGUMBRES Y HORTALIZAS
-070990;Las dem·s hortalizas, frescas o refrigeradas : Las dem·s;011220;HORTALIZAS VARIAS;;;;VERDURA
-070990;Las dem·s hortalizas, frescas o refrigeradas : Las dem·s;011220;HORTALIZAS VARIAS;;;;VERDURAS
-070990;Las dem·s hortalizas, frescas o refrigeradas : Las dem·s;011220;HORTALIZAS VARIAS;;;;Y HORTALIZAS
+070990;Las dem√°s hortalizas, frescas o refrigeradas : Las dem√°s;011220;HORTALIZAS VARIAS;HORTALIZAS VARIAS;;;
+070990;Las dem√°s hortalizas, frescas o refrigeradas : Las dem√°s;011220;HORTALIZAS VARIAS;;;;HORTALIZA
+070990;Las dem√°s hortalizas, frescas o refrigeradas : Las dem√°s;011220;HORTALIZAS VARIAS;;;;HORTALIZAS
+070990;Las dem√°s hortalizas, frescas o refrigeradas : Las dem√°s;011220;HORTALIZAS VARIAS;;;;LEGUMBRES
+070990;Las dem√°s hortalizas, frescas o refrigeradas : Las dem√°s;011220;HORTALIZAS VARIAS;;;;LEGUMBRES Y HORTALIZAS
+070990;Las dem√°s hortalizas, frescas o refrigeradas : Las dem√°s;011220;HORTALIZAS VARIAS;;;;VERDURA
+070990;Las dem√°s hortalizas, frescas o refrigeradas : Las dem√°s;011220;HORTALIZAS VARIAS;;;;VERDURAS
+070990;Las dem√°s hortalizas, frescas o refrigeradas : Las dem√°s;011220;HORTALIZAS VARIAS;;;;Y HORTALIZAS
 070993;"Calabazas frescas o refrigeradas, la calabaza y calabazas ""Cucurbita spp.""";011213;AHUYAMA;AHUYAMA;;;
 070993;"Calabazas frescas o refrigeradas, la calabaza y calabazas ""Cucurbita spp.""";011214;CALABACIN;CALABACIN;;;
 070993;"Calabazas frescas o refrigeradas, la calabaza y calabazas ""Cucurbita spp.""";011215;CALABAZA;CALABAZA;;;
@@ -177,60 +177,60 @@ HS;DescripciÛn HS;ID_ADR;CADENA_PRODUCTIVA_ADR;ENA;ACTIVOSPRODUCTIVO;ASISTENCIAT
 070993;"Calabazas frescas o refrigeradas, la calabaza y calabazas ""Cucurbita spp.""";011213;AHUYAMA;;;;AHUYAMA
 070993;"Calabazas frescas o refrigeradas, la calabaza y calabazas ""Cucurbita spp.""";011213;AHUYAMA;;;;AHUYAMILLA
 070993;"Calabazas frescas o refrigeradas, la calabaza y calabazas ""Cucurbita spp.""";011213;AHUYAMA;;;;AUYAMA
-070993;"Calabazas frescas o refrigeradas, la calabaza y calabazas ""Cucurbita spp.""";011214;CALABACIN;;;;CALABACÕN
-071340;Lentejas secas desvainadas, aunque estÈn mondadas o partidas;011301;LENTEJA;LENTEJA;;;
-071340;Lentejas secas desvainadas, aunque estÈn mondadas o partidas;011301;LENTEJA;;;;LEVANTE Y CEBA DE CERDO
+070993;"Calabazas frescas o refrigeradas, la calabaza y calabazas ""Cucurbita spp.""";011214;CALABACIN;;;;CALABAC√çN
+071340;Lentejas secas desvainadas, aunque est√©n mondadas o partidas;011301;LENTEJA;LENTEJA;;;
+071340;Lentejas secas desvainadas, aunque est√©n mondadas o partidas;011301;LENTEJA;;;;LEVANTE Y CEBA DE CERDO
 071350;"Habas ""Vicia faba var. major"", haba caballar ""Vicia faba var. equina"" y haba menor ""Vicia faba ...";011302;HABA;HABA;;;
 071350;"Habas ""Vicia faba var. major"", haba caballar ""Vicia faba var. equina"" y haba menor ""Vicia faba ...";011302;HABA;;;;HABA
 071350;"Habas ""Vicia faba var. major"", haba caballar ""Vicia faba var. equina"" y haba menor ""Vicia faba ...";011302;HABA;;;;HABAS
-071390;Legumbres secas, legumbres sin c·scara, incluso mondadas o partidas (exc. ??guisantes, garbanzos, ...;011303;GARBANZO;GARBANZO;;;
-071410;"RaÌces de mandioca ""yuca"", frescas, refrigeradas, congeladas o secas, incl. troceadas o en ...";010507;BATATA;BATATA;;;
-071410;"RaÌces de mandioca ""yuca"", frescas, refrigeradas, congeladas o secas, incl. troceadas o en ...";010508;BORE;BORE;;;
-071410;"RaÌces de mandioca ""yuca"", frescas, refrigeradas, congeladas o secas, incl. troceadas o en ...";010509;CHONQUE;CHONQUE;;;
-071410;"RaÌces de mandioca ""yuca"", frescas, refrigeradas, congeladas o secas, incl. troceadas o en ...";010510;MALANGA;MALANGA;;;
-071410;"RaÌces de mandioca ""yuca"", frescas, refrigeradas, congeladas o secas, incl. troceadas o en ...";010511;—AME;—AME;;;
-071410;"RaÌces de mandioca ""yuca"", frescas, refrigeradas, congeladas o secas, incl. troceadas o en ...";010511;—AME;;;—AME;
-071410;"RaÌces de mandioca ""yuca"", frescas, refrigeradas, congeladas o secas, incl. troceadas o en ...";010512;—AME DIAMANTE;—AME DIAMANTE;;;
-071410;"RaÌces de mandioca ""yuca"", frescas, refrigeradas, congeladas o secas, incl. troceadas o en ...";010513;—AME ESPINO;—AME ESPINO;;;
-071410;"RaÌces de mandioca ""yuca"", frescas, refrigeradas, congeladas o secas, incl. troceadas o en ...";010514;YACON;YACON;;;
-071410;"RaÌces de mandioca ""yuca"", frescas, refrigeradas, congeladas o secas, incl. troceadas o en ...";010515;YUCA;YUCA;;;
-071410;"RaÌces de mandioca ""yuca"", frescas, refrigeradas, congeladas o secas, incl. troceadas o en ...";010515;YUCA;;;YUCA;
-071410;"RaÌces de mandioca ""yuca"", frescas, refrigeradas, congeladas o secas, incl. troceadas o en ...";010516;YUCA INDUSTRIAL;YUCA INDUSTRIAL;;;
-071410;"RaÌces de mandioca ""yuca"", frescas, refrigeradas, congeladas o secas, incl. troceadas o en ...";010515;YUCA;;;;TUB…RCULOS
-071410;"RaÌces de mandioca ""yuca"", frescas, refrigeradas, congeladas o secas, incl. troceadas o en ...";010515;YUCA;;;;YUCA
-071410;"RaÌces de mandioca ""yuca"", frescas, refrigeradas, congeladas o secas, incl. troceadas o en ...";010515;YUCA;;;;ZANAHORIA
-071410;"RaÌces de mandioca ""yuca"", frescas, refrigeradas, congeladas o secas, incl. troceadas o en ...";010515;YUCA;;;;ZAPOTE
-071410;"RaÌces de mandioca ""yuca"", frescas, refrigeradas, congeladas o secas, incl. troceadas o en ...";010515;YUCA;;;;ZAPOTES
-071410;"RaÌces de mandioca ""yuca"", frescas, refrigeradas, congeladas o secas, incl. troceadas o en ...";010515;YUCA;;;;ZARAGOZA
-071410;"RaÌces de mandioca ""yuca"", frescas, refrigeradas, congeladas o secas, incl. troceadas o en ...";010515;YUCA;;;;ZUQUINI
-071410;"RaÌces de mandioca ""yuca"", frescas, refrigeradas, congeladas o secas, incl. troceadas o en ...";010511;—AME;;;;—AME
-071410;"RaÌces de mandioca ""yuca"", frescas, refrigeradas, congeladas o secas, incl. troceadas o en ...";010511;—AME;;;;—AME Y HORTALIZAS
-071410;"RaÌces de mandioca ""yuca"", frescas, refrigeradas, congeladas o secas, incl. troceadas o en ...";010511;—AME;;;;—AME Y MAÕZ
-080119;"Cocos frescos, incluso sin c·scara o mondados (exc. ??en el interior de shell ""endocarpio"")";012441;COCO;COCO;;;
-080119;"Cocos frescos, incluso sin c·scara o mondados (exc. ??en el interior de shell ""endocarpio"")";012441;COCO;;;;COCO
-080261;Nueces de macadamia, frescas o secas, con c·scara;012442;MACADAMIA;MACADAMIA;;;
-080300;Bananas o pl·tanos, frescos o secos;011401;BANANITO;BANANITO;;;
-080300;Bananas o pl·tanos, frescos o secos;011402;BANANO;BANANO;;;
-080300;Bananas o pl·tanos, frescos o secos;011403;BANANO EXPORTACION;BANANO EXPORTACION;;;
-080300;Bananas o pl·tanos, frescos o secos;011404;BANANO MANZANO;BANANO MANZANO;;;
-080300;Bananas o pl·tanos, frescos o secos;011405;CACHACO;CACHACO;;;
-080300;Bananas o pl·tanos, frescos o secos;011406;CHIRO;CHIRO;;;
-080300;Bananas o pl·tanos, frescos o secos;011407;CHOLUPA;CHOLUPA;;;
-080300;Bananas o pl·tanos, frescos o secos;011408;MURRAPO;MURRAPO;;;
-080300;Bananas o pl·tanos, frescos o secos;011409;PLATANO;PLATANO;;;
-080300;Bananas o pl·tanos, frescos o secos;011409;PLATANO;;;PLATANO;
-080300;Bananas o pl·tanos, frescos o secos;011409;PLATANO;;;PL¡TANO;
-080300;Bananas o pl·tanos, frescos o secos;011410;PLATANO EXPORTACION;PLATANO EXPORTACION;;;
-080300;Bananas o pl·tanos, frescos o secos;011402;BANANO;;;;BANANO
-080300;Bananas o pl·tanos, frescos o secos;011407;CHOLUPA;;;;CHOLUPA
-080300;Bananas o pl·tanos, frescos o secos;011409;PLATANO;;;;GUINEO
-080300;Bananas o pl·tanos, frescos o secos;011409;PLATANO;;;;PL¡TANO
-080410;D·tiles, frescos o secos;011509;DATIL;DATIL;;;
+071390;Legumbres secas, legumbres sin c√°scara, incluso mondadas o partidas (exc. ??guisantes, garbanzos, ...;011303;GARBANZO;GARBANZO;;;
+071410;"Ra√≠ces de mandioca ""yuca"", frescas, refrigeradas, congeladas o secas, incl. troceadas o en ...";010507;BATATA;BATATA;;;
+071410;"Ra√≠ces de mandioca ""yuca"", frescas, refrigeradas, congeladas o secas, incl. troceadas o en ...";010508;BORE;BORE;;;
+071410;"Ra√≠ces de mandioca ""yuca"", frescas, refrigeradas, congeladas o secas, incl. troceadas o en ...";010509;CHONQUE;CHONQUE;;;
+071410;"Ra√≠ces de mandioca ""yuca"", frescas, refrigeradas, congeladas o secas, incl. troceadas o en ...";010510;MALANGA;MALANGA;;;
+071410;"Ra√≠ces de mandioca ""yuca"", frescas, refrigeradas, congeladas o secas, incl. troceadas o en ...";010511;√ëAME;√ëAME;;;
+071410;"Ra√≠ces de mandioca ""yuca"", frescas, refrigeradas, congeladas o secas, incl. troceadas o en ...";010511;√ëAME;;;√ëAME;
+071410;"Ra√≠ces de mandioca ""yuca"", frescas, refrigeradas, congeladas o secas, incl. troceadas o en ...";010512;√ëAME DIAMANTE;√ëAME DIAMANTE;;;
+071410;"Ra√≠ces de mandioca ""yuca"", frescas, refrigeradas, congeladas o secas, incl. troceadas o en ...";010513;√ëAME ESPINO;√ëAME ESPINO;;;
+071410;"Ra√≠ces de mandioca ""yuca"", frescas, refrigeradas, congeladas o secas, incl. troceadas o en ...";010514;YACON;YACON;;;
+071410;"Ra√≠ces de mandioca ""yuca"", frescas, refrigeradas, congeladas o secas, incl. troceadas o en ...";010515;YUCA;YUCA;;;
+071410;"Ra√≠ces de mandioca ""yuca"", frescas, refrigeradas, congeladas o secas, incl. troceadas o en ...";010515;YUCA;;;YUCA;
+071410;"Ra√≠ces de mandioca ""yuca"", frescas, refrigeradas, congeladas o secas, incl. troceadas o en ...";010516;YUCA INDUSTRIAL;YUCA INDUSTRIAL;;;
+071410;"Ra√≠ces de mandioca ""yuca"", frescas, refrigeradas, congeladas o secas, incl. troceadas o en ...";010515;YUCA;;;;TUB√âRCULOS
+071410;"Ra√≠ces de mandioca ""yuca"", frescas, refrigeradas, congeladas o secas, incl. troceadas o en ...";010515;YUCA;;;;YUCA
+071410;"Ra√≠ces de mandioca ""yuca"", frescas, refrigeradas, congeladas o secas, incl. troceadas o en ...";010515;YUCA;;;;ZANAHORIA
+071410;"Ra√≠ces de mandioca ""yuca"", frescas, refrigeradas, congeladas o secas, incl. troceadas o en ...";010515;YUCA;;;;ZAPOTE
+071410;"Ra√≠ces de mandioca ""yuca"", frescas, refrigeradas, congeladas o secas, incl. troceadas o en ...";010515;YUCA;;;;ZAPOTES
+071410;"Ra√≠ces de mandioca ""yuca"", frescas, refrigeradas, congeladas o secas, incl. troceadas o en ...";010515;YUCA;;;;ZARAGOZA
+071410;"Ra√≠ces de mandioca ""yuca"", frescas, refrigeradas, congeladas o secas, incl. troceadas o en ...";010515;YUCA;;;;ZUQUINI
+071410;"Ra√≠ces de mandioca ""yuca"", frescas, refrigeradas, congeladas o secas, incl. troceadas o en ...";010511;√ëAME;;;;√ëAME
+071410;"Ra√≠ces de mandioca ""yuca"", frescas, refrigeradas, congeladas o secas, incl. troceadas o en ...";010511;√ëAME;;;;√ëAME Y HORTALIZAS
+071410;"Ra√≠ces de mandioca ""yuca"", frescas, refrigeradas, congeladas o secas, incl. troceadas o en ...";010511;√ëAME;;;;√ëAME Y MA√çZ
+080119;"Cocos frescos, incluso sin c√°scara o mondados (exc. ??en el interior de shell ""endocarpio"")";012441;COCO;COCO;;;
+080119;"Cocos frescos, incluso sin c√°scara o mondados (exc. ??en el interior de shell ""endocarpio"")";012441;COCO;;;;COCO
+080261;Nueces de macadamia, frescas o secas, con c√°scara;012442;MACADAMIA;MACADAMIA;;;
+080300;Bananas o pl√°tanos, frescos o secos;011401;BANANITO;BANANITO;;;
+080300;Bananas o pl√°tanos, frescos o secos;011402;BANANO;BANANO;;;
+080300;Bananas o pl√°tanos, frescos o secos;011403;BANANO EXPORTACION;BANANO EXPORTACION;;;
+080300;Bananas o pl√°tanos, frescos o secos;011404;BANANO MANZANO;BANANO MANZANO;;;
+080300;Bananas o pl√°tanos, frescos o secos;011405;CACHACO;CACHACO;;;
+080300;Bananas o pl√°tanos, frescos o secos;011406;CHIRO;CHIRO;;;
+080300;Bananas o pl√°tanos, frescos o secos;011407;CHOLUPA;CHOLUPA;;;
+080300;Bananas o pl√°tanos, frescos o secos;011408;MURRAPO;MURRAPO;;;
+080300;Bananas o pl√°tanos, frescos o secos;011409;PLATANO;PLATANO;;;
+080300;Bananas o pl√°tanos, frescos o secos;011409;PLATANO;;;PLATANO;
+080300;Bananas o pl√°tanos, frescos o secos;011409;PLATANO;;;PL√ÅTANO;
+080300;Bananas o pl√°tanos, frescos o secos;011410;PLATANO EXPORTACION;PLATANO EXPORTACION;;;
+080300;Bananas o pl√°tanos, frescos o secos;011402;BANANO;;;;BANANO
+080300;Bananas o pl√°tanos, frescos o secos;011407;CHOLUPA;;;;CHOLUPA
+080300;Bananas o pl√°tanos, frescos o secos;011409;PLATANO;;;;GUINEO
+080300;Bananas o pl√°tanos, frescos o secos;011409;PLATANO;;;;PL√ÅTANO
+080410;D√°tiles, frescos o secos;011509;DATIL;DATIL;;;
 080420;Higos, frescos o secos;011510;HIGO;HIGO;;;
 080420;Higos, frescos o secos;011510;HIGO;;;;BREVA
 080420;Higos, frescos o secos;011510;HIGO;;;;HIGOS
-080430;"PiÒas ""anan·s"", frescas o secas";011501;PI—A;PI—A;;;
-080430;"PiÒas ""anan·s"", frescas o secas";011501;PI—A;;;;PI—A
+080430;"Pi√±as ""anan√°s"", frescas o secas";011501;PI√ëA;PI√ëA;;;
+080430;"Pi√±as ""anan√°s"", frescas o secas";011501;PI√ëA;;;;PI√ëA
 080440;"Aguacates ""paltas"", frescos o secos";011502;AGUACATE;AGUACATE;;;
 080440;"Aguacates ""paltas"", frescos o secos";011502;AGUACATE;;;;AGUACATE
 080440;"Aguacates ""paltas"", frescos o secos";011502;AGUACATE;;;;AGUACATE HASS
@@ -245,13 +245,13 @@ HS;DescripciÛn HS;ID_ADR;CADENA_PRODUCTIVA_ADR;ENA;ACTIVOSPRODUCTIVO;ASISTENCIAT
 080450;Guayabas, mangos y mangostanes, frescos o secos;011503;GUAYABA;;;;GUAYABA
 080450;Guayabas, mangos y mangostanes, frescos o secos;011503;GUAYABA;;;;GUAYABA AGRIA
 080450;Guayabas, mangos y mangostanes, frescos o secos;011506;MANGO;;;;MANGO
-0805;"Agrios ""cÌtricos"", frescos o secos";0116;CITRICOS;CITRICOS;;;
-0805;"Agrios ""cÌtricos"", frescos o secos";0116;CITRICOS;;;;CRÕTICOS
-0805;"Agrios ""cÌtricos"", frescos o secos";0116;CITRICOS;;;;CÕTRICO
-0805;"Agrios ""cÌtricos"", frescos o secos";0116;CITRICOS;;;;CÕTRICOS
-0805;"Agrios ""cÌtricos"", frescos o secos";0116;CITRICOS;;;;CÕTRICOS CACAO
-0805;"Agrios ""cÌtricos"", frescos o secos";0116;CITRICOS;;;;CÕTRICOS Y YUCA
-0805;"Agrios ""cÌtricos"", frescos o secos";0116;CITRICOS;;;;FRUTALES CÕTRICOS
+0805;"Agrios ""c√≠tricos"", frescos o secos";0116;CITRICOS;CITRICOS;;;
+0805;"Agrios ""c√≠tricos"", frescos o secos";0116;CITRICOS;;;;CR√çTICOS
+0805;"Agrios ""c√≠tricos"", frescos o secos";0116;CITRICOS;;;;C√çTRICO
+0805;"Agrios ""c√≠tricos"", frescos o secos";0116;CITRICOS;;;;C√çTRICOS
+0805;"Agrios ""c√≠tricos"", frescos o secos";0116;CITRICOS;;;;C√çTRICOS CACAO
+0805;"Agrios ""c√≠tricos"", frescos o secos";0116;CITRICOS;;;;C√çTRICOS Y YUCA
+0805;"Agrios ""c√≠tricos"", frescos o secos";0116;CITRICOS;;;;FRUTALES C√çTRICOS
 080510;Naranjas, frescas o secas;011601;NARANJA;NARANJA;;;
 080510;Naranjas, frescas o secas;011602;NARANJA JAFFA;NARANJA JAFFA;;;
 080510;Naranjas, frescas o secas;011603;NARANJA SALUSTIANA;NARANJA SALUSTIANA;;;
@@ -260,37 +260,37 @@ HS;DescripciÛn HS;ID_ADR;CADENA_PRODUCTIVA_ADR;ENA;ACTIVOSPRODUCTIVO;ASISTENCIAT
 080510;Naranjas, frescas o secas;011606;TANGARANA;TANGARANA;;;
 080510;Naranjas, frescas o secas;011601;NARANJA;;;;NARANJA
 080510;Naranjas, frescas o secas;011605;NARANJA WASHINGTON NAVEL;;;;NARANJAS
-080520;"Mandarinas, incl. las tangerinas y satsumas; clementinas, wilkings e hÌbridos simil. de agrios ...";011607;MANDARINA;MANDARINA;;;
-080520;"Mandarinas, incl. las tangerinas y satsumas; clementinas, wilkings e hÌbridos simil. de agrios ...";011608;MANDARINA CLEMENTINA;MANDARINA CLEMENTINA;;;
-080520;"Mandarinas, incl. las tangerinas y satsumas; clementinas, wilkings e hÌbridos simil. de agrios ...";011609;MANDARINA ONECO;MANDARINA ONECO;;;
-080520;"Mandarinas, incl. las tangerinas y satsumas; clementinas, wilkings e hÌbridos simil. de agrios ...";011610;TANGELO;TANGELO;;;
-080520;"Mandarinas, incl. las tangerinas y satsumas; clementinas, wilkings e hÌbridos simil. de agrios ...";011611;TANGELO MINEOLA;TANGELO MINEOLA;;;
-080520;"Mandarinas, incl. las tangerinas y satsumas; clementinas, wilkings e hÌbridos simil. de agrios ...";011612;TANGELO ORLANDO;TANGELO ORLANDO;;;
-080520;"Mandarinas, incl. las tangerinas y satsumas; clementinas, wilkings e hÌbridos simil. de agrios ...";011607;MANDARINA;;;;MANDARINA
+080520;"Mandarinas, incl. las tangerinas y satsumas; clementinas, wilkings e h√≠bridos simil. de agrios ...";011607;MANDARINA;MANDARINA;;;
+080520;"Mandarinas, incl. las tangerinas y satsumas; clementinas, wilkings e h√≠bridos simil. de agrios ...";011608;MANDARINA CLEMENTINA;MANDARINA CLEMENTINA;;;
+080520;"Mandarinas, incl. las tangerinas y satsumas; clementinas, wilkings e h√≠bridos simil. de agrios ...";011609;MANDARINA ONECO;MANDARINA ONECO;;;
+080520;"Mandarinas, incl. las tangerinas y satsumas; clementinas, wilkings e h√≠bridos simil. de agrios ...";011610;TANGELO;TANGELO;;;
+080520;"Mandarinas, incl. las tangerinas y satsumas; clementinas, wilkings e h√≠bridos simil. de agrios ...";011611;TANGELO MINEOLA;TANGELO MINEOLA;;;
+080520;"Mandarinas, incl. las tangerinas y satsumas; clementinas, wilkings e h√≠bridos simil. de agrios ...";011612;TANGELO ORLANDO;TANGELO ORLANDO;;;
+080520;"Mandarinas, incl. las tangerinas y satsumas; clementinas, wilkings e h√≠bridos simil. de agrios ...";011607;MANDARINA;;;;MANDARINA
 080530;Limones y lima agria, frescos o secos;011613;LIMA;LIMA;;;
 080530;Limones y lima agria, frescos o secos;011614;LIMA TAHITI;LIMA TAHITI;;;
 080530;Limones y lima agria, frescos o secos;011615;LIMON;LIMON;;;
 080530;Limones y lima agria, frescos o secos;011616;LIMON MANDARINO;LIMON MANDARINO;;;
 080530;Limones y lima agria, frescos o secos;011617;LIMON PAJARITO;LIMON PAJARITO;;;
 080530;Limones y lima agria, frescos o secos;011618;LIMON TAHITI;LIMON TAHITI;;;
-080530;Limones y lima agria, frescos o secos;011615;LIMON;;;;LIM”N
-080530;Limones y lima agria, frescos o secos;011617;LIMON PAJARITO;;;;LIM”N PAJARITO
-080530;Limones y lima agria, frescos o secos;011617;LIMON PAJARITO;;;;LIM”N PAPAYA
-080530;Limones y lima agria, frescos o secos;011618;LIMON TAHITI;;;;LIM”N TAHITÕ
-080530;Limones y lima agria, frescos o secos;011618;LIMON TAHITI;;;;LIM”N Y PL¡TANO
+080530;Limones y lima agria, frescos o secos;011615;LIMON;;;;LIM√ìN
+080530;Limones y lima agria, frescos o secos;011617;LIMON PAJARITO;;;;LIM√ìN PAJARITO
+080530;Limones y lima agria, frescos o secos;011617;LIMON PAJARITO;;;;LIM√ìN PAPAYA
+080530;Limones y lima agria, frescos o secos;011618;LIMON TAHITI;;;;LIM√ìN TAHIT√ç
+080530;Limones y lima agria, frescos o secos;011618;LIMON TAHITI;;;;LIM√ìN Y PL√ÅTANO
 080540;Toronjas o pomelos, frescos o secos;011619;POMELO;POMELO;;;
 080540;Toronjas o pomelos, frescos o secos;011620;TORONJA;TORONJA;;;
 080610;Uvas frescas;011701;UVA;UVA;;;
 080610;Uvas frescas;011702;UVA CAIMARONA;UVA CAIMARONA;;;
 080610;Uvas frescas;011701;UVA;;;;UVA
-080610;Uvas frescas;011701;UVA;;;;UVA Y PL¡TANO
+080610;Uvas frescas;011701;UVA;;;;UVA Y PL√ÅTANO
 080610;Uvas frescas;011701;UVA;;;;VID FRUTAL
-080711;SandÌas, frescas;011801;PATILLA;PATILLA;;;
-080711;SandÌas, frescas;011801;PATILLA;;;;PATILLA
-080711;SandÌas, frescas;011801;PATILLA;;;;SANDIA
-080711;SandÌas, frescas;011801;PATILLA;;;;SANDÕA
-080719;Melones, frescos (exc. sandÌas);011802;MELON;MELON;;;
-080719;Melones, frescos (exc. sandÌas);011802;MELON;;;;MEL”N
+080711;Sand√≠as, frescas;011801;PATILLA;PATILLA;;;
+080711;Sand√≠as, frescas;011801;PATILLA;;;;PATILLA
+080711;Sand√≠as, frescas;011801;PATILLA;;;;SANDIA
+080711;Sand√≠as, frescas;011801;PATILLA;;;;SAND√çA
+080719;Melones, frescos (exc. sand√≠as);011802;MELON;MELON;;;
+080719;Melones, frescos (exc. sand√≠as);011802;MELON;;;;MEL√ìN
 080720;Papayas, frescas;011803;PAPAYA;PAPAYA;;;
 080720;Papayas, frescas;011804;PAPAYA HAWAIANA;PAPAYA HAWAIANA;;;
 080720;Papayas, frescas;011805;PAPAYUELA;PAPAYUELA;;;
@@ -300,8 +300,8 @@ HS;DescripciÛn HS;ID_ADR;CADENA_PRODUCTIVA_ADR;ENA;ACTIVOSPRODUCTIVO;ASISTENCIAT
 080810;Manzanas, frescas;011901;MANZANA;MANZANA;;;
 080810;Manzanas, frescas;011901;MANZANA;;;;MANZANA
 080820;Manzanas, peras y membrillos, frescos : Peras y membrillos;011902;PERA;PERA;;;
-080920;Albaricoques (damascos, chabacanos), cerezas, melocotones (duraznos) (incluidos los griÒones ...;012001;DURAZNO;DURAZNO;;;
-080920;Albaricoques (damascos, chabacanos), cerezas, melocotones (duraznos) (incluidos los griÒones ...;012001;DURAZNO;;;;DURAZNO
+080920;Albaricoques (damascos, chabacanos), cerezas, melocotones (duraznos) (incluidos los gri√±ones ...;012001;DURAZNO;DURAZNO;;;
+080920;Albaricoques (damascos, chabacanos), cerezas, melocotones (duraznos) (incluidos los gri√±ones ...;012001;DURAZNO;;;;DURAZNO
 080940;Ciruelas y endrinas, frescas;012002;CIRUELA;CIRUELA;;;
 080940;Ciruelas y endrinas, frescas;012002;CIRUELA;;;;CIRUELA
 081010;"Fresas ""frutillas"", frescas";012101;FRESA;FRESA;;;
@@ -310,223 +310,223 @@ HS;DescripciÛn HS;ID_ADR;CADENA_PRODUCTIVA_ADR;ENA;ACTIVOSPRODUCTIVO;ASISTENCIAT
 081020;Frambuesas, zarzamoras, moras y moras-frambuesa, frescas;012103;MORA;MORA;;;
 081020;Frambuesas, zarzamoras, moras y moras-frambuesa, frescas;012103;MORA;;;;MORA
 081020;Frambuesas, zarzamoras, moras y moras-frambuesa, frescas;012103;MORA;;;;MORA Y OTROS DE MENOR ESCALA
-081020;Frambuesas, zarzamoras, moras y moras-frambuesa, frescas;012103;MORA;;;;MORA Y TOMATE DE ¡RBOL
-081020;Frambuesas, zarzamoras, moras y moras-frambuesa, frescas;012103;MORA;;;;MORR”N
-081040;"Ar·ndanos rojos, mirtilos y dem·s frutos del gÈnero ""Vaccinium"", frescos";012104;AGRAZ;AGRAZ;;;
-081040;"Ar·ndanos rojos, mirtilos y dem·s frutos del gÈnero ""Vaccinium"", frescos";012105;ARANDANO;ARANDANO;;;
-081090;Tamarindos frescos, los anacardos, la jaca, litchis, sapotillos, maracuy·, carambola, pitahaya ...;012235;PITAHAYA;PITAHAYA;;;
-081090;Tamarindos frescos, los anacardos, la jaca, litchis, sapotillos, maracuy·, carambola, pitahaya ...;012236;TAMARINDO;TAMARINDO;;;
-081090;Tamarindos frescos, los anacardos, la jaca, litchis, sapotillos, maracuy·, carambola, pitahaya ...;012235;PITAHAYA;;;;PITAHAYA
-081090;Tamarindos frescos, los anacardos, la jaca, litchis, sapotillos, maracuy·, carambola, pitahaya ...;012235;PITAHAYA;;;;PITAYA.
-081090;Tamarindos frescos, los anacardos, la jaca, litchis, sapotillos, maracuy·, carambola, pitahaya ...;012236;TAMARINDO;;;;TAMARINDO
-081340;Melocotones, incl. los griÒones y nectarinas, peras, papayas, tamarindos y dem·s frutos comestibles, ...;012201;ANON;ANON;;;
-081340;Melocotones, incl. los griÒones y nectarinas, peras, papayas, tamarindos y dem·s frutos comestibles, ...;012202;ARAZA;ARAZA;;;
-081340;Melocotones, incl. los griÒones y nectarinas, peras, papayas, tamarindos y dem·s frutos comestibles, ...;012203;ASAI;ASAI;;;
-081340;Melocotones, incl. los griÒones y nectarinas, peras, papayas, tamarindos y dem·s frutos comestibles, ...;012204;BACURI;BACURI;;;
-081340;Melocotones, incl. los griÒones y nectarinas, peras, papayas, tamarindos y dem·s frutos comestibles, ...;012205;BADEA;BADEA;;;
-081340;Melocotones, incl. los griÒones y nectarinas, peras, papayas, tamarindos y dem·s frutos comestibles, ...;012206;BOROJO;BOROJO;;;
-081340;Melocotones, incl. los griÒones y nectarinas, peras, papayas, tamarindos y dem·s frutos comestibles, ...;012207;BREVO;BREVO;;;
-081340;Melocotones, incl. los griÒones y nectarinas, peras, papayas, tamarindos y dem·s frutos comestibles, ...;012208;CAIMO;CAIMO;;;
-081340;Melocotones, incl. los griÒones y nectarinas, peras, papayas, tamarindos y dem·s frutos comestibles, ...;012209;CHAMBA;CHAMBA;;;
-081340;Melocotones, incl. los griÒones y nectarinas, peras, papayas, tamarindos y dem·s frutos comestibles, ...;012210;CHIRIMOYA;CHIRIMOYA;;;
-081340;Melocotones, incl. los griÒones y nectarinas, peras, papayas, tamarindos y dem·s frutos comestibles, ...;012211;CHONTADURO;CHONTADURO;;;
-081340;Melocotones, incl. los griÒones y nectarinas, peras, papayas, tamarindos y dem·s frutos comestibles, ...;012212;COCONA;COCONA;;;
-081340;Melocotones, incl. los griÒones y nectarinas, peras, papayas, tamarindos y dem·s frutos comestibles, ...;012213;COPOAZU;COPOAZU;;;
-081340;Melocotones, incl. los griÒones y nectarinas, peras, papayas, tamarindos y dem·s frutos comestibles, ...;012214;CURCUMA;CURCUMA;;;
-081340;Melocotones, incl. los griÒones y nectarinas, peras, papayas, tamarindos y dem·s frutos comestibles, ...;012215;CURUBA;CURUBA;;;
-081340;Melocotones, incl. los griÒones y nectarinas, peras, papayas, tamarindos y dem·s frutos comestibles, ...;011511;FEIJOA;FEIJOA;;;
-081340;Melocotones, incl. los griÒones y nectarinas, peras, papayas, tamarindos y dem·s frutos comestibles, ...;012238;FRUTALES VARIOS;FRUTALES VARIOS;;;
-081340;Melocotones, incl. los griÒones y nectarinas, peras, papayas, tamarindos y dem·s frutos comestibles, ...;012216;GRANADILLA;GRANADILLA;;;
-081340;Melocotones, incl. los griÒones y nectarinas, peras, papayas, tamarindos y dem·s frutos comestibles, ...;012217;GUAMA;GUAMA;;;
-081340;Melocotones, incl. los griÒones y nectarinas, peras, papayas, tamarindos y dem·s frutos comestibles, ...;012218;GUANABANA;GUANABANA;;;
-081340;Melocotones, incl. los griÒones y nectarinas, peras, papayas, tamarindos y dem·s frutos comestibles, ...;012219;GULUPA;GULUPA;;;
-081340;Melocotones, incl. los griÒones y nectarinas, peras, papayas, tamarindos y dem·s frutos comestibles, ...;012220;LULO;LULO;;;
-081340;Melocotones, incl. los griÒones y nectarinas, peras, papayas, tamarindos y dem·s frutos comestibles, ...;012221;MAMEY;MAMEY;;;
-081340;Melocotones, incl. los griÒones y nectarinas, peras, papayas, tamarindos y dem·s frutos comestibles, ...;012222;MAMONCILLO;MAMONCILLO;;;
-081340;Melocotones, incl. los griÒones y nectarinas, peras, papayas, tamarindos y dem·s frutos comestibles, ...;012223;MARACUYA;MARACUYA;;;
-081340;Melocotones, incl. los griÒones y nectarinas, peras, papayas, tamarindos y dem·s frutos comestibles, ...;012224;MARA—ON;MARA—ON;;;
-081340;Melocotones, incl. los griÒones y nectarinas, peras, papayas, tamarindos y dem·s frutos comestibles, ...;012225;NISPERO;NISPERO;;;
-081340;Melocotones, incl. los griÒones y nectarinas, peras, papayas, tamarindos y dem·s frutos comestibles, ...;012226;NONI;NONI;;;
-081340;Melocotones, incl. los griÒones y nectarinas, peras, papayas, tamarindos y dem·s frutos comestibles, ...;012227;PEPA DE PAN;PEPA DE PAN;;;
-081340;Melocotones, incl. los griÒones y nectarinas, peras, papayas, tamarindos y dem·s frutos comestibles, ...;012228;POMARROSA;POMARROSA;;;
-081340;Melocotones, incl. los griÒones y nectarinas, peras, papayas, tamarindos y dem·s frutos comestibles, ...;012229;RAMBUTAN;RAMBUTAN;;;
-081340;Melocotones, incl. los griÒones y nectarinas, peras, papayas, tamarindos y dem·s frutos comestibles, ...;012230;TOMATE DE ARBOL;TOMATE DE ARBOL;;;
-081340;Melocotones, incl. los griÒones y nectarinas, peras, papayas, tamarindos y dem·s frutos comestibles, ...;012231;UCHUVA;UCHUVA;;;
-081340;Melocotones, incl. los griÒones y nectarinas, peras, papayas, tamarindos y dem·s frutos comestibles, ...;012232;UMARI;UMARI;;;
-081340;Melocotones, incl. los griÒones y nectarinas, peras, papayas, tamarindos y dem·s frutos comestibles, ...;012233;ZAPOTE;ZAPOTE;;;
-081340;Melocotones, incl. los griÒones y nectarinas, peras, papayas, tamarindos y dem·s frutos comestibles, ...;012234;ZARAGOZA;ZARAGOZA;;;
-081340;Melocotones, incl. los griÒones y nectarinas, peras, papayas, tamarindos y dem·s frutos comestibles, ...;012205;BADEA;;;;BADEA
-081340;Melocotones, incl. los griÒones y nectarinas, peras, papayas, tamarindos y dem·s frutos comestibles, ...;012210;CHIRIMOYA;;;;CHIRIMOYA
-081340;Melocotones, incl. los griÒones y nectarinas, peras, papayas, tamarindos y dem·s frutos comestibles, ...;012215;CURUBA;;;;CURUBA
-081340;Melocotones, incl. los griÒones y nectarinas, peras, papayas, tamarindos y dem·s frutos comestibles, ...;012215;CURUBA;;;;CURUBO
-081340;Melocotones, incl. los griÒones y nectarinas, peras, papayas, tamarindos y dem·s frutos comestibles, ...;011511;FEIJOA;;;;FREIJOA
-081340;Melocotones, incl. los griÒones y nectarinas, peras, papayas, tamarindos y dem·s frutos comestibles, ...;012238;FRUTALES VARIOS;;;;FRUTALES
-081340;Melocotones, incl. los griÒones y nectarinas, peras, papayas, tamarindos y dem·s frutos comestibles, ...;012238;FRUTALES VARIOS;;;;FRUTALES DE CLIMA FRIO
-081340;Melocotones, incl. los griÒones y nectarinas, peras, papayas, tamarindos y dem·s frutos comestibles, ...;012238;FRUTALES VARIOS;;;;FRUTAS
-081340;Melocotones, incl. los griÒones y nectarinas, peras, papayas, tamarindos y dem·s frutos comestibles, ...;012238;FRUTALES VARIOS;;;;FR⁄TALES
-081340;Melocotones, incl. los griÒones y nectarinas, peras, papayas, tamarindos y dem·s frutos comestibles, ...;012216;GRANADILLA;;;;GRANADILLA
-081340;Melocotones, incl. los griÒones y nectarinas, peras, papayas, tamarindos y dem·s frutos comestibles, ...;012216;GRANADILLA;;;;GRANADILLA\nGIRASOL
-081340;Melocotones, incl. los griÒones y nectarinas, peras, papayas, tamarindos y dem·s frutos comestibles, ...;012218;GUANABANA;;;;GUAN¡BANA
-081340;Melocotones, incl. los griÒones y nectarinas, peras, papayas, tamarindos y dem·s frutos comestibles, ...;012219;GULUPA;;;;GULUPA
-081340;Melocotones, incl. los griÒones y nectarinas, peras, papayas, tamarindos y dem·s frutos comestibles, ...;012238;FRUTALES VARIOS;;;;HORTOFRUTÕCOLAS
-081340;Melocotones, incl. los griÒones y nectarinas, peras, papayas, tamarindos y dem·s frutos comestibles, ...;012220;LULO;;;;LULO
-081340;Melocotones, incl. los griÒones y nectarinas, peras, papayas, tamarindos y dem·s frutos comestibles, ...;012220;LULO;;;;LULO DE CASTILLA
-081340;Melocotones, incl. los griÒones y nectarinas, peras, papayas, tamarindos y dem·s frutos comestibles, ...;012223;MARACUYA;;;;MARACUY¡
-081340;Melocotones, incl. los griÒones y nectarinas, peras, papayas, tamarindos y dem·s frutos comestibles, ...;012223;MARACUYA;;;;MARACUY¡ Y PL¡TANO
-081340;Melocotones, incl. los griÒones y nectarinas, peras, papayas, tamarindos y dem·s frutos comestibles, ...;012225;NISPERO;;;;NÕSPEROS
-081340;Melocotones, incl. los griÒones y nectarinas, peras, papayas, tamarindos y dem·s frutos comestibles, ...;012230;TOMATE DE ARBOL;;;;TOMATE DE ¡RBOL
-081340;Melocotones, incl. los griÒones y nectarinas, peras, papayas, tamarindos y dem·s frutos comestibles, ...;012231;UCHUVA;;;;UCHUVA
-081340;Melocotones, incl. los griÒones y nectarinas, peras, papayas, tamarindos y dem·s frutos comestibles, ...;012231;UCHUVA;;;;UCHUVAS
-090111;CafÈ sin tostar ni descafeinar;0101;CAFE;CAFE;;;
-090111;CafÈ sin tostar ni descafeinar;0101;CAFE;;;;CAF…
-090111;CafÈ sin tostar ni descafeinar;0101;CAFE;;;;CAF… FRÕJOL
-090111;CafÈ sin tostar ni descafeinar;0101;CAFE;;;;CAF… MAÕZ
-090210;TÈ verde sin fermentar, presentado en envases inmediatos con un contenido <= 3 kg;012401;TE;TE;;;
-090411;"Pimienta del gÈnero ""Piper"" sin triturar ni pulverizar";012402;PIMENTON;PIMENTON;;;
-090411;"Pimienta del gÈnero ""Piper"" sin triturar ni pulverizar";012403;PIMIENTA;PIMIENTA;;;
-090411;"Pimienta del gÈnero ""Piper"" sin triturar ni pulverizar";012402;PIMENTON;;;;PIMENT”N
-090411;"Pimienta del gÈnero ""Piper"" sin triturar ni pulverizar";012402;PIMENTON;;;;PIMIENTO
-090411;"Pimienta del gÈnero ""Piper"" sin triturar ni pulverizar";012402;PIMENTON;;;;PIMIENTOS
+081020;Frambuesas, zarzamoras, moras y moras-frambuesa, frescas;012103;MORA;;;;MORA Y TOMATE DE √ÅRBOL
+081020;Frambuesas, zarzamoras, moras y moras-frambuesa, frescas;012103;MORA;;;;MORR√ìN
+081040;"Ar√°ndanos rojos, mirtilos y dem√°s frutos del g√©nero ""Vaccinium"", frescos";012104;AGRAZ;AGRAZ;;;
+081040;"Ar√°ndanos rojos, mirtilos y dem√°s frutos del g√©nero ""Vaccinium"", frescos";012105;ARANDANO;ARANDANO;;;
+081090;Tamarindos frescos, los anacardos, la jaca, litchis, sapotillos, maracuy√°, carambola, pitahaya ...;012235;PITAHAYA;PITAHAYA;;;
+081090;Tamarindos frescos, los anacardos, la jaca, litchis, sapotillos, maracuy√°, carambola, pitahaya ...;012236;TAMARINDO;TAMARINDO;;;
+081090;Tamarindos frescos, los anacardos, la jaca, litchis, sapotillos, maracuy√°, carambola, pitahaya ...;012235;PITAHAYA;;;;PITAHAYA
+081090;Tamarindos frescos, los anacardos, la jaca, litchis, sapotillos, maracuy√°, carambola, pitahaya ...;012235;PITAHAYA;;;;PITAYA.
+081090;Tamarindos frescos, los anacardos, la jaca, litchis, sapotillos, maracuy√°, carambola, pitahaya ...;012236;TAMARINDO;;;;TAMARINDO
+081340;Melocotones, incl. los gri√±ones y nectarinas, peras, papayas, tamarindos y dem√°s frutos comestibles, ...;012201;ANON;ANON;;;
+081340;Melocotones, incl. los gri√±ones y nectarinas, peras, papayas, tamarindos y dem√°s frutos comestibles, ...;012202;ARAZA;ARAZA;;;
+081340;Melocotones, incl. los gri√±ones y nectarinas, peras, papayas, tamarindos y dem√°s frutos comestibles, ...;012203;ASAI;ASAI;;;
+081340;Melocotones, incl. los gri√±ones y nectarinas, peras, papayas, tamarindos y dem√°s frutos comestibles, ...;012204;BACURI;BACURI;;;
+081340;Melocotones, incl. los gri√±ones y nectarinas, peras, papayas, tamarindos y dem√°s frutos comestibles, ...;012205;BADEA;BADEA;;;
+081340;Melocotones, incl. los gri√±ones y nectarinas, peras, papayas, tamarindos y dem√°s frutos comestibles, ...;012206;BOROJO;BOROJO;;;
+081340;Melocotones, incl. los gri√±ones y nectarinas, peras, papayas, tamarindos y dem√°s frutos comestibles, ...;012207;BREVO;BREVO;;;
+081340;Melocotones, incl. los gri√±ones y nectarinas, peras, papayas, tamarindos y dem√°s frutos comestibles, ...;012208;CAIMO;CAIMO;;;
+081340;Melocotones, incl. los gri√±ones y nectarinas, peras, papayas, tamarindos y dem√°s frutos comestibles, ...;012209;CHAMBA;CHAMBA;;;
+081340;Melocotones, incl. los gri√±ones y nectarinas, peras, papayas, tamarindos y dem√°s frutos comestibles, ...;012210;CHIRIMOYA;CHIRIMOYA;;;
+081340;Melocotones, incl. los gri√±ones y nectarinas, peras, papayas, tamarindos y dem√°s frutos comestibles, ...;012211;CHONTADURO;CHONTADURO;;;
+081340;Melocotones, incl. los gri√±ones y nectarinas, peras, papayas, tamarindos y dem√°s frutos comestibles, ...;012212;COCONA;COCONA;;;
+081340;Melocotones, incl. los gri√±ones y nectarinas, peras, papayas, tamarindos y dem√°s frutos comestibles, ...;012213;COPOAZU;COPOAZU;;;
+081340;Melocotones, incl. los gri√±ones y nectarinas, peras, papayas, tamarindos y dem√°s frutos comestibles, ...;012214;CURCUMA;CURCUMA;;;
+081340;Melocotones, incl. los gri√±ones y nectarinas, peras, papayas, tamarindos y dem√°s frutos comestibles, ...;012215;CURUBA;CURUBA;;;
+081340;Melocotones, incl. los gri√±ones y nectarinas, peras, papayas, tamarindos y dem√°s frutos comestibles, ...;011511;FEIJOA;FEIJOA;;;
+081340;Melocotones, incl. los gri√±ones y nectarinas, peras, papayas, tamarindos y dem√°s frutos comestibles, ...;012238;FRUTALES VARIOS;FRUTALES VARIOS;;;
+081340;Melocotones, incl. los gri√±ones y nectarinas, peras, papayas, tamarindos y dem√°s frutos comestibles, ...;012216;GRANADILLA;GRANADILLA;;;
+081340;Melocotones, incl. los gri√±ones y nectarinas, peras, papayas, tamarindos y dem√°s frutos comestibles, ...;012217;GUAMA;GUAMA;;;
+081340;Melocotones, incl. los gri√±ones y nectarinas, peras, papayas, tamarindos y dem√°s frutos comestibles, ...;012218;GUANABANA;GUANABANA;;;
+081340;Melocotones, incl. los gri√±ones y nectarinas, peras, papayas, tamarindos y dem√°s frutos comestibles, ...;012219;GULUPA;GULUPA;;;
+081340;Melocotones, incl. los gri√±ones y nectarinas, peras, papayas, tamarindos y dem√°s frutos comestibles, ...;012220;LULO;LULO;;;
+081340;Melocotones, incl. los gri√±ones y nectarinas, peras, papayas, tamarindos y dem√°s frutos comestibles, ...;012221;MAMEY;MAMEY;;;
+081340;Melocotones, incl. los gri√±ones y nectarinas, peras, papayas, tamarindos y dem√°s frutos comestibles, ...;012222;MAMONCILLO;MAMONCILLO;;;
+081340;Melocotones, incl. los gri√±ones y nectarinas, peras, papayas, tamarindos y dem√°s frutos comestibles, ...;012223;MARACUYA;MARACUYA;;;
+081340;Melocotones, incl. los gri√±ones y nectarinas, peras, papayas, tamarindos y dem√°s frutos comestibles, ...;012224;MARA√ëON;MARA√ëON;;;
+081340;Melocotones, incl. los gri√±ones y nectarinas, peras, papayas, tamarindos y dem√°s frutos comestibles, ...;012225;NISPERO;NISPERO;;;
+081340;Melocotones, incl. los gri√±ones y nectarinas, peras, papayas, tamarindos y dem√°s frutos comestibles, ...;012226;NONI;NONI;;;
+081340;Melocotones, incl. los gri√±ones y nectarinas, peras, papayas, tamarindos y dem√°s frutos comestibles, ...;012227;PEPA DE PAN;PEPA DE PAN;;;
+081340;Melocotones, incl. los gri√±ones y nectarinas, peras, papayas, tamarindos y dem√°s frutos comestibles, ...;012228;POMARROSA;POMARROSA;;;
+081340;Melocotones, incl. los gri√±ones y nectarinas, peras, papayas, tamarindos y dem√°s frutos comestibles, ...;012229;RAMBUTAN;RAMBUTAN;;;
+081340;Melocotones, incl. los gri√±ones y nectarinas, peras, papayas, tamarindos y dem√°s frutos comestibles, ...;012230;TOMATE DE ARBOL;TOMATE DE ARBOL;;;
+081340;Melocotones, incl. los gri√±ones y nectarinas, peras, papayas, tamarindos y dem√°s frutos comestibles, ...;012231;UCHUVA;UCHUVA;;;
+081340;Melocotones, incl. los gri√±ones y nectarinas, peras, papayas, tamarindos y dem√°s frutos comestibles, ...;012232;UMARI;UMARI;;;
+081340;Melocotones, incl. los gri√±ones y nectarinas, peras, papayas, tamarindos y dem√°s frutos comestibles, ...;012233;ZAPOTE;ZAPOTE;;;
+081340;Melocotones, incl. los gri√±ones y nectarinas, peras, papayas, tamarindos y dem√°s frutos comestibles, ...;012234;ZARAGOZA;ZARAGOZA;;;
+081340;Melocotones, incl. los gri√±ones y nectarinas, peras, papayas, tamarindos y dem√°s frutos comestibles, ...;012205;BADEA;;;;BADEA
+081340;Melocotones, incl. los gri√±ones y nectarinas, peras, papayas, tamarindos y dem√°s frutos comestibles, ...;012210;CHIRIMOYA;;;;CHIRIMOYA
+081340;Melocotones, incl. los gri√±ones y nectarinas, peras, papayas, tamarindos y dem√°s frutos comestibles, ...;012215;CURUBA;;;;CURUBA
+081340;Melocotones, incl. los gri√±ones y nectarinas, peras, papayas, tamarindos y dem√°s frutos comestibles, ...;012215;CURUBA;;;;CURUBO
+081340;Melocotones, incl. los gri√±ones y nectarinas, peras, papayas, tamarindos y dem√°s frutos comestibles, ...;011511;FEIJOA;;;;FREIJOA
+081340;Melocotones, incl. los gri√±ones y nectarinas, peras, papayas, tamarindos y dem√°s frutos comestibles, ...;012238;FRUTALES VARIOS;;;;FRUTALES
+081340;Melocotones, incl. los gri√±ones y nectarinas, peras, papayas, tamarindos y dem√°s frutos comestibles, ...;012238;FRUTALES VARIOS;;;;FRUTALES DE CLIMA FRIO
+081340;Melocotones, incl. los gri√±ones y nectarinas, peras, papayas, tamarindos y dem√°s frutos comestibles, ...;012238;FRUTALES VARIOS;;;;FRUTAS
+081340;Melocotones, incl. los gri√±ones y nectarinas, peras, papayas, tamarindos y dem√°s frutos comestibles, ...;012238;FRUTALES VARIOS;;;;FR√öTALES
+081340;Melocotones, incl. los gri√±ones y nectarinas, peras, papayas, tamarindos y dem√°s frutos comestibles, ...;012216;GRANADILLA;;;;GRANADILLA
+081340;Melocotones, incl. los gri√±ones y nectarinas, peras, papayas, tamarindos y dem√°s frutos comestibles, ...;012216;GRANADILLA;;;;GRANADILLA\nGIRASOL
+081340;Melocotones, incl. los gri√±ones y nectarinas, peras, papayas, tamarindos y dem√°s frutos comestibles, ...;012218;GUANABANA;;;;GUAN√ÅBANA
+081340;Melocotones, incl. los gri√±ones y nectarinas, peras, papayas, tamarindos y dem√°s frutos comestibles, ...;012219;GULUPA;;;;GULUPA
+081340;Melocotones, incl. los gri√±ones y nectarinas, peras, papayas, tamarindos y dem√°s frutos comestibles, ...;012238;FRUTALES VARIOS;;;;HORTOFRUT√çCOLAS
+081340;Melocotones, incl. los gri√±ones y nectarinas, peras, papayas, tamarindos y dem√°s frutos comestibles, ...;012220;LULO;;;;LULO
+081340;Melocotones, incl. los gri√±ones y nectarinas, peras, papayas, tamarindos y dem√°s frutos comestibles, ...;012220;LULO;;;;LULO DE CASTILLA
+081340;Melocotones, incl. los gri√±ones y nectarinas, peras, papayas, tamarindos y dem√°s frutos comestibles, ...;012223;MARACUYA;;;;MARACUY√Å
+081340;Melocotones, incl. los gri√±ones y nectarinas, peras, papayas, tamarindos y dem√°s frutos comestibles, ...;012223;MARACUYA;;;;MARACUY√Å Y PL√ÅTANO
+081340;Melocotones, incl. los gri√±ones y nectarinas, peras, papayas, tamarindos y dem√°s frutos comestibles, ...;012225;NISPERO;;;;N√çSPEROS
+081340;Melocotones, incl. los gri√±ones y nectarinas, peras, papayas, tamarindos y dem√°s frutos comestibles, ...;012230;TOMATE DE ARBOL;;;;TOMATE DE √ÅRBOL
+081340;Melocotones, incl. los gri√±ones y nectarinas, peras, papayas, tamarindos y dem√°s frutos comestibles, ...;012231;UCHUVA;;;;UCHUVA
+081340;Melocotones, incl. los gri√±ones y nectarinas, peras, papayas, tamarindos y dem√°s frutos comestibles, ...;012231;UCHUVA;;;;UCHUVAS
+090111;Caf√© sin tostar ni descafeinar;0101;CAFE;CAFE;;;
+090111;Caf√© sin tostar ni descafeinar;0101;CAFE;;;;CAF√â
+090111;Caf√© sin tostar ni descafeinar;0101;CAFE;;;;CAF√â FR√çJOL
+090111;Caf√© sin tostar ni descafeinar;0101;CAFE;;;;CAF√â MA√çZ
+090210;T√© verde sin fermentar, presentado en envases inmediatos con un contenido <= 3 kg;012401;TE;TE;;;
+090411;"Pimienta del g√©nero ""Piper"" sin triturar ni pulverizar";012402;PIMENTON;PIMENTON;;;
+090411;"Pimienta del g√©nero ""Piper"" sin triturar ni pulverizar";012403;PIMIENTA;PIMIENTA;;;
+090411;"Pimienta del g√©nero ""Piper"" sin triturar ni pulverizar";012402;PIMENTON;;;;PIMENT√ìN
+090411;"Pimienta del g√©nero ""Piper"" sin triturar ni pulverizar";012402;PIMENTON;;;;PIMIENTO
+090411;"Pimienta del g√©nero ""Piper"" sin triturar ni pulverizar";012402;PIMENTON;;;;PIMIENTOS
 090500;Vainilla;012404;VAINILLA;VAINILLA;;;
 090500;Vainilla;012404;VAINILLA;;;;VAINILLA
 090810;Nuez moscada, macis, amomos y cardamomos : Nuez moscada;012405;CARDAMOMO;CARDAMOMO;;;
-090910;"Semillas de anÌs, badiana, hinojo, cilantro, comino o alcaravea; bayas de enebro : Semillas ...";012406;ANIS;ANIS;;;
-090910;"Semillas de anÌs, badiana, hinojo, cilantro, comino o alcaravea; bayas de enebro : Semillas ...";012407;CHILLANGUA;CHILLANGUA;;;
-090910;"Semillas de anÌs, badiana, hinojo, cilantro, comino o alcaravea; bayas de enebro : Semillas ...";012408;CILANTRO;CILANTRO;;;
-090910;"Semillas de anÌs, badiana, hinojo, cilantro, comino o alcaravea; bayas de enebro : Semillas ...";012409;CIMARRON;CIMARRON;;;
-090910;"Semillas de anÌs, badiana, hinojo, cilantro, comino o alcaravea; bayas de enebro : Semillas ...";012408;CILANTRO;;;;CILANTRO
-090910;"Semillas de anÌs, badiana, hinojo, cilantro, comino o alcaravea; bayas de enebro : Semillas ...";012408;CILANTRO;;;;CILANTRO ZANAHORIA
-0910;"Jengibre, azafr·n, c˙rcuma, tomillo, hojas de laurel, ""curry"" y dem·s especias (exc. pimienta ...";0124;PLANTAS AROMATICAS, MEDICINALES, ESPECIAS Y SEMILLAS;PLANTAS AROMATICAS;;;
-0910;"Jengibre, azafr·n, c˙rcuma, tomillo, hojas de laurel, ""curry"" y dem·s especias (exc. pimienta ...";0124;PLANTAS AROMATICAS, MEDICINALES, ESPECIAS Y SEMILLAS;PLANTAS AROMATICAS Y MEDICINALES;;;
-0910;"Jengibre, azafr·n, c˙rcuma, tomillo, hojas de laurel, ""curry"" y dem·s especias (exc. pimienta ...";0124;PLANTAS AROMATICAS, MEDICINALES, ESPECIAS Y SEMILLAS;PLANTAS MEDICINALES;;;
-0910;"Jengibre, azafr·n, c˙rcuma, tomillo, hojas de laurel, ""curry"" y dem·s especias (exc. pimienta ...";0124;PLANTAS AROMATICAS, MEDICINALES, ESPECIAS Y SEMILLAS;;;;AROM¡TICA
-0910;"Jengibre, azafr·n, c˙rcuma, tomillo, hojas de laurel, ""curry"" y dem·s especias (exc. pimienta ...";0124;PLANTAS AROMATICAS, MEDICINALES, ESPECIAS Y SEMILLAS;;;;AROM¡TICAS
-091010;Jengibre, azafr·n, c˙rcuma, tomillo, hojas de laurel, curri y dem·s especias : Jengibre;012410;PEREJIL;PEREJIL;;;
-091010;Jengibre, azafr·n, c˙rcuma, tomillo, hojas de laurel, curri y dem·s especias : Jengibre;012410;PEREJIL;;;;PEREJIL
-091010;Jengibre, azafr·n, c˙rcuma, tomillo, hojas de laurel, curri y dem·s especias : Jengibre;012411;ACHIN;ACHIN;;;
-091010;Jengibre, azafr·n, c˙rcuma, tomillo, hojas de laurel, curri y dem·s especias : Jengibre;012412;ACHIOTE;ACHIOTE (BIJA);;;
-091010;Jengibre, azafr·n, c˙rcuma, tomillo, hojas de laurel, curri y dem·s especias : Jengibre;012413;ALBAHACA;ALBAHACA;;;
-091010;Jengibre, azafr·n, c˙rcuma, tomillo, hojas de laurel, curri y dem·s especias : Jengibre;012414;AMARANTO;AMARANTO;;;
-091010;Jengibre, azafr·n, c˙rcuma, tomillo, hojas de laurel, curri y dem·s especias : Jengibre;012415;CALENDULA;CALENDULA;;;
-091010;Jengibre, azafr·n, c˙rcuma, tomillo, hojas de laurel, curri y dem·s especias : Jengibre;012416;CHIRARAN;CHIRARAN;;;
-091010;Jengibre, azafr·n, c˙rcuma, tomillo, hojas de laurel, curri y dem·s especias : Jengibre;012417;COCCULUS;COCCULUS;;;
-091010;Jengibre, azafr·n, c˙rcuma, tomillo, hojas de laurel, curri y dem·s especias : Jengibre;012418;ENELDO;ENELDO;;;
-091010;Jengibre, azafr·n, c˙rcuma, tomillo, hojas de laurel, curri y dem·s especias : Jengibre;012419;HIERBABUENA;HIERBABUENA;;;
-091010;Jengibre, azafr·n, c˙rcuma, tomillo, hojas de laurel, curri y dem·s especias : Jengibre;012420;JENGIBRE;JENGIBRE;;;
-091010;Jengibre, azafr·n, c˙rcuma, tomillo, hojas de laurel, curri y dem·s especias : Jengibre;012421;LAUREL;LAUREL;;;
-091010;Jengibre, azafr·n, c˙rcuma, tomillo, hojas de laurel, curri y dem·s especias : Jengibre;012422;LIMONARIA;LIMONARIA;;;
-091010;Jengibre, azafr·n, c˙rcuma, tomillo, hojas de laurel, curri y dem·s especias : Jengibre;012423;MANZANILLA;MANZANILLA;;;
-091010;Jengibre, azafr·n, c˙rcuma, tomillo, hojas de laurel, curri y dem·s especias : Jengibre;012424;MEDICINALES;;;;
-091010;Jengibre, azafr·n, c˙rcuma, tomillo, hojas de laurel, curri y dem·s especias : Jengibre;012425;MENTA;MENTA;;;
-091010;Jengibre, azafr·n, c˙rcuma, tomillo, hojas de laurel, curri y dem·s especias : Jengibre;012426;MORINGA;MORINGA;;;
-091010;Jengibre, azafr·n, c˙rcuma, tomillo, hojas de laurel, curri y dem·s especias : Jengibre;012427;MOSTAZA;;;;
-091010;Jengibre, azafr·n, c˙rcuma, tomillo, hojas de laurel, curri y dem·s especias : Jengibre;012428;OREGANO;OREGANO;;;
-091010;Jengibre, azafr·n, c˙rcuma, tomillo, hojas de laurel, curri y dem·s especias : Jengibre;012429;POLEO;POLEO;;;
-091010;Jengibre, azafr·n, c˙rcuma, tomillo, hojas de laurel, curri y dem·s especias : Jengibre;012430;ROMERO;ROMERO;;;
-091010;Jengibre, azafr·n, c˙rcuma, tomillo, hojas de laurel, curri y dem·s especias : Jengibre;012431;RUSCUS;RUSCUS;;;
-091010;Jengibre, azafr·n, c˙rcuma, tomillo, hojas de laurel, curri y dem·s especias : Jengibre;012432;SABILA;SABILA;;;
-091010;Jengibre, azafr·n, c˙rcuma, tomillo, hojas de laurel, curri y dem·s especias : Jengibre;012433;TOMILLO;TOMILLO;;;
-091010;Jengibre, azafr·n, c˙rcuma, tomillo, hojas de laurel, curri y dem·s especias : Jengibre;012412;ACHIOTE;;;;ACHOTE
-091010;Jengibre, azafr·n, c˙rcuma, tomillo, hojas de laurel, curri y dem·s especias : Jengibre;012415;CALENDULA;;;;CAL…NDULA
-091010;Jengibre, azafr·n, c˙rcuma, tomillo, hojas de laurel, curri y dem·s especias : Jengibre;012419;HIERBABUENA;;;;HIERVAS AROM¡TICAS
-091010;Jengibre, azafr·n, c˙rcuma, tomillo, hojas de laurel, curri y dem·s especias : Jengibre;012424;MEDICINALES;;;;MEDICINALES
-091010;Jengibre, azafr·n, c˙rcuma, tomillo, hojas de laurel, curri y dem·s especias : Jengibre;012426;MORINGA;;;;MORINGA
-091010;Jengibre, azafr·n, c˙rcuma, tomillo, hojas de laurel, curri y dem·s especias : Jengibre;012427;MOSTAZA;;;;MOSTAZA
-091010;Jengibre, azafr·n, c˙rcuma, tomillo, hojas de laurel, curri y dem·s especias : Jengibre;012427;MOSTAZA;;;;MURINGA
-091010;Jengibre, azafr·n, c˙rcuma, tomillo, hojas de laurel, curri y dem·s especias : Jengibre;012432;SABILA;;;;S¡BILA
-091010;Jengibre, azafr·n, c˙rcuma, tomillo, hojas de laurel, curri y dem·s especias : Jengibre;012433;TOMILLO;;;;TOMILLO
-100110;Trigo y morcajo (tranquillÛn) : Trigo duro;012501;TRIGO;TRIGO;;;
-100110;Trigo y morcajo (tranquillÛn) : Trigo duro;012501;TRIGO;;;;TRIGO
+090910;"Semillas de an√≠s, badiana, hinojo, cilantro, comino o alcaravea; bayas de enebro : Semillas ...";012406;ANIS;ANIS;;;
+090910;"Semillas de an√≠s, badiana, hinojo, cilantro, comino o alcaravea; bayas de enebro : Semillas ...";012407;CHILLANGUA;CHILLANGUA;;;
+090910;"Semillas de an√≠s, badiana, hinojo, cilantro, comino o alcaravea; bayas de enebro : Semillas ...";012408;CILANTRO;CILANTRO;;;
+090910;"Semillas de an√≠s, badiana, hinojo, cilantro, comino o alcaravea; bayas de enebro : Semillas ...";012409;CIMARRON;CIMARRON;;;
+090910;"Semillas de an√≠s, badiana, hinojo, cilantro, comino o alcaravea; bayas de enebro : Semillas ...";012408;CILANTRO;;;;CILANTRO
+090910;"Semillas de an√≠s, badiana, hinojo, cilantro, comino o alcaravea; bayas de enebro : Semillas ...";012408;CILANTRO;;;;CILANTRO ZANAHORIA
+0910;"Jengibre, azafr√°n, c√∫rcuma, tomillo, hojas de laurel, ""curry"" y dem√°s especias (exc. pimienta ...";0124;PLANTAS AROMATICAS, MEDICINALES, ESPECIAS Y SEMILLAS;PLANTAS AROMATICAS;;;
+0910;"Jengibre, azafr√°n, c√∫rcuma, tomillo, hojas de laurel, ""curry"" y dem√°s especias (exc. pimienta ...";0124;PLANTAS AROMATICAS, MEDICINALES, ESPECIAS Y SEMILLAS;PLANTAS AROMATICAS Y MEDICINALES;;;
+0910;"Jengibre, azafr√°n, c√∫rcuma, tomillo, hojas de laurel, ""curry"" y dem√°s especias (exc. pimienta ...";0124;PLANTAS AROMATICAS, MEDICINALES, ESPECIAS Y SEMILLAS;PLANTAS MEDICINALES;;;
+0910;"Jengibre, azafr√°n, c√∫rcuma, tomillo, hojas de laurel, ""curry"" y dem√°s especias (exc. pimienta ...";0124;PLANTAS AROMATICAS, MEDICINALES, ESPECIAS Y SEMILLAS;;;;AROM√ÅTICA
+0910;"Jengibre, azafr√°n, c√∫rcuma, tomillo, hojas de laurel, ""curry"" y dem√°s especias (exc. pimienta ...";0124;PLANTAS AROMATICAS, MEDICINALES, ESPECIAS Y SEMILLAS;;;;AROM√ÅTICAS
+091010;Jengibre, azafr√°n, c√∫rcuma, tomillo, hojas de laurel, curri y dem√°s especias : Jengibre;012410;PEREJIL;PEREJIL;;;
+091010;Jengibre, azafr√°n, c√∫rcuma, tomillo, hojas de laurel, curri y dem√°s especias : Jengibre;012410;PEREJIL;;;;PEREJIL
+091010;Jengibre, azafr√°n, c√∫rcuma, tomillo, hojas de laurel, curri y dem√°s especias : Jengibre;012411;ACHIN;ACHIN;;;
+091010;Jengibre, azafr√°n, c√∫rcuma, tomillo, hojas de laurel, curri y dem√°s especias : Jengibre;012412;ACHIOTE;ACHIOTE (BIJA);;;
+091010;Jengibre, azafr√°n, c√∫rcuma, tomillo, hojas de laurel, curri y dem√°s especias : Jengibre;012413;ALBAHACA;ALBAHACA;;;
+091010;Jengibre, azafr√°n, c√∫rcuma, tomillo, hojas de laurel, curri y dem√°s especias : Jengibre;012414;AMARANTO;AMARANTO;;;
+091010;Jengibre, azafr√°n, c√∫rcuma, tomillo, hojas de laurel, curri y dem√°s especias : Jengibre;012415;CALENDULA;CALENDULA;;;
+091010;Jengibre, azafr√°n, c√∫rcuma, tomillo, hojas de laurel, curri y dem√°s especias : Jengibre;012416;CHIRARAN;CHIRARAN;;;
+091010;Jengibre, azafr√°n, c√∫rcuma, tomillo, hojas de laurel, curri y dem√°s especias : Jengibre;012417;COCCULUS;COCCULUS;;;
+091010;Jengibre, azafr√°n, c√∫rcuma, tomillo, hojas de laurel, curri y dem√°s especias : Jengibre;012418;ENELDO;ENELDO;;;
+091010;Jengibre, azafr√°n, c√∫rcuma, tomillo, hojas de laurel, curri y dem√°s especias : Jengibre;012419;HIERBABUENA;HIERBABUENA;;;
+091010;Jengibre, azafr√°n, c√∫rcuma, tomillo, hojas de laurel, curri y dem√°s especias : Jengibre;012420;JENGIBRE;JENGIBRE;;;
+091010;Jengibre, azafr√°n, c√∫rcuma, tomillo, hojas de laurel, curri y dem√°s especias : Jengibre;012421;LAUREL;LAUREL;;;
+091010;Jengibre, azafr√°n, c√∫rcuma, tomillo, hojas de laurel, curri y dem√°s especias : Jengibre;012422;LIMONARIA;LIMONARIA;;;
+091010;Jengibre, azafr√°n, c√∫rcuma, tomillo, hojas de laurel, curri y dem√°s especias : Jengibre;012423;MANZANILLA;MANZANILLA;;;
+091010;Jengibre, azafr√°n, c√∫rcuma, tomillo, hojas de laurel, curri y dem√°s especias : Jengibre;012424;MEDICINALES;;;;
+091010;Jengibre, azafr√°n, c√∫rcuma, tomillo, hojas de laurel, curri y dem√°s especias : Jengibre;012425;MENTA;MENTA;;;
+091010;Jengibre, azafr√°n, c√∫rcuma, tomillo, hojas de laurel, curri y dem√°s especias : Jengibre;012426;MORINGA;MORINGA;;;
+091010;Jengibre, azafr√°n, c√∫rcuma, tomillo, hojas de laurel, curri y dem√°s especias : Jengibre;012427;MOSTAZA;;;;
+091010;Jengibre, azafr√°n, c√∫rcuma, tomillo, hojas de laurel, curri y dem√°s especias : Jengibre;012428;OREGANO;OREGANO;;;
+091010;Jengibre, azafr√°n, c√∫rcuma, tomillo, hojas de laurel, curri y dem√°s especias : Jengibre;012429;POLEO;POLEO;;;
+091010;Jengibre, azafr√°n, c√∫rcuma, tomillo, hojas de laurel, curri y dem√°s especias : Jengibre;012430;ROMERO;ROMERO;;;
+091010;Jengibre, azafr√°n, c√∫rcuma, tomillo, hojas de laurel, curri y dem√°s especias : Jengibre;012431;RUSCUS;RUSCUS;;;
+091010;Jengibre, azafr√°n, c√∫rcuma, tomillo, hojas de laurel, curri y dem√°s especias : Jengibre;012432;SABILA;SABILA;;;
+091010;Jengibre, azafr√°n, c√∫rcuma, tomillo, hojas de laurel, curri y dem√°s especias : Jengibre;012433;TOMILLO;TOMILLO;;;
+091010;Jengibre, azafr√°n, c√∫rcuma, tomillo, hojas de laurel, curri y dem√°s especias : Jengibre;012412;ACHIOTE;;;;ACHOTE
+091010;Jengibre, azafr√°n, c√∫rcuma, tomillo, hojas de laurel, curri y dem√°s especias : Jengibre;012415;CALENDULA;;;;CAL√âNDULA
+091010;Jengibre, azafr√°n, c√∫rcuma, tomillo, hojas de laurel, curri y dem√°s especias : Jengibre;012419;HIERBABUENA;;;;HIERVAS AROM√ÅTICAS
+091010;Jengibre, azafr√°n, c√∫rcuma, tomillo, hojas de laurel, curri y dem√°s especias : Jengibre;012424;MEDICINALES;;;;MEDICINALES
+091010;Jengibre, azafr√°n, c√∫rcuma, tomillo, hojas de laurel, curri y dem√°s especias : Jengibre;012426;MORINGA;;;;MORINGA
+091010;Jengibre, azafr√°n, c√∫rcuma, tomillo, hojas de laurel, curri y dem√°s especias : Jengibre;012427;MOSTAZA;;;;MOSTAZA
+091010;Jengibre, azafr√°n, c√∫rcuma, tomillo, hojas de laurel, curri y dem√°s especias : Jengibre;012427;MOSTAZA;;;;MURINGA
+091010;Jengibre, azafr√°n, c√∫rcuma, tomillo, hojas de laurel, curri y dem√°s especias : Jengibre;012432;SABILA;;;;S√ÅBILA
+091010;Jengibre, azafr√°n, c√∫rcuma, tomillo, hojas de laurel, curri y dem√°s especias : Jengibre;012433;TOMILLO;;;;TOMILLO
+100110;Trigo y morcajo (tranquill√≥n) : Trigo duro;012501;TRIGO;TRIGO;;;
+100110;Trigo y morcajo (tranquill√≥n) : Trigo duro;012501;TRIGO;;;;TRIGO
 100300;Cebada;012502;CEBADA;CEBADA;;;
 100300;Cebada;012502;CEBADA;;;;CEBADA
 100300;Cebada;012502;CEBADA;;;;CEBADA Y AVENA
 100400;Avena;0125023;AVENA;AVENA;;;
 100400;Avena;0125023;AVENA;;;;AVENA
-100510;Semillas de maÌz para la siembra;012504;MAIZ;;;MAIZ;
-100510;Semillas de maÌz para la siembra;012504;MAIZ;;;;CH”COLO
-100510;Semillas de maÌz para la siembra;012504;MAIZ;;;;MAIZ
-100510;Semillas de maÌz para la siembra;012504;MAIZ;;;;MAÕZ
-100510;Semillas de maÌz para la siembra;012505;MAIZ FORRAJERO;MAIZ FORRAJERO;;;
-100510;Semillas de maÌz para la siembra;012506;MAIZ TECNIFICADO;MAIZ TECNIFICADO;;;
-100510;Semillas de maÌz para la siembra;012507;MAIZ TRADICIONAL;MAIZ TRADICIONAL;;;
-100510;Semillas de maÌz para la siembra;012508;MILLO;MILLO;;;
-100510;Semillas de maÌz para la siembra;012507;MAIZ TRADICIONAL;;;;MAÕZ Y YUCA
-100510;Semillas de maÌz para la siembra;012508;MILLO;;;;MILLO
-100610;"Arroz con c·scara o arroz ""paddy""";012509;ARROZ;;;ARROZ;
-100610;"Arroz con c·scara o arroz ""paddy""";012510;ARROZ RIEGO;ARROZ RIEGO;;;
-100610;"Arroz con c·scara o arroz ""paddy""";012511;ARROZ SECANO MANUAL;ARROZ SECANO MANUAL;;;
-100610;"Arroz con c·scara o arroz ""paddy""";012512;ARROZ SECANO MECANIZADO;ARROZ SECANO MECANIZADO;;;
-100610;"Arroz con c·scara o arroz ""paddy""";012509;ARROZ;;;;ARROZ
-100700;Sorgo de grano (granÌfero);012513;SORGO;SORGO;;;
-100700;Sorgo de grano (granÌfero);012513;SORGO;;;;SORGO
-091010;Jengibre, azafr·n, c˙rcuma, tomillo, hojas de laurel, curri y dem·s especias : Jengibre;012435;FLOR DE JAMAICA;FLOR DE JAMAICA;;;
+100510;Semillas de ma√≠z para la siembra;012504;MAIZ;;;MAIZ;
+100510;Semillas de ma√≠z para la siembra;012504;MAIZ;;;;CH√ìCOLO
+100510;Semillas de ma√≠z para la siembra;012504;MAIZ;;;;MAIZ
+100510;Semillas de ma√≠z para la siembra;012504;MAIZ;;;;MA√çZ
+100510;Semillas de ma√≠z para la siembra;012505;MAIZ FORRAJERO;MAIZ FORRAJERO;;;
+100510;Semillas de ma√≠z para la siembra;012506;MAIZ TECNIFICADO;MAIZ TECNIFICADO;;;
+100510;Semillas de ma√≠z para la siembra;012507;MAIZ TRADICIONAL;MAIZ TRADICIONAL;;;
+100510;Semillas de ma√≠z para la siembra;012508;MILLO;MILLO;;;
+100510;Semillas de ma√≠z para la siembra;012507;MAIZ TRADICIONAL;;;;MA√çZ Y YUCA
+100510;Semillas de ma√≠z para la siembra;012508;MILLO;;;;MILLO
+100610;"Arroz con c√°scara o arroz ""paddy""";012509;ARROZ;;;ARROZ;
+100610;"Arroz con c√°scara o arroz ""paddy""";012510;ARROZ RIEGO;ARROZ RIEGO;;;
+100610;"Arroz con c√°scara o arroz ""paddy""";012511;ARROZ SECANO MANUAL;ARROZ SECANO MANUAL;;;
+100610;"Arroz con c√°scara o arroz ""paddy""";012512;ARROZ SECANO MECANIZADO;ARROZ SECANO MECANIZADO;;;
+100610;"Arroz con c√°scara o arroz ""paddy""";012509;ARROZ;;;;ARROZ
+100700;Sorgo de grano (gran√≠fero);012513;SORGO;SORGO;;;
+100700;Sorgo de grano (gran√≠fero);012513;SORGO;;;;SORGO
+091010;Jengibre, azafr√°n, c√∫rcuma, tomillo, hojas de laurel, curri y dem√°s especias : Jengibre;012435;FLOR DE JAMAICA;FLOR DE JAMAICA;;;
 100850;"Quinua ""Chenopodium quinoa""";012436;QUINUA;QUINUA;;;
 100850;"Quinua ""Chenopodium quinoa""";012436;QUINUA;;;;QUINUA
-091010;Jengibre, azafr·n, c˙rcuma, tomillo, hojas de laurel, curri y dem·s especias : Jengibre;012437;ACHIRA;ACHIRA;;;
-100890;Cereales (excepto el trigo y morcajo, centeno, cebada, avena, maÌz, arroz, sorgo, trigo sarraceno, ...;012514;CENTENO;CENTENO;;;
-091010;Jengibre, azafr·n, c˙rcuma, tomillo, hojas de laurel, curri y dem·s especias : Jengibre;012438;CHIA;CHIA;;;
-091010;Jengibre, azafr·n, c˙rcuma, tomillo, hojas de laurel, curri y dem·s especias : Jengibre;012439;SAGU;SAGU;;;
-100890;Cereales (excepto el trigo y morcajo, centeno, cebada, avena, maÌz, arroz, sorgo, trigo sarraceno, ...;012514;CENTENO;;;;CEREALES
-091010;Jengibre, azafr·n, c˙rcuma, tomillo, hojas de laurel, curri y dem·s especias : Jengibre;012439;SAGU;;;;SAG⁄
-120100;Habas (porotos, frijoles, frÈjoles) de soja (soya), incluso quebrantadas;012601;SOYA;SOYA;;;
-120100;Habas (porotos, frijoles, frÈjoles) de soja (soya), incluso quebrantadas;012601;SOYA;;;;SOJA
-120100;Habas (porotos, frijoles, frÈjoles) de soja (soya), incluso quebrantadas;012601;SOYA;;;;SOYA
-120210;Cacahuetes (cacahuates, manÌes) sin tostar ni cocer de otro modo, incluso sin c·scara o quebrantados ...;012602;MANI;MANI;;;
-120210;Cacahuetes (cacahuates, manÌes) sin tostar ni cocer de otro modo, incluso sin c·scara o quebrantados ...;012602;MANI;;;;MANÕ
+091010;Jengibre, azafr√°n, c√∫rcuma, tomillo, hojas de laurel, curri y dem√°s especias : Jengibre;012437;ACHIRA;ACHIRA;;;
+100890;Cereales (excepto el trigo y morcajo, centeno, cebada, avena, ma√≠z, arroz, sorgo, trigo sarraceno, ...;012514;CENTENO;CENTENO;;;
+091010;Jengibre, azafr√°n, c√∫rcuma, tomillo, hojas de laurel, curri y dem√°s especias : Jengibre;012438;CHIA;CHIA;;;
+091010;Jengibre, azafr√°n, c√∫rcuma, tomillo, hojas de laurel, curri y dem√°s especias : Jengibre;012439;SAGU;SAGU;;;
+100890;Cereales (excepto el trigo y morcajo, centeno, cebada, avena, ma√≠z, arroz, sorgo, trigo sarraceno, ...;012514;CENTENO;;;;CEREALES
+091010;Jengibre, azafr√°n, c√∫rcuma, tomillo, hojas de laurel, curri y dem√°s especias : Jengibre;012439;SAGU;;;;SAG√ö
+120100;Habas (porotos, frijoles, fr√©joles) de soja (soya), incluso quebrantadas;012601;SOYA;SOYA;;;
+120100;Habas (porotos, frijoles, fr√©joles) de soja (soya), incluso quebrantadas;012601;SOYA;;;;SOJA
+120100;Habas (porotos, frijoles, fr√©joles) de soja (soya), incluso quebrantadas;012601;SOYA;;;;SOYA
+120210;Cacahuetes (cacahuates, man√≠es) sin tostar ni cocer de otro modo, incluso sin c√°scara o quebrantados ...;012602;MANI;MANI;;;
+120210;Cacahuetes (cacahuates, man√≠es) sin tostar ni cocer de otro modo, incluso sin c√°scara o quebrantados ...;012602;MANI;;;;MAN√ç
 120600;Semilla de girasol, incluso quebrantada;012603;GIRASOL;GIRASOL;;;
 120600;Semilla de girasol, incluso quebrantada;012603;GIRASOL;;;;GIRASOL
-120720;Las dem·s semillas y frutos oleaginosos, incluso quebrantados : Semilla de algodÛn;012604;AGUAJE;AGUAJE;;;
-120720;Las dem·s semillas y frutos oleaginosos, incluso quebrantados : Semilla de algodÛn;013001;ALGODON;ALGODON;;;
-120720;Las dem·s semillas y frutos oleaginosos, incluso quebrantados : Semilla de algodÛn;013002;CAUCHO;CAUCHO;;;
-120720;Las dem·s semillas y frutos oleaginosos, incluso quebrantados : Semilla de algodÛn;012605;COROZO;COROZO;;;
-120720;Las dem·s semillas y frutos oleaginosos, incluso quebrantados : Semilla de algodÛn;012606;PALMA DE ACEITE;PALMA DE ACEITE;;;
-120720;Las dem·s semillas y frutos oleaginosos, incluso quebrantados : Semilla de algodÛn;012607;SACHA INCHI;SACHA INCHI;;;
-120720;Las dem·s semillas y frutos oleaginosos, incluso quebrantados : Semilla de algodÛn;013001;ALGODON;;;;ALGOD”N
-120720;Las dem·s semillas y frutos oleaginosos, incluso quebrantados : Semilla de algodÛn;012606;PALMA DE ACEITE;;;;PALMA
-120720;Las dem·s semillas y frutos oleaginosos, incluso quebrantados : Semilla de algodÛn;012606;PALMA DE ACEITE;;;;PALMA AFRICANA
-120720;Las dem·s semillas y frutos oleaginosos, incluso quebrantados : Semilla de algodÛn;012606;PALMA DE ACEITE;;;;PALMA DE ACEITE
+120720;Las dem√°s semillas y frutos oleaginosos, incluso quebrantados : Semilla de algod√≥n;012604;AGUAJE;AGUAJE;;;
+120720;Las dem√°s semillas y frutos oleaginosos, incluso quebrantados : Semilla de algod√≥n;013001;ALGODON;ALGODON;;;
+120720;Las dem√°s semillas y frutos oleaginosos, incluso quebrantados : Semilla de algod√≥n;013002;CAUCHO;CAUCHO;;;
+120720;Las dem√°s semillas y frutos oleaginosos, incluso quebrantados : Semilla de algod√≥n;012605;COROZO;COROZO;;;
+120720;Las dem√°s semillas y frutos oleaginosos, incluso quebrantados : Semilla de algod√≥n;012606;PALMA DE ACEITE;PALMA DE ACEITE;;;
+120720;Las dem√°s semillas y frutos oleaginosos, incluso quebrantados : Semilla de algod√≥n;012607;SACHA INCHI;SACHA INCHI;;;
+120720;Las dem√°s semillas y frutos oleaginosos, incluso quebrantados : Semilla de algod√≥n;013001;ALGODON;;;;ALGOD√ìN
+120720;Las dem√°s semillas y frutos oleaginosos, incluso quebrantados : Semilla de algod√≥n;012606;PALMA DE ACEITE;;;;PALMA
+120720;Las dem√°s semillas y frutos oleaginosos, incluso quebrantados : Semilla de algod√≥n;012606;PALMA DE ACEITE;;;;PALMA AFRICANA
+120720;Las dem√°s semillas y frutos oleaginosos, incluso quebrantados : Semilla de algod√≥n;012606;PALMA DE ACEITE;;;;PALMA DE ACEITE
 120730;Semilla de ricino;012608;HIGUERILLA;HIGUERILLA;;;
-120740;"Semilla de sÈsamo ""ajonjolÌ"", incl. quebrantada";012609;AJONJOLI;AJONJOLI;;;
-120740;"Semilla de sÈsamo ""ajonjolÌ"", incl. quebrantada";012609;AJONJOLI;;;;AJONJOLÕ
-121220;Algarrobas, algas, remolacha azucarera y caÒa de az˙car, frescas, refrigeradas, congeladas ...;012701;CA—A AZUCARERA;CA—A AZUCARERA;;;
-121220;Algarrobas, algas, remolacha azucarera y caÒa de az˙car, frescas, refrigeradas, congeladas ...;012702;CA—A FLECHA;CA—A FLECHA;;;
-121220;Algarrobas, algas, remolacha azucarera y caÒa de az˙car, frescas, refrigeradas, congeladas ...;012703;CA—A MIEL;CA—A MIEL;;;
-121220;Algarrobas, algas, remolacha azucarera y caÒa de az˙car, frescas, refrigeradas, congeladas ...;012704;CA—A PANELERA;CA—A PANELERA;;;
-121220;Algarrobas, algas, remolacha azucarera y caÒa de az˙car, frescas, refrigeradas, congeladas ...;012701;CA—A AZUCARERA;;;;CA—A
-121220;Algarrobas, algas, remolacha azucarera y caÒa de az˙car, frescas, refrigeradas, congeladas ...;012701;CA—A AZUCARERA;;;;CA—A AHUYAMA
-121220;Algarrobas, algas, remolacha azucarera y caÒa de az˙car, frescas, refrigeradas, congeladas ...;012701;CA—A AZUCARERA;;;;CA—A DE AZ⁄CAR
-121220;Algarrobas, algas, remolacha azucarera y caÒa de az˙car, frescas, refrigeradas, congeladas ...;012702;CA—A FLECHA;;;;CA—A FLECHA
-121220;Algarrobas, algas, remolacha azucarera y caÒa de az˙car, frescas, refrigeradas, congeladas ...;012704;CA—A PANELERA;;;;CA—A PANELERA
-121220;Algarrobas, algas, remolacha azucarera y caÒa de az˙car, frescas, refrigeradas, congeladas ...;012701;CA—A AZUCARERA;;;;CA—AS
+120740;"Semilla de s√©samo ""ajonjol√≠"", incl. quebrantada";012609;AJONJOLI;AJONJOLI;;;
+120740;"Semilla de s√©samo ""ajonjol√≠"", incl. quebrantada";012609;AJONJOLI;;;;AJONJOL√ç
+121220;Algarrobas, algas, remolacha azucarera y ca√±a de az√∫car, frescas, refrigeradas, congeladas ...;012701;CA√ëA AZUCARERA;CA√ëA AZUCARERA;;;
+121220;Algarrobas, algas, remolacha azucarera y ca√±a de az√∫car, frescas, refrigeradas, congeladas ...;012702;CA√ëA FLECHA;CA√ëA FLECHA;;;
+121220;Algarrobas, algas, remolacha azucarera y ca√±a de az√∫car, frescas, refrigeradas, congeladas ...;012703;CA√ëA MIEL;CA√ëA MIEL;;;
+121220;Algarrobas, algas, remolacha azucarera y ca√±a de az√∫car, frescas, refrigeradas, congeladas ...;012704;CA√ëA PANELERA;CA√ëA PANELERA;;;
+121220;Algarrobas, algas, remolacha azucarera y ca√±a de az√∫car, frescas, refrigeradas, congeladas ...;012701;CA√ëA AZUCARERA;;;;CA√ëA
+121220;Algarrobas, algas, remolacha azucarera y ca√±a de az√∫car, frescas, refrigeradas, congeladas ...;012701;CA√ëA AZUCARERA;;;;CA√ëA AHUYAMA
+121220;Algarrobas, algas, remolacha azucarera y ca√±a de az√∫car, frescas, refrigeradas, congeladas ...;012701;CA√ëA AZUCARERA;;;;CA√ëA DE AZ√öCAR
+121220;Algarrobas, algas, remolacha azucarera y ca√±a de az√∫car, frescas, refrigeradas, congeladas ...;012702;CA√ëA FLECHA;;;;CA√ëA FLECHA
+121220;Algarrobas, algas, remolacha azucarera y ca√±a de az√∫car, frescas, refrigeradas, congeladas ...;012704;CA√ëA PANELERA;;;;CA√ëA PANELERA
+121220;Algarrobas, algas, remolacha azucarera y ca√±a de az√∫car, frescas, refrigeradas, congeladas ...;012701;CA√ëA AZUCARERA;;;;CA√ëAS
 121292;"Algarrobas ""algarrobo"", frescas, refrigeradas, congeladas o secas, incluso pulverizadas";012237;ALGARROBO;ALGARROBO;;;
-121293;CaÒa de az˙car, fresca, refrigerada, congelada o seca, incl. pulverizada;012705;STEVIA;STEVIA;;;
-121490;Nabos forrajeros, remolachas forrajeras, raÌces forrajeras, heno, alfalfa, trÈbol, esparceta, ...;011219;ALFALFA;ALFALFA;;;
-140190;CaÒa, junco, mimbre, rafia, paja de cereales, limpiada, blanqueada o teÒida, corteza de tilo ...;012802;ESPARTO;ESPARTO;;;
-140190;CaÒa, junco, mimbre, rafia, paja de cereales, limpiada, blanqueada o teÒida, corteza de tilo ...;012803;ESTROPAJO;ESTROPAJO;;;
-140190;CaÒa, junco, mimbre, rafia, paja de cereales, limpiada, blanqueada o teÒida, corteza de tilo ...;012804;FIQUE;FIQUE;;;
-140190;CaÒa, junco, mimbre, rafia, paja de cereales, limpiada, blanqueada o teÒida, corteza de tilo ...;012805;IRACA;IRACA;;;
-140190;CaÒa, junco, mimbre, rafia, paja de cereales, limpiada, blanqueada o teÒida, corteza de tilo ...;012806;JATROPHA;JATROPHA;;;
-140190;CaÒa, junco, mimbre, rafia, paja de cereales, limpiada, blanqueada o teÒida, corteza de tilo ...;012807;MIMBRE;MIMBRE;;;
-140190;CaÒa, junco, mimbre, rafia, paja de cereales, limpiada, blanqueada o teÒida, corteza de tilo ...;012808;PALMA AMARGA;PALMA AMARGA;;;
-140190;CaÒa, junco, mimbre, rafia, paja de cereales, limpiada, blanqueada o teÒida, corteza de tilo ...;012803;ESTROPAJO;;;;ESTROPAJO
-140190;CaÒa, junco, mimbre, rafia, paja de cereales, limpiada, blanqueada o teÒida, corteza de tilo ...;012804;FIQUE;;;;FIQUE
-140190;CaÒa, junco, mimbre, rafia, paja de cereales, limpiada, blanqueada o teÒida, corteza de tilo ...;012807;MIMBRE;;;;MIMBRE
+121293;Ca√±a de az√∫car, fresca, refrigerada, congelada o seca, incl. pulverizada;012705;STEVIA;STEVIA;;;
+121490;Nabos forrajeros, remolachas forrajeras, ra√≠ces forrajeras, heno, alfalfa, tr√©bol, esparceta, ...;011219;ALFALFA;ALFALFA;;;
+140190;Ca√±a, junco, mimbre, rafia, paja de cereales, limpiada, blanqueada o te√±ida, corteza de tilo ...;012802;ESPARTO;ESPARTO;;;
+140190;Ca√±a, junco, mimbre, rafia, paja de cereales, limpiada, blanqueada o te√±ida, corteza de tilo ...;012803;ESTROPAJO;ESTROPAJO;;;
+140190;Ca√±a, junco, mimbre, rafia, paja de cereales, limpiada, blanqueada o te√±ida, corteza de tilo ...;012804;FIQUE;FIQUE;;;
+140190;Ca√±a, junco, mimbre, rafia, paja de cereales, limpiada, blanqueada o te√±ida, corteza de tilo ...;012805;IRACA;IRACA;;;
+140190;Ca√±a, junco, mimbre, rafia, paja de cereales, limpiada, blanqueada o te√±ida, corteza de tilo ...;012806;JATROPHA;JATROPHA;;;
+140190;Ca√±a, junco, mimbre, rafia, paja de cereales, limpiada, blanqueada o te√±ida, corteza de tilo ...;012807;MIMBRE;MIMBRE;;;
+140190;Ca√±a, junco, mimbre, rafia, paja de cereales, limpiada, blanqueada o te√±ida, corteza de tilo ...;012808;PALMA AMARGA;PALMA AMARGA;;;
+140190;Ca√±a, junco, mimbre, rafia, paja de cereales, limpiada, blanqueada o te√±ida, corteza de tilo ...;012803;ESTROPAJO;;;;ESTROPAJO
+140190;Ca√±a, junco, mimbre, rafia, paja de cereales, limpiada, blanqueada o te√±ida, corteza de tilo ...;012804;FIQUE;;;;FIQUE
+140190;Ca√±a, junco, mimbre, rafia, paja de cereales, limpiada, blanqueada o te√±ida, corteza de tilo ...;012807;MIMBRE;;;;MIMBRE
 180310;Pasta de cacao, sin desgrasar;012901;CACAO;CACAO;;;
 180310;Pasta de cacao, sin desgrasar;012901;CACAO;;;CACAO;
 180310;Pasta de cacao, sin desgrasar;012901;CACAO;;;;CACAO
-200891;Palmitos, preparados o conservados, incl. con adiciÛn de az˙car u otro edulcorante o alcohol ...;012440;PALMITO;PALMITO;;;
+200891;Palmitos, preparados o conservados, incl. con adici√≥n de az√∫car u otro edulcorante o alcohol ...;012440;PALMITO;PALMITO;;;
 240110;Tabaco, sin desvenar o desnervar;012301;TABACO NEGRO;TABACO NEGRO;;;
 240110;Tabaco, sin desvenar o desnervar;012302;TABACO RUBIO;TABACO RUBIO;;;
 240110;Tabaco, sin desvenar o desnervar;012302;TABACO RUBIO;;;;TABACO
-091010;Jengibre, azafr·n, c˙rcuma, tomillo, hojas de laurel, curri y dem·s especias : Jengibre;012434;RUDA;RUBA;;;
-091010;Jengibre, azafr·n, c˙rcuma, tomillo, hojas de laurel, curri y dem·s especias : Jengibre;012434;RUDA;RUDA;;;
-8436;M·quinas y aparatos, n.c.o.p., para la agricultura, horticultura, silvicultura, avicultura ...;08;MAQUINARIA;;Maquinaria;;
+091010;Jengibre, azafr√°n, c√∫rcuma, tomillo, hojas de laurel, curri y dem√°s especias : Jengibre;012434;RUDA;RUBA;;;
+091010;Jengibre, azafr√°n, c√∫rcuma, tomillo, hojas de laurel, curri y dem√°s especias : Jengibre;012434;RUDA;RUDA;;;
+8436;M√°quinas y aparatos, n.c.o.p., para la agricultura, horticultura, silvicultura, avicultura ...;08;MAQUINARIA;;Maquinaria;;
 AGRICOLA;;01;AGRICOLA;;Agricola;;
 AGRO-INDUSTRIA;;04;AGRO-INDUSTRIA;;Agro-Industrial;;
 AGROPECUARIO;;03;AGROPECUARIO;;Agropecuario;;
-COMERCIALIZACION;;09;COMERCIALIZACION;;ComercializaciÛn;;
+COMERCIALIZACION;;09;COMERCIALIZACION;;Comercializaci√≥n;;
 INFRAESTRUCTURA;;07;INFRAESTRUCTURA;;Infraestructura;;
 AGRICOLA;;01;AGRICOLA;;Productivo-Cultivo;;
-INFRAESTRUCTURA;;07;INFRAESTRUCTURA;;Productivo-establecimiento ·rea;;
+INFRAESTRUCTURA;;07;INFRAESTRUCTURA;;Productivo-establecimiento √°rea;;
 AGRICOLA;;01;AGRICOLA;;Productivo-mejoramiento cultivo;;
 AGROFORESTAL;;05;AGROFORESTAL;;;;
