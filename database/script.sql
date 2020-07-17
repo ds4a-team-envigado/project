@@ -210,6 +210,13 @@ AP_ID_ADR   VARCHAR(6),
 AP_CADENA_PRODUCTIVA_ADR   VARCHAR(60)
 );
 
+CREATE TABLE municipios (
+ID_Dpto   VARCHAR(2),
+Nombre_Dpto   VARCHAR(255),
+ID_Mpio3   VARCHAR(6),
+ID_Mpio   VARCHAR(6),
+Nombre_Mpio   VARCHAR(255)
+);
 
 SET datestyle = 'ISO,DMY';
 SET CLIENT_ENCODING TO 'UTF8';
@@ -220,7 +227,7 @@ SET CLIENT_ENCODING TO 'UTF8';
 \copy eva_cultivos FROM '../Datasets/EVA_cultivos_modificado2.csv' with (format CSV, header true, delimiter ';', encoding 'utf8')
 \copy adt_adecuaciontierras FROM '../Datasets/ADT_adecuaciontierras2.csv' with (format CSV, header true, delimiter ';', encoding 'utf8')
 \copy pidar FROM '../Datasets/pidar2.csv' with (format CSV, header true, delimiter ';', encoding 'utf8')
-
+\copy municipios FROM '../Datasets/municipios.csv' with (format CSV, header true, delimiter ';', encoding 'utf8')
 
 TRUNCATE ap_sabanageneral;
 TRUNCATE ap_predios;
