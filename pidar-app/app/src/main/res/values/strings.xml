@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">pidar-app</string>
+    <string name="title_activity_maps">Preevaluación PIDAR</string>
+    <string name="title_activity_question">QuestionActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="q_location">¿Desea realizar la preevaluación para esta ubicación?</string>
+    <string name="q_location_detection">"Hemos detectado que se encuentra en "</string>
+    <string name="lorem_ipsum_short">"Lorem Ipsum is simply dummy text "</string>
+    <string name="yes">Si</string>
+    <string name="no">No</string>
+    <string name="error_permission_map">No tenemos permiso para determinar su ubicación</string>
+</resources>

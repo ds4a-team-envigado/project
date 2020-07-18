@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <fragment
+
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MapsActivity" />
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="@dimen/fab_margin"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/layout_round_corner"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/text_center_style"
+            android:layout_marginTop="20dp"
+            android:text="@string/q_location_detection" />
+
+        <TextView
+            android:id="@+id/location_name"
+            style="@style/text_center_style"
+            android:text="@string/lorem_ipsum_short"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <TextView
+            style="@style/text_center_style"
+            android:gravity="center"
+            android:text="@string/q_location" />
+
+        <LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+
+            android:orientation="horizontal">
+
+            <com.github.nikartm.button.FitButton
+                android:layout_width="100dp"
+                android:layout_height="70dp"
+                android:layout_margin="16dp"
+                android:gravity="center"
+                app:fb_backgroundColor="@android:color/holo_red_light"
+                app:fb_shape="circle"
+                app:fb_text="@string/no"
+
+                app:fb_textAllCaps="true"
+                app:fb_textColor="#FFF"
+                app:fb_textPaddingEnd="16dp"
+                app:fb_textPaddingStart="16dp"
+                app:fb_textSize="20dp" />
+
+            <com.github.nikartm.button.FitButton
+                android:layout_width="100dp"
+                android:layout_height="70dp"
+                android:layout_margin="16dp"
+                android:gravity="center"
+                app:fb_backgroundColor="@android:color/holo_green_light"
+                app:fb_shape="circle"
+                app:fb_text="@string/yes"
+                app:fb_textAllCaps="true"
+                app:fb_textColor="#FFF"
+                app:fb_textPaddingEnd="16dp"
+                app:fb_textPaddingStart="16dp"
+                app:fb_textSize="20dp" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</RelativeLayout>
