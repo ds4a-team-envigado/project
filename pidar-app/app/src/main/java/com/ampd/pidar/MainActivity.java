@@ -7,6 +7,7 @@ import android.location.Location;
 import android.net.Uri;
 import android.os.Bundle;
 
+import com.github.nikartm.button.FitButton;
 import com.google.android.gms.location.FusedLocationProviderClient;
 import com.google.android.gms.location.LocationServices;
 import com.google.android.gms.maps.CameraUpdateFactory;
@@ -96,8 +97,22 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
             Timber.plant(new Timber.DebugTree());
         }
 
+        FitButton yesButton = findViewById(R.id.yes_answer);
+
+        yesButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                showSurvey();
+            }
+        });
 
         mFusedLocationClient = LocationServices.getFusedLocationProviderClient(this);
+    }
+
+    private void showSurvey(){
+        final Intent intent = new Intent(this, QuestionActivity.class);
+        startActivity(intent);
+
     }
 
     @Override

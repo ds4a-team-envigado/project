@@ -24,4 +24,18 @@
         <item name="android:gravity">center</item>
     </style>
 
+    <style name="no_button_style">
+        <item name="android:layout_width">100dp</item>
+        <item name="android:layout_height">70dp</item>
+        <item name="android:layout_margin">16dp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="yes_button_style">
+        <item name="android:layout_width">100dp</item>
+        <item name="android:layout_height">70dp</item>
+        <item name="android:layout_margin">16dp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
 </resources>

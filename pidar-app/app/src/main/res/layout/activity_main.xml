@@ -49,10 +49,7 @@
             android:orientation="horizontal">
 
             <com.github.nikartm.button.FitButton
-                android:layout_width="100dp"
-                android:layout_height="70dp"
-                android:layout_margin="16dp"
-                android:gravity="center"
+                android:id="@+id/no_answer"
                 app:fb_backgroundColor="@android:color/holo_red_light"
                 app:fb_shape="circle"
                 app:fb_text="@string/no"
@@ -61,13 +58,11 @@
                 app:fb_textColor="#FFF"
                 app:fb_textPaddingEnd="16dp"
                 app:fb_textPaddingStart="16dp"
-                app:fb_textSize="20dp" />
+                app:fb_textSize="20dp"
+                style="@style/no_button_style" />
 
             <com.github.nikartm.button.FitButton
-                android:layout_width="100dp"
-                android:layout_height="70dp"
-                android:layout_margin="16dp"
-                android:gravity="center"
+                android:id="@+id/yes_answer"
                 app:fb_backgroundColor="@android:color/holo_green_light"
                 app:fb_shape="circle"
                 app:fb_text="@string/yes"
@@ -75,7 +70,8 @@
                 app:fb_textColor="#FFF"
                 app:fb_textPaddingEnd="16dp"
                 app:fb_textPaddingStart="16dp"
-                app:fb_textSize="20dp" />
+                app:fb_textSize="20dp"
+                style="@style/yes_button_style" />
 
 
         </LinearLayout>

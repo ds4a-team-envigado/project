@@ -28,5 +28,14 @@
     <string name="permission_denied_explanation">Permission was denied, but is needed for core
         functionality.</string>
     <string name="settings">Settings</string>
+    <string name="question_title">A continuación, vamos a hacerle unas preguntas para determinar  la probabilidad de que su proyecto PIDAR sea aprobado por la ADR </string>
+    <string name="next_button">Siguiente</string>
+    <string name="number">Numero</string>
 
+    <string-array name="chain_options">
+        <item>Arroz</item>
+        <item>Café</item>
+        <item>Platano</item>
+        <item>Caña Azucar</item>
+    </string-array>
 </resources>
