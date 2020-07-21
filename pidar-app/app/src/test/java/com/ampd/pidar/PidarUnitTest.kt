@@ -1,10 +1,10 @@
 package com.ampd.pidar
 
+import com.ampd.pidar.geolocation.GeolocatorService
 import com.ampd.pidar.project_profile.ListQuestion
 import com.ampd.pidar.project_profile.Survey
-import org.junit.Test
-
 import org.junit.Assert.*
+import org.junit.Test
 
 /**
  * Example local unit test, which will execute on the development machine (host).
@@ -34,4 +34,6 @@ class PidarUnitTest {
 
         assertFalse( question3.options.isEmpty())
     }
+
+
 }

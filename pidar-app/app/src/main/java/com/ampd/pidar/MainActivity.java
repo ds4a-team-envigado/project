@@ -4,9 +4,14 @@ import android.Manifest;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.location.Location;
+import android.location.LocationListener;
+import android.location.LocationManager;
 import android.net.Uri;
 import android.os.Bundle;
 
+import com.ampd.pidar.geolocation.GeolocatorService;
+
+import com.ampd.pidar.geolocation.Municipality;
 import com.github.nikartm.button.FitButton;
 import com.google.android.gms.location.FusedLocationProviderClient;
 import com.google.android.gms.location.LocationServices;
@@ -29,47 +34,22 @@ import android.view.View;
 
 import java.util.Locale;
 
-/*
-  Copyright 2017 Google Inc. All Rights Reserved.
-  <p>
-  Licensed under the Apache License, Version 2.0 (the "License");
-  you may not use this file except in compliance with the License.
-  You may obtain a copy of the License at
-  <p>
-  http://www.apache.org/licenses/LICENSE-2.0
-  <p>
-  Unless required by applicable law or agreed to in writing, software
-  distributed under the License is distributed on an "AS IS" BASIS,
-  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-  See the License for the specific language governing permissions and
-  limitations under the License.
- */
-
-
 
 import android.widget.TextView;
 
+import org.jetbrains.annotations.NotNull;
+
 import timber.log.Timber;
 
-/**
- * Location sample.
- * <p>
- * Demonstrates use of the Location API to retrieve the last known location for a device.
- */
-public class MainActivity extends AppCompatActivity implements OnMapReadyCallback {
+
+public class MainActivity extends AppCompatActivity implements OnMapReadyCallback, GeolocatorService.ResponseActionDelegate {
 
     private static final String TAG = MainActivity.class.getSimpleName();
 
     private static final int REQUEST_PERMISSIONS_REQUEST_CODE = 34;
-
-    /**
-     * Provides the entry point to the Fused Location Provider API.
-     */
+    private static final float LOCATION_REFRESH_DISTANCE = 500;
+    private static final long LOCATION_REFRESH_TIME = 5000;
     private FusedLocationProviderClient mFusedLocationClient;
-
-    /**
-     * Represents a geographical location.
-     */
     protected Location mLastLocation;
 
     private double latitude = 4.5709;
@@ -77,9 +57,9 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
 
 
     private String mLatitudeLabel;
-    private String mLongitudeLabel;
-    private TextView mLatitudeText;
-    //private TextView mLongitudeText;
+
+    private TextView locationNameTextView;
+
     private SupportMapFragment mapFragment;
 
     @Override
@@ -88,9 +68,9 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
         setContentView(R.layout.activity_main);
 
         mLatitudeLabel = getResources().getString(R.string.latitude_label);
-        mLongitudeLabel = getResources().getString(R.string.longitude_label);
-        mLatitudeText = (TextView) findViewById((R.id.location_name));
-       // mLongitudeText = (TextView) findViewById((R.id.longitude_text));
+
+        locationNameTextView = (TextView) findViewById((R.id.location_name));
+        // mLongitudeText = (TextView) findViewById((R.id.longitude_text));
 
 
         if (BuildConfig.DEBUG) {
@@ -109,7 +89,7 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
         mFusedLocationClient = LocationServices.getFusedLocationProviderClient(this);
     }
 
-    private void showSurvey(){
+    private void showSurvey() {
         final Intent intent = new Intent(this, QuestionActivity.class);
         startActivity(intent);
 
@@ -125,6 +105,14 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
             getLastLocation();
         }
     }
+
+    private void showLocationName(){
+        GeolocatorService geolocatorService = new GeolocatorService();
+        geolocatorService.sendRequest(this, latitude, longitude);
+    }
+
+
+
 
     /**
      * Provides a simple way of getting a device's location and is well suited for
@@ -143,13 +131,13 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
                         if (task.isSuccessful() && task.getResult() != null) {
                             mLastLocation = task.getResult();
 
-                            mLatitudeText.setText(String.format(Locale.ENGLISH, "%s: %f",
+                            locationNameTextView.setText(String.format(Locale.ENGLISH, "%s: %f",
                                     mLatitudeLabel,
                                     mLastLocation.getLatitude()));
 
                             latitude = mLastLocation.getLatitude();
                             longitude = mLastLocation.getLongitude();
-
+                            setupLocationListener();
                             setMapLocation();
 
                         } else {
@@ -163,12 +151,12 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
     private void showSnackbar(final String text) {
 
     }
-    private void setMapLocation(){
+
+    private void setMapLocation() {
         mapFragment = (SupportMapFragment) getSupportFragmentManager().findFragmentById(R.id.map);
         assert mapFragment != null;
         mapFragment.getMapAsync(this);
     }
-
 
 
     private void showSnackbar(final int mainTextStringId, final int actionStringId,
@@ -256,9 +244,58 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
     public void onMapReady(GoogleMap googleMap) {
         Timber.d("onMapReadyT %f", latitude);
         LatLng currentLocation = new LatLng(latitude, longitude);
-        LatLng locationShift = new LatLng(latitude-0.19, longitude);
+        LatLng locationShift = new LatLng(latitude - 0.19, longitude);
         googleMap.moveCamera(CameraUpdateFactory.newLatLng(locationShift));
-        googleMap.animateCamera( CameraUpdateFactory.zoomTo( 10.0f ) );
+        googleMap.animateCamera(CameraUpdateFactory.zoomTo(10.0f));
 
+        showLocationName();
+    }
+
+    private LocationManager mLocationManager;
+
+    private void setupLocationListener() {
+        mLocationManager = (LocationManager) getSystemService(LOCATION_SERVICE);
+
+        if (ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
+
+            return;
+        }
+        mLocationManager.requestLocationUpdates(LocationManager.NETWORK_PROVIDER, LOCATION_REFRESH_TIME,
+                LOCATION_REFRESH_DISTANCE, mLocationListener);
+    }
+
+    private final LocationListener mLocationListener = new LocationListener() {
+        @Override
+        public void onLocationChanged(final Location location) {
+            Timber.e("LocationListener onLocationChanged");
+        }
+
+        @Override
+        public void onStatusChanged(String provider, int status, Bundle extras) {
+
+        }
+
+        @Override
+        public void onProviderEnabled(String provider) {
+
+        }
+
+        @Override
+        public void onProviderDisabled(String provider) {
+
+        }
+    };
+
+
+    @Override
+    public void didNotSuccessfully(@NotNull String error) {
+
+    }
+
+    @Override
+    public void didSuccessfully(@NotNull Municipality municipality) {
+        String locationName = "Departamento de: "+municipality.getDepartment()+ ", municipio "+municipality.getName();
+
+        locationNameTextView.setText(locationName);
     }
 }

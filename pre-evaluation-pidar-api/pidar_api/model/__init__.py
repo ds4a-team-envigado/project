@@ -1,1 +1,1 @@
-import pidar_api.pidar_model.pidar_model
+import pidar_api.model.pidar_model

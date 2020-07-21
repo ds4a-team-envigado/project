@@ -25,11 +25,14 @@
         <TextView
             style="@style/text_center_style"
             android:layout_marginTop="20dp"
+
             android:text="@string/q_location_detection" />
 
         <TextView
             android:id="@+id/location_name"
             style="@style/text_center_style"
+            android:paddingEnd="@dimen/fab_margin"
+            android:paddingStart="@dimen/fab_margin"
             android:text="@string/lorem_ipsum_short"
             android:textStyle="bold">
 
