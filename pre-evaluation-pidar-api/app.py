@@ -1,8 +1,9 @@
 from flask import Flask, request, jsonify
-from pidar_api.location.geolocator_adapter import GeolocatorAdapter
+
+from pidar_api.location import GeolocatorAdapter
 from pidar_api.location.municipality import serialize
-from pidar_api.model.pre_evaluation_form import PreEvaluationForm
 from pidar_api.model.pidar_model import PidarModel
+from pidar_api.model.pre_evaluation_form import PreEvaluationForm
 
 app = Flask(__name__)
 geolocator = GeolocatorAdapter()

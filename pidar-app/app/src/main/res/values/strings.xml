@@ -10,7 +10,7 @@
 
     <string name="hello_first_fragment">Hello first fragment</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
-    <string name="q_location">¿Desea presentar su poryecto PIDAR en este municipio?</string>
+    <string name="q_location">¿Desea presentar su proyecto PIDAR en este municipio?</string>
     <string name="q_location_detection">"Hemos detectado que se encuentra en el"</string>
     <string name="lorem_ipsum_short">"Lorem Ipsum is simply dummy text "</string>
     <string name="yes">Si</string>

@@ -12,6 +12,7 @@ public class Survey {
         ArrayList<Question> questions = new ArrayList<>();
 
 
+
         Question q1 = new Question();
         q1.setQuestion("¿Eres Colombiano y mayor de 16 años?");
         q1.setType(QuestionType.YES_NO);
