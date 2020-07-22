@@ -32,6 +32,8 @@ class GeolocatorAdapter():
         db_string = "postgresql://adr_user:1234@ds4a-demo-instance.cct4rseci702.eu-west-1.rds.amazonaws.com/adr_db"
         db = create_engine(db_string)
         sql = "SELECT * FROM eva_cultivos" 
+       
+       
         result_set = db.connect().execute((text(sql)))
 
         for r in result_set:  

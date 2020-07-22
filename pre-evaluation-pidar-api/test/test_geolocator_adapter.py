@@ -11,7 +11,7 @@ class TestGeolocatorAdapter(unittest.TestCase):
         plato_code =  geo.get_municipality_code()
         self.assertAlmostEqual("001", plato_code)
 
-"""
+
     def test_get_municipality(self):
         geo = GeolocatorAdapter()
         plato =  geo.get_municipality("9.7923756", "-74.7951948")
@@ -19,4 +19,8 @@ class TestGeolocatorAdapter(unittest.TestCase):
         self.assertAlmostEqual("Plato", plato.name)
         self.assertAlmostEqual("Envigado", envigado.name)
         
-        """
+    def test_without_location(self):
+        geo = GeolocatorAdapter()
+        without_location =  geo.get_municipality("0", "0")
+        self.assertAlmostEqual("", without_location.name)
+    

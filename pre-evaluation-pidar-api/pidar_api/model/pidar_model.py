@@ -1,7 +1,7 @@
 import json
 from datetime import date
-from pre_evaluation_response import PreEvaluationResponse
 
+from pidar_api.model.pre_evaluation_response import PreEvaluationResponse
 
 
 class PidarModel():
