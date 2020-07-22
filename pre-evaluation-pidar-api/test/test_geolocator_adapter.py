@@ -8,8 +8,8 @@ from pidar_api.location.geolocator_adapter import GeolocatorAdapter
 class TestGeolocatorAdapter(unittest.TestCase):
     def test_get_municipality_code(self):
         geo = GeolocatorAdapter()
-        plato_code =  geo.get_municipality_code()
-        self.assertAlmostEqual("001", plato_code)
+        plato_code =  geo.get_municipality_code("plato")
+        self.assertAlmostEqual(0, plato_code)
 
 
     def test_get_municipality(self):
