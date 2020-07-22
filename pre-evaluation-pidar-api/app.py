@@ -1,12 +1,12 @@
-from flask import Flask, request, jsonify
+from flask import Flask, request, jsonify           # microframework to facilitate coding
 
 from pidar_api.location import GeolocatorAdapter
 from pidar_api.location.municipality import serialize
 from pidar_api.model.pidar_model import PidarModel
 from pidar_api.model.pre_evaluation_form import PreEvaluationForm
 
-app = Flask(__name__)
-geolocator = GeolocatorAdapter()
+app = Flask(__name__)           # creating app
+geolocator = GeolocatorAdapter()    
 
 
 @app.route('/getmunicipality', methods=['GET'])
@@ -15,8 +15,6 @@ def get_municipality():
     longitude = request.args.get('longitude', 0)
     municipality = geolocator.get_municipality(latitude, longitude)
     return serialize(municipality), 200
-
-
 
 
 @app.route('/municipalities', methods=['GET'])
