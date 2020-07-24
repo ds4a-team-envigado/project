@@ -1,5 +1,6 @@
 from flask import Flask, request, jsonify           # microframework to facilitate coding
-
+from sqlalchemy import create_engine
+import json
 from pidar_api.location import GeolocatorAdapter
 from pidar_api.location.municipality import serialize
 from pidar_api.model.pidar_model import PidarModel
@@ -19,7 +20,11 @@ def get_municipality():
 
 @app.route('/municipalities', methods=['GET'])
 def get_municipalities():
-    return "", 200
+    db_string = "postgresql://adr_user:1234@ds4a-demo-instance.cct4rseci702.eu-west-1.rds.amazonaws.com/adr_db"
+    db = create_engine(db_string)
+    result_set = db.connect().execute("SELECT DISTINCT cod_mun, municipio, departamento FROM eva_cultivos")
+    json_mun = json.dumps([dict(r) for r in result_set])
+    return json_mun, 200
 
 
 

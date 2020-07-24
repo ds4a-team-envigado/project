@@ -3,9 +3,6 @@ from geopy.geocoders import Nominatim
 from pidar_api.location.municipality import Municipality
 from sqlalchemy import create_engine, text
 
-
-
-
 class GeolocatorAdapter():
 
     def get_municipality(self, latitude, longitude):
@@ -29,36 +26,22 @@ class GeolocatorAdapter():
         municipality.name = county
         # llamo a la función para sacar el codigo del departamento
         if state == "" and county == "":
-            municipality.code = 000
+            municipality.code = 0
         else:
             db_string = "postgresql://adr_user:1234@ds4a-demo-instance.cct4rseci702.eu-west-1.rds.amazonaws.com/adr_db"
             db = create_engine(db_string)
-            # Hago un groupby por el departamento y traigo el promedio del codigo (como siempre es el mismo me trae el codigo real del depto)
-            sql = "SELECT AVG(cod_dep), departamento FROM eva_cultivos GROUP BY departamento" 
-            result_set = db.connect().execute((text(sql)))
-            code = 0
-            # Cuando el departamento sea igual al "state" que le di, entonces sacar el código del depto
-            for row in result_set:
-                if row['departamento'] == state:
-                    code = int(row['avg'])
-            municipality.code = code
+            result_set = db.connect().execute("SELECT DISTINCT cod_mun, municipio, departamento FROM eva_cultivos WHERE municipio=%s AND departamento = %s", (county, state))
+            municipality.code = result_set.fetchone()[0]
 
         municipality.department = state
         return municipality
 
-    def get_municipality_code(self, state):
+    def get_municipality_code(self, state, county):
         db_string = "postgresql://adr_user:1234@ds4a-demo-instance.cct4rseci702.eu-west-1.rds.amazonaws.com/adr_db"
         db = create_engine(db_string)
-        # Hago un groupby por el departamento y traigo el promedio del codigo (como siempre es el mismo me trae el codigo real del depto)
-        sql = "SELECT AVG(cod_dep), departamento FROM eva_cultivos GROUP BY departamento" 
-        result_set = db.connect().execute((text(sql)))
-        code = 0
-        # Cuando el departamento sea igual al "state" que le di, entonces sacar el código del depto
-        for row in result_set:
-            if row['departamento'] == state:
-                code = int(row['avg'])
+        result_set = db.connect().execute("SELECT DISTINCT cod_mun, municipio, departamento FROM eva_cultivos WHERE municipio=%s AND departamento = %s", (county, state))
+        code = result_set.fetchone()[0]
         return code
-
 
 
  
