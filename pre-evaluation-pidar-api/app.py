@@ -22,7 +22,7 @@ def get_municipality():
 def get_municipalities():
     db_string = "postgresql://adr_user:1234@ds4a-demo-instance.cct4rseci702.eu-west-1.rds.amazonaws.com/adr_db"
     db = create_engine(db_string)
-    result_set = db.connect().execute("SELECT DISTINCT cod_mun, municipio, departamento FROM eva_cultivos")
+    result_set = db.connect().execute("SELECT DISTINCT departamento as code, municipio as name, departamento  as department FROM eva_cultivos")
     json_mun = json.dumps([dict(r) for r in result_set])
     return json_mun, 200
 

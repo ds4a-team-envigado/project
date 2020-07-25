@@ -24,6 +24,8 @@ class GeolocatorAdapter():
 
         municipality = Municipality()
         municipality.name = county
+        municipality.code = state
+        municipality.department = state
         # llamo a la función para sacar el codigo del departamento
 
         return municipality
