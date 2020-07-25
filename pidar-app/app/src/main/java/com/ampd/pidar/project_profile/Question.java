@@ -5,6 +5,16 @@ public class Question {
     private String comment;
     private QuestionType type;
 
+    private boolean isNegativeYes = false;
+
+    public boolean isNegativeYes() {
+        return isNegativeYes;
+    }
+
+    public void setNegativeYes(boolean negativeYes) {
+        isNegativeYes = negativeYes;
+    }
+
     public String getQuestion() {
         return question;
     }

@@ -12,7 +12,7 @@
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
     <string name="q_location">¿Desea presentar su proyecto PIDAR en este municipio?</string>
     <string name="q_location_detection">"Hemos detectado que se encuentra en el"</string>
-    <string name="lorem_ipsum_short">"Lorem Ipsum is simply dummy text "</string>
+    <string name="lorem_ipsum_short">En el Departamento, de Antioquia, en el Municipio de Envigado</string>
     <string name="yes">Si</string>
     <string name="no">No</string>
     <string name="error_permission_map">No tenemos permiso para determinar su ubicación</string>
@@ -31,6 +31,8 @@
     <string name="question_title">A continuación, vamos a hacerle unas preguntas para determinar  la probabilidad de que su proyecto PIDAR sea aprobado por la ADR </string>
     <string name="next_button">Siguiente</string>
     <string name="number">Numero</string>
+    <string name="select_municipality">"Por favor seleccione el municipio en donde desea presentar su proyecto PIDAR "</string>
+    <string name="department">Departamento</string>
 
     <string-array name="chain_options">
         <item>Arroz</item>
