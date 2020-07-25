@@ -4,6 +4,7 @@ from datetime import date
 class Municipality(object):
     def __init__(self):
         super().__init__()
+        self.code = ""
         self.name = ""
         self.department = ""
 

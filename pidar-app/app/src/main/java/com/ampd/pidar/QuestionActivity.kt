@@ -41,7 +41,12 @@ class QuestionActivity : AppCompatActivity() {
     }
 
     private fun noOnClick(view: View) {
-        showUserMessage(currentQuestion.comment, view)
+        if(currentQuestion.isNegativeYes){
+            showNextQuestion()
+        }else{
+            showUserMessage(currentQuestion.comment, view)
+        }
+
     }
 
     private fun nextOnClick(view: View?) {
@@ -50,8 +55,13 @@ class QuestionActivity : AppCompatActivity() {
     }
 
 
-    private fun yesOnClick(view: View?) {
-        showNextQuestion()
+    private fun yesOnClick(view: View) {
+        if(currentQuestion.isNegativeYes){
+            showUserMessage(currentQuestion.comment, view)
+        }else{
+            showNextQuestion()
+        }
+
 
     }
 

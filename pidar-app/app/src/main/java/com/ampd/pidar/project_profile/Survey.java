@@ -22,6 +22,7 @@ public class Survey {
 
         Question q2 = new Question();
         q2.setQuestion("¿Tienes antecedentes de tipo judicial fiscal o disciplinario?");
+        q2.setNegativeYes(true);
         q2.setComment("Es requisito habilitante que los beneficiarios, No tener antecedentes de tipo judicial, fiscal o disciplinario");
         q2.setType(QuestionType.YES_NO);
         questions.add(q2);

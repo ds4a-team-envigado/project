@@ -29,7 +29,6 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.ActivityCompat;
 
 import android.provider.Settings;
-import android.util.Log;
 import android.view.View;
 
 import java.util.Locale;
@@ -78,13 +77,24 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
         }
 
         FitButton yesButton = findViewById(R.id.yes_answer);
-
+        FitButton noButton = findViewById(R.id.no_answer);
         yesButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 showSurvey();
             }
         });
+
+
+        noButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                showMunicipalitySelection();
+            }
+
+
+        });
+
 
         mFusedLocationClient = LocationServices.getFusedLocationProviderClient(this);
     }
@@ -93,6 +103,11 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
         final Intent intent = new Intent(this, QuestionActivity.class);
         startActivity(intent);
 
+    }
+
+    private void showMunicipalitySelection() {
+        final Intent intent = new Intent(this, MunicipalitySelectionActivity.class);
+        startActivity(intent);
     }
 
     @Override
@@ -198,10 +213,7 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
                     });
 
         } else {
-            Log.i(TAG, "Requesting permission");
-            // Request permission. It's possible this can be auto answered if device policy
-            // sets the permission in a given state or the user denied the permission
-            // previously and checked "Never ask again".
+
             startLocationPermissionRequest();
         }
     }

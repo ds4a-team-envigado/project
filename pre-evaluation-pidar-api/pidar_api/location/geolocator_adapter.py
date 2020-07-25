@@ -24,16 +24,10 @@ class GeolocatorAdapter():
 
         municipality = Municipality()
         municipality.name = county
-        # llamo a la función para sacar el codigo del departamento
-        if state == "" and county == "":
-            municipality.code = 0
-        else:
-            db_string = "postgresql://adr_user:1234@ds4a-demo-instance.cct4rseci702.eu-west-1.rds.amazonaws.com/adr_db"
-            db = create_engine(db_string)
-            result_set = db.connect().execute("SELECT DISTINCT cod_mun, municipio, departamento FROM eva_cultivos WHERE municipio=%s AND departamento = %s", (county, state))
-            municipality.code = result_set.fetchone()[0]
-
+        municipality.code = state
         municipality.department = state
+        # llamo a la función para sacar el codigo del departamento
+
         return municipality
 
     def get_municipality_code(self, state, county):
