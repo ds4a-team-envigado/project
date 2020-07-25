@@ -30,6 +30,8 @@ def get_municipalities():
 
 @app.route('/evaluate', methods=['POST'])
 def evaluate():
+    department = request.args.get('department', 0)
+    data = request.form
     form = PreEvaluationForm()
     pidar_model = PidarModel()
     evaluation_response = pidar_model.evaluate(form)
