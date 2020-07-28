@@ -218,6 +218,21 @@ ID_Mpio   VARCHAR(6),
 Nombre_Mpio   VARCHAR(255)
 );
 
+CREATE TABLE hist_proyectos (
+departamento   VARCHAR(60),
+municipio   VARCHAR(255),
+total_beneficiarios   INTEGER,
+valor_cofinanciación   FLOAT,
+valor_contrapartida   FLOAT,
+year   VARCHAR(4),
+cp   VARCHAR(60),
+ciclo_cultivo   VARCHAR(60),
+rendimiento   FLOAT,
+productividad   FLOAT)
+
+
+
+
 SET datestyle = 'ISO,DMY';
 SET CLIENT_ENCODING TO 'UTF8';
 \copy ap_sabanageneral FROM '../Datasets/AP_SABANAGENERAL2.csv' with (format CSV, header true, delimiter ';', encoding 'utf8')
@@ -228,6 +243,7 @@ SET CLIENT_ENCODING TO 'UTF8';
 \copy adt_adecuaciontierras FROM '../Datasets/ADT_adecuaciontierras2.csv' with (format CSV, header true, delimiter ';', encoding 'utf8')
 \copy pidar FROM '../Datasets/pidar2.csv' with (format CSV, header true, delimiter ';', encoding 'utf8')
 \copy municipios FROM '../Datasets/municipios.csv' with (format CSV, header true, delimiter ';', encoding 'utf8')
+\copy hist_proyectos FROM '../Datasets/Hisotrico de proyectos completo2.csv' with (format CSV, header true, delimiter ';', encoding 'utf8')
 
 TRUNCATE ap_sabanageneral;
 TRUNCATE ap_predios;
