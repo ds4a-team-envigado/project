@@ -21,12 +21,18 @@ class MunicipalitiesProvider {
 
             val json = response.toString()
 
-            val municipalities = Gson().fromJson<List<Municipality>>(
-                json,
-                object : TypeToken<List<Municipality>>() {}.type
-            )
-            Timber.d("json ${json}")
-            responseActionDelegate.didSuccessfully(municipalities)
+            try{
+                val municipalities = Gson().fromJson<ArrayList<Municipality>>(
+                    json,
+                    object : TypeToken<ArrayList<Municipality>>() {}.type
+                )
+                Timber.d("json ${json}")
+                responseActionDelegate.didSuccessfully(municipalities)
+            }catch (e: Exception){
+                Timber.e(e)
+                responseActionDelegate.didNotSuccessfully()
+            }
+
         }
 
 
@@ -34,6 +40,8 @@ class MunicipalitiesProvider {
 
 
     interface MunicipalitiesResponseActionDelegate {
-        fun didSuccessfully(municipalities: List<Municipality>)
+        fun didSuccessfully(municipalities: ArrayList<Municipality>)
+        fun didNotSuccessfully()
+
     }
 }

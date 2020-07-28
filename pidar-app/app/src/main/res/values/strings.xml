@@ -33,6 +33,8 @@
     <string name="number">Numero</string>
     <string name="select_municipality">"Por favor seleccione el municipio en donde desea presentar su proyecto PIDAR "</string>
     <string name="department">Departamento</string>
+    <string name="municipality">Municipio</string>
+    <string name="not_internet">Por favor valide que tenga acceso a Internet </string>
 
     <string-array name="chain_options">
         <item>Arroz</item>
