@@ -50,7 +50,7 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
     private static final long LOCATION_REFRESH_TIME = 5000;
     private FusedLocationProviderClient mFusedLocationClient;
     protected Location mLastLocation;
-
+    private GoogleMap googleMap;
     private double latitude = 4.5709;
     private double longitude = 74.2973;
 
@@ -255,12 +255,17 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
     @Override
     public void onMapReady(GoogleMap googleMap) {
         Timber.d("onMapReadyT %f", latitude);
-        LatLng currentLocation = new LatLng(latitude, longitude);
+        this.googleMap = googleMap;
+        centerMap();
+        showLocationName();
+    }
+
+
+    private void centerMap(){
+       // LatLng currentLocation = new LatLng(latitude, longitude);
         LatLng locationShift = new LatLng(latitude - 0.19, longitude);
         googleMap.moveCamera(CameraUpdateFactory.newLatLng(locationShift));
         googleMap.animateCamera(CameraUpdateFactory.zoomTo(10.0f));
-
-        showLocationName();
     }
 
     private LocationManager mLocationManager;
@@ -280,6 +285,7 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
         @Override
         public void onLocationChanged(final Location location) {
             Timber.e("LocationListener onLocationChanged");
+            centerMap();
         }
 
         @Override
@@ -301,7 +307,8 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
 
     @Override
     public void didNotSuccessfully(@NotNull String error) {
-
+        showSnackbar(getString(R.string.no_location_detected));
+        //showMunicipalitySelection();
     }
 
     @Override

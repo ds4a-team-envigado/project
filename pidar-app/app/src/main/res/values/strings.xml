@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">pidar-app</string>
+    <string name="app_name">Pidar App</string>
     <string name="pidar_title">Preevaluación PIDAR</string>
     <string name="title_activity_question">QuestionActivity</string>
     <!-- Strings used for fragments for navigation -->
@@ -12,7 +12,7 @@
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
     <string name="q_location">¿Desea presentar su proyecto PIDAR en este municipio?</string>
     <string name="q_location_detection">"Hemos detectado que se encuentra en el"</string>
-    <string name="lorem_ipsum_short">En el Departamento, de Antioquia, en el Municipio de Envigado</string>
+    <string name="lorem_ipsum_short"></string>
     <string name="yes">Si</string>
     <string name="no">No</string>
     <string name="error_permission_map">No tenemos permiso para determinar su ubicación</string>

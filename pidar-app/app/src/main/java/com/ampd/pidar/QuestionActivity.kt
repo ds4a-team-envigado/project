@@ -1,6 +1,9 @@
 package com.ampd.pidar
 
+import android.content.Intent
 import android.os.Bundle
+import android.text.TextUtils
+import android.view.MenuItem
 import android.view.View
 import android.widget.ArrayAdapter
 import androidx.appcompat.app.AppCompatActivity
@@ -22,6 +25,7 @@ class QuestionActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_question)
         setSupportActionBar(findViewById(R.id.toolbar))
+        supportActionBar?.setDisplayHomeAsUpEnabled(true)
 
         showNextQuestion()
 
@@ -39,6 +43,15 @@ class QuestionActivity : AppCompatActivity() {
             nextOnClick(view);
         }
     }
+
+    override fun onOptionsItemSelected(item: MenuItem) = when (item.itemId) {
+        android.R.id.home -> {
+            onBackPressed()
+            true
+        }
+        else -> false
+    }
+
 
     private fun noOnClick(view: View) {
         if(currentQuestion.isNegativeYes){
@@ -76,6 +89,15 @@ class QuestionActivity : AppCompatActivity() {
         hideQuestionOptions()
 
         currentQuestion  = survey.nextQuestion
+
+        if(TextUtils.isEmpty(currentQuestion.question)){
+            val intent = Intent(this, SummaryActivity::class.java)
+            startActivity(intent)
+            return
+        }
+
+
+
         question.text = currentQuestion.question
         if(currentQuestion.type == QuestionType.YES_NO){
             yes_no_layout.visibility = View.VISIBLE;

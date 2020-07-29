@@ -35,7 +35,9 @@ public class Survey {
         ArrayList<String> chains = new ArrayList<>();
         chains.add("Arroz");
         chains.add("Café");
-        q3.setOptions(chains);
+
+        ProductiveChainProvider productiveChainProvider = new ProductiveChainProvider();
+        q3.setOptions(productiveChainProvider.getProductiveChains());
         questions.add(q3);
 
         Question q4 = new Question();
@@ -57,8 +59,15 @@ public class Survey {
             return question;
         }
 
-
-        return null;
+        Question q1 = new Question();
+        return q1;
 
     }
+
+
+    //Cadenas
+
+
+
+    
 }

@@ -1,8 +1,14 @@
 package com.ampd.pidar;
 
+import com.ampd.pidar.geolocation.Municipality;
+
+import java.util.ArrayList;
+
 public class PidarForm {
 
     private String department = "";
+
+    private ArrayList<Municipality> municipalities  = new ArrayList<Municipality>();
 
     public String getDepartment() {
         return department;
@@ -29,4 +35,11 @@ public class PidarForm {
         return instance;
     }
 
+    public ArrayList<Municipality> getMunicipalities() {
+        return municipalities;
+    }
+
+    public void setMunicipalities(ArrayList<Municipality> municipalities) {
+        this.municipalities = municipalities;
+    }
 }

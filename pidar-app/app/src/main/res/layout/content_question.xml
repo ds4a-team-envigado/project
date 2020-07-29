@@ -43,11 +43,16 @@
         android:gravity="center"
         android:orientation="vertical" >
 
+
+
         <Spinner
             android:id="@+id/options_spinner"
-            android:layout_width="200dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:layout_margin="@dimen/activity_horizontal_margin"
-            android:layout_height="wrap_content" />
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:prompt="@string/department" />
 
     </LinearLayout>
 
