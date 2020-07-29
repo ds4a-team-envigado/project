@@ -23,7 +23,7 @@ class MunicipalitySelectionActivity : AppCompatActivity(),
     @NotNull MunicipalitiesProvider.MunicipalitiesResponseActionDelegate {
 
 
-    var municipalities : ArrayList<Municipality> = ArrayList<Municipality>()
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -34,11 +34,13 @@ class MunicipalitySelectionActivity : AppCompatActivity(),
 
     private fun downloadMunicipalities(){
 
-        if(municipalities.isEmpty()){
+        if(PidarForm.getInstance().municipalities.isEmpty()){
             val provider = MunicipalitiesProvider()
             provider.getMunicipalities(this)
         }else{
-            didSuccessfully(municipalities)
+
+
+            didSuccessfully(PidarForm.getInstance().municipalities)
         }
 
 
@@ -46,7 +48,8 @@ class MunicipalitySelectionActivity : AppCompatActivity(),
     }
 
     override fun didSuccessfully(municipalities: ArrayList<Municipality>) {
-        this.municipalities = municipalities
+        PidarForm.getInstance().municipalities = municipalities
+
         Timber.d("didSuccessfully ${municipalities}")
         fillSpinners(municipalities)
         hideProgress()
@@ -90,10 +93,10 @@ class MunicipalitySelectionActivity : AppCompatActivity(),
         val array: Array<String> = departments.toArray(arrayOfNulls<String>(0))
         Arrays.sort(array)
 
-        fillDepartments(array)
+        fillDepartments(array, municipalities)
     }
 
-    private fun fillDepartments(departments: Array<String>){
+    private fun fillDepartments(departments: Array<String>, municipalities: List<Municipality>){
         val dataAdapter: ArrayAdapter<String> =
             ArrayAdapter<String>(this, android.R.layout.simple_spinner_item, departments)
 
@@ -109,7 +112,7 @@ class MunicipalitySelectionActivity : AppCompatActivity(),
                 id: Long
             ) {
                 Timber.d("setOnItemSelectedListener ${departments[position]}")
-                fillMunicipality(departments[position])
+                fillMunicipality(departments[position], municipalities)
             }
 
             override fun onNothingSelected(parentView: AdapterView<*>?) {
@@ -118,7 +121,7 @@ class MunicipalitySelectionActivity : AppCompatActivity(),
         })
     }
 
-    private fun fillMunicipality(department: String){
+    private fun fillMunicipality(department: String, municipalities: List<Municipality>){
 
         var municipalitiesNames =  ArrayList<String>()
 

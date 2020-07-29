@@ -17,8 +17,9 @@ class GeolocatorService {
         val service = ServiceVolley()
         val apiController = APIController(service)
         //TODO: Poner latitud
-        val path = "https://run.mocky.io/v3/a65dba6b-c9bb-4739-812a-f402f7468240"
+       // val path = "https://run.mocky.io/v3/a65dba6b-c9bb-4739-812a-f402f7468240"
 
+        val path = "http://54.217.47.179:5000/getmunicipality?latitude=${latitude}&longitude=${longitude}"
 
 
 
@@ -28,11 +29,16 @@ class GeolocatorService {
             val json = response.toString()
 
 
-            var municipality = Gson().fromJson(json, Municipality::class.java)
+            try{
+                var municipality = Gson().fromJson(json, Municipality::class.java)
 
-            Timber.d("json ${json}")
+                Timber.d("path: ${path} json ${json}")
 
-            responseActionDelegate.didSuccessfully(municipality)
+                responseActionDelegate.didSuccessfully(municipality)
+            }catch (e: Exception){
+                responseActionDelegate.didNotSuccessfully("");
+            }
+
 
 
         }
