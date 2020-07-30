@@ -5,6 +5,7 @@ from pidar_api.location import GeolocatorAdapter
 from pidar_api.location.municipality import serialize
 from pidar_api.model.pidar_model import PidarModel
 from pidar_api.model.pre_evaluation_form import PreEvaluationForm
+from pidar_api.pidar_interactor import evaluate
 
 app = Flask(__name__)           # creating app
 geolocator = GeolocatorAdapter()    
@@ -31,10 +32,11 @@ def get_municipalities():
 @app.route('/evaluate', methods=['POST'])
 def evaluate():
     department = request.args.get('department', 0)
-    data = request.form
+
+    print(department)
     form = PreEvaluationForm()
     pidar_model = PidarModel()
-    evaluation_response = pidar_model.evaluate(form)
+    evaluation_response = .evaluate(form)
     return serialize(evaluation_response), 201
 
 
