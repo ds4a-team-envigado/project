@@ -3,9 +3,8 @@ from sqlalchemy import create_engine
 import json
 from pidar_api.location import GeolocatorAdapter
 from pidar_api.location.municipality import serialize
-from pidar_api.model.pidar_model import PidarModel
 from pidar_api.model.pre_evaluation_form import PreEvaluationForm
-from pidar_api.pidar_interactor import evaluate
+from pidar_api.pidar_interactor import evaluate_form
 
 app = Flask(__name__)           # creating app
 geolocator = GeolocatorAdapter()    
@@ -31,13 +30,16 @@ def get_municipalities():
 
 @app.route('/evaluate', methods=['POST'])
 def evaluate():
-    department = request.args.get('department', 0)
+    pidar_form = {}
+    pidar_form['CP'] = request.form.get('chain', '')
+    pidar_form['DEPARTAMENTO'] = request.form.get('department', 'ANTIOQUIA')
+    pidar_form['Total beneficiarios'] = request.form.get('beneficiaries', '0')
+    pidar_form['tipo_proyecto'] = request.form.get('type', '')
 
-    print(department)
-    form = PreEvaluationForm()
-    pidar_model = PidarModel()
-    evaluation_response = .evaluate(form)
-    return serialize(evaluation_response), 201
+    #form = PreEvaluationForm()
+    #pidar_model = PidarModel()
+    data = evaluate_form(pidar_form)
+    return jsonify(pidar_form), 200
 
 
 

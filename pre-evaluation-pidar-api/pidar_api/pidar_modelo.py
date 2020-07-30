@@ -263,12 +263,12 @@ def run_model(n_clusters, registro):
 
 # %%
 
-def run_model_pidar():
+def run_model_pidar(registro):
     print("run_model_pidar")
 
     ###################EJEMPLO DE CORRIDA#################
     ##Variables definidas por el usuario
-    registro = {'CP':'COCO', 'DEPARTAMENTO':'SUCRE','Total beneficiarios':100e6,'tipo_proyecto':'ASOCIATIVOS'}
+    #registro = {'CP':'COCO', 'DEPARTAMENTO':'SUCRE','Total beneficiarios':100e6,'tipo_proyecto':'ASOCIATIVOS'}
     print(registro)
     pesos_r = [[0.3],[0.1],[0.2],[0.4]]
     print(pesos_r)
