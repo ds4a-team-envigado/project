@@ -27,8 +27,6 @@ n_clusters = 4
 # 2. Departamento DP
 # 3. Total de beneficiarios BN
 # 4. Valor cofinanciación VC
-# %% [markdown]
-# # Funciones
 
 # %%
 # #Traer de la base de datos DIFICIL
@@ -37,6 +35,13 @@ n_clusters = 4
 # EVA = pd.read_csv(DATA_PATH.joinpath('EVA_cultivos_modificado.csv'))
 # PROYECTOS_HISTORICO= pd.read_csv('Hisotrico de proyectos completo.csv')
 
+
+# %%
+def get_pesos():
+    return [[0.3],[0.1],[0.2],[0.4]]
+
+# %% [markdown]
+# # Funciones
 
 # %%
 # %reload_ext sql
@@ -56,11 +61,6 @@ def get_EVA():
     GROUP BY departamento,CADENA_PRODUCTIVA_ADR,CICLO_CULTIVO''',engine1)
     
     return EVA
-
-
-# %%
-H = get_EVA()
-H.head()
 
 
 # %%
@@ -121,13 +121,9 @@ def get_clusters(X_train: pd.DataFrame, X_test: pd.DataFrame, n_clusters: int) -
     return X_train_clstrs, X_test_clstrs
 
 
-
-
-
 # %%
 # Crear la calificacion para cada cluster
 def calificar(X_train_clstrs, X1):
-    PESOS = [[0.3],[0.1],[0.2],[0.4]]
     #Anexando el cluster a los valores en la escala real
     idx = X_train_clstrs.index
     X5 = X1.iloc[idx].copy()
@@ -148,12 +144,10 @@ def calificar(X_train_clstrs, X1):
         else:
             CALIF = pd.merge(CALIF,temp,on='cluster',how ='inner')
             
-    PROBABILIDADES = CALIF.iloc[:,[1,2,3,4]].dot(PESOS)/4
+    PROBABILIDADES = CALIF.iloc[:,[1,2,3,4]].dot(get_pesos())/4
     calificaciones = pd.merge(CALIF['cluster'],PROBABILIDADES,right_index=True,left_index=True)
     
     return calificaciones
-
-
 
 
 # %%
@@ -238,53 +232,57 @@ def create_DU(registro_final):
 # %%
 #Corre todas las fucniones anteriores, clasifica y entrega probabilidad
 def run_model(n_clusters, registro):
-    PESOS = [[0.3],[0.1],[0.2],[0.4]]
+    
     EVA = get_EVA()
     X1 = get_history()
     
-    MCU, MCL= transform_hist(X1)
-    X_train_clstrs, X_test_clstrs = get_clusters(MCU, MCL, n_clusters)
-    CALIFICACION = calificar(X_train_clstrs, X1)
-    registro_final = transform_input(registro,X1,EVA)
-    DU = create_DU(registro_final)
+    dep = registro['DEPARTAMENTO']
+    list_cp = EVA[EVA['departamento']==dep]['cadena_productiva_adr'].unique()
+    list_dp = EVA['departamento'].unique()
     
-    X = X_test_clstrs.drop(columns = ['clusters'])
-    y = X_test_clstrs['clusters']
-    rf = RandomForestClassifier(n_estimators=10)
-    rf.fit(X, y)
-    y_pred = rf.predict(DU)
-    y_prob = rf.predict_proba(DU)
+    if (registro['CP'] in list_cp) and (registro['Total beneficiarios']>0) and (in list_dp):
     
-    APROBADO = CALIFICACION[0]
-    PROBABILIDAD_APROBADO = y_prob[0]*APROBADO.T
+        MCU, MCL= transform_hist(X1)
+        X_train_clstrs, X_test_clstrs = get_clusters(MCU, MCL, n_clusters)
+        CALIFICACION = calificar(X_train_clstrs, X1)
+        registro_final = transform_input(registro,X1,EVA)
+        DU = create_DU(registro_final)
+
+        X = X_test_clstrs.drop(columns = ['clusters'])
+        y = X_test_clstrs['clusters']
+        rf = RandomForestClassifier(n_estimators=10)
+        rf.fit(X, y)
+        y_pred = rf.predict(DU)
+        y_prob = rf.predict_proba(DU)
+
+        APROBADO = CALIFICACION[0]
+        PROBABILIDAD_APROBADO = y_prob[0]*APROBADO.T
+        
+        return PROBABILIDAD_APROBADO.max()*100
     
-    return PROBABILIDAD_APROBADO.max()*100
+    elif registro['Total beneficiarios']<=0:
+        
+        return print('Se requiere minimo una persona beneficiaria por proyecto')
+        
+    else:
+        
+        return print('No se tiene informacion de esa cadena productiva en la zona')
 
 
-# %%
 
-def run_model_pidar(registro):
+def run_model_pidar():
     print("run_model_pidar")
 
     ###################EJEMPLO DE CORRIDA#################
     ##Variables definidas por el usuario
-    #registro = {'CP':'COCO', 'DEPARTAMENTO':'SUCRE','Total beneficiarios':100e6,'tipo_proyecto':'ASOCIATIVOS'}
-    print(registro)
-    pesos_r = [[0.3],[0.1],[0.2],[0.4]]
-    print(pesos_r)
+    registro = {'CP':'ARROZ', 'DEPARTAMENTO':'ANTIOQUIA','Total beneficiarios':-100,'tipo_proyecto':'ASOCIATIVOS'}
+    
     # Beneficiarios, $, Rendimiento, Productividad
     ##Función principal
     return run_model(4, registro)
-    
-
-   # print("La probabilidad de que aprueben su proyecto es {}%.".format(prob))
 
 
 # %%
-
-
-
-# %%
-
+run_model_pidar()
 
 
