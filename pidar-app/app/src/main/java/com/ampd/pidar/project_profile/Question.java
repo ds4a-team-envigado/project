@@ -3,6 +3,28 @@ package com.ampd.pidar.project_profile;
 public class Question {
     private String question;
     private String comment;
+
+    public String getAnswer() {
+        return answer;
+    }
+
+    public void setAnswer(String answer) {
+        this.answer = answer;
+    }
+
+    private String answer="";
+    private String name ="";
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+
+
     private QuestionType type;
 
     private boolean isNegativeYes = false;

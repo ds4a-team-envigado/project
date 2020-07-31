@@ -16,6 +16,11 @@
         android:theme="@style/AppTheme">
         <activity android:name=".SummaryActivity">
 
+
+        </activity>
+        <activity
+            android:name=".SplashActivity"
+            android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -23,15 +28,10 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".SplashActivity"
-            android:theme="@style/AppTheme.NoActionBar">
-
-        </activity>
-        <activity
             android:name=".MunicipalitySelectionActivity"
             android:label="@string/pidar_title"></activity>
         <activity
-            android:name=".QuestionActivity"
+            android:name=".PidarSurveyActivity"
             android:label="@string/pidar_title"
             android:theme="@style/AppTheme.NoActionBar" />
 

@@ -105,7 +105,7 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
 
     private void showSurvey() {
 
-        if(_municipality != null){
+        if(_municipality == null){
             handleNoDepartment();
             return;
         }
@@ -117,7 +117,9 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
         }
 
 
-        final Intent intent = new Intent(this, QuestionActivity.class);
+        PidarForm.getInstance().setDepartment(_municipality.getCode());
+
+        final Intent intent = new Intent(this, PidarSurveyActivity.class);
         startActivity(intent);
 
     }
