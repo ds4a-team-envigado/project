@@ -163,21 +163,21 @@ def transform_input(registro,X1,EVA):
     valor = tipo_proy[registro['tipo_proyecto']]
     cp = registro['CP']
 
-    registro.update({'Valor cofinanciación':valor})
+    registro.update({'Valor_cofinanciación':valor})
     registro.update({cp:1})
 
     inf = info_adicional[(info_adicional['departamento']==registro['DEPARTAMENTO'])&(info_adicional['cadena_productiva_adr']==cp)][['ciclo_cultivo','rendimiento','productividad']]
     registro.update(inf.to_dict('list'))
        
     registro.update({registro['ciclo_cultivo'][0]:1})
-    registro.update({'Valor Contrapartida':registro['Valor cofinanciación']*0.1})
+    registro.update({'Valor_Contrapartida':registro['Valor_cofinanciación']*0.1})
     registro_df = pd.DataFrame(registro)
     
-    R1 = registro_df[['Total beneficiarios','Valor cofinanciación','Valor Contrapartida','rendimiento','productividad']]
+    R1 = registro_df[['Total_beneficiarios','Valor_cofinanciación','Valor_Contrapartida','rendimiento','productividad']]
     R2 = scaler.transform(R1)
     
     R3 = R2.tolist()
-    registro.update(zip(['Total beneficiarios','Valor cofinanciación','Valor Contrapartida','rendimiento','productividad'],R3[0]))
+    registro.update(zip(['Total_beneficiarios','Valor_cofinanciación','Valor_Contrapartida','rendimiento','productividad'],R3[0]))
     
     return registro
 
@@ -186,7 +186,7 @@ def transform_input(registro,X1,EVA):
 #CRear df con datos usuario - El output es un df con los datos que salen de transform_input m{as las columnas dummies para ciclo de cultivo y cadena
 def create_DU(registro_final):
     
-    datos = ['Total beneficiarios','Valor cofinanciación','Valor Contrapartida','rendimiento','productividad']
+    datos = ['Total_beneficiarios','Valor_cofinanciación','Valor_Contrapartida','rendimiento','productividad']
     ciclo = ['ANUAL', 'PERMANENTE', 'TRANSITORIO']
     cadenas = ['AGUACATE', 'AHUYAMA', 'AJI', 'ALGODON', 'ARAZA', 'ARRACACHA', 'ARROZ',
        'ARVEJA', 'ASAI', 'BADEA', 'BANANO', 'BOROJO', 'BREVO', 'BROCOLI',
@@ -240,7 +240,7 @@ def run_model(n_clusters, registro):
     list_cp = EVA[EVA['departamento']==dep]['cadena_productiva_adr'].unique()
     list_dp = EVA['departamento'].unique()
     
-    if (registro['CP'] in list_cp) and (registro['Total beneficiarios']>0) and (in list_dp):
+    if (registro['CP'] in list_cp) and (int(registro['Total_beneficiarios'])>int(0)) and (dep in list_dp):
     
         MCU, MCL= transform_hist(X1)
         X_train_clstrs, X_test_clstrs = get_clusters(MCU, MCL, n_clusters)
@@ -260,7 +260,7 @@ def run_model(n_clusters, registro):
         
         return PROBABILIDAD_APROBADO.max()*100
     
-    elif registro['Total beneficiarios']<=0:
+    elif int(registro['Total_beneficiarios'])<=int(0):
         
         return print('Se requiere minimo una persona beneficiaria por proyecto')
         
@@ -269,13 +269,13 @@ def run_model(n_clusters, registro):
         return print('No se tiene informacion de esa cadena productiva en la zona')
 
 
-
-def run_model_pidar():
+# %%
+def run_model_pidar(registro):
     print("run_model_pidar")
 
     ###################EJEMPLO DE CORRIDA#################
     ##Variables definidas por el usuario
-    registro = {'CP':'ARROZ', 'DEPARTAMENTO':'ANTIOQUIA','Total beneficiarios':-100,'tipo_proyecto':'ASOCIATIVOS'}
+    registro = {'CP':'AJI', 'DEPARTAMENTO':'SANTANDER','Total_beneficiarios':10,'tipo_proyecto':'ASOCIATIVOS'}
     
     # Beneficiarios, $, Rendimiento, Productividad
     ##Función principal
@@ -283,6 +283,6 @@ def run_model_pidar():
 
 
 # %%
-run_model_pidar()
+#run_model_pidar()
 
 

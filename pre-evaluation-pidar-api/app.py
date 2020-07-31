@@ -33,13 +33,13 @@ def evaluate():
     pidar_form = {}
     pidar_form['CP'] = request.form.get('chain', '')
     pidar_form['DEPARTAMENTO'] = request.form.get('department', 'ANTIOQUIA')
-    pidar_form['Total beneficiarios'] = request.form.get('beneficiaries', '0')
+    pidar_form['Total_beneficiarios'] = request.form.get('beneficiaries', '0')
     pidar_form['tipo_proyecto'] = request.form.get('type', '')
 
     #form = PreEvaluationForm()
     #pidar_model = PidarModel()
     data = evaluate_form(pidar_form)
-    return jsonify(pidar_form), 200
+    return jsonify(data), 200
 
 
 

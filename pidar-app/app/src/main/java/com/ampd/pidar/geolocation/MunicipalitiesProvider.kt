@@ -15,7 +15,7 @@ class MunicipalitiesProvider {
 
         val service = ServiceVolley()
         val apiController = APIController(service)
-        val path = "https://run.mocky.io/v3/908a4156-dac4-4a84-81c2-a1fbdcb78138"
+        val path = "https://run.mocky.io/v3/f3e20394-f10d-4501-a3e0-79f4cfc9f758"
 
         apiController.get(path) { response ->
 
