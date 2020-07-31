@@ -22,6 +22,7 @@ class GeolocatorService {
         val path = "http://54.217.47.179:5000/getmunicipality?latitude=${latitude}&longitude=${longitude}"
 
 
+        Timber.d("path: ${path}")
 
 
         apiController.get(path) { response ->

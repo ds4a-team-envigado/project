@@ -35,6 +35,9 @@
     <string name="department">Departamento</string>
     <string name="municipality">Municipio</string>
     <string name="not_internet">Por favor valide que tenga acceso a Internet </string>
+    <string name="error_department">"No hemos podido verificar que se encuentre en uno de los departamentos donde se pueden presentar Proyectos PIDAR, por favor seleccione un departamento valido  "</string>
+    <string name="pidar_summary">Según la información proporcionada la probabilidad de que su Proyecto PIDAR sea cofinanciado es: </string>
+    <string name="seventy">70%</string>
 
     <string-array name="chain_options">
         <item>Arroz</item>

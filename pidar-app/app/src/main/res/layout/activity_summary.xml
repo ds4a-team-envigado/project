@@ -1,9 +1,58 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SummaryActivity">
+    android:layout_margin="@dimen/activity_horizontal_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    android:orientation="vertical">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <TextView
+        style="@style/text_center_style"
+        android:layout_marginTop="20dp"
+        android:text="@string/pidar_summary">
+    </TextView>
+
+
+
+    <LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/yes_no_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+
+        android:orientation="horizontal">
+
+
+        <com.github.nikartm.button.FitButton
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            android:layout_margin="5dp"
+            android:gravity="center"
+            app:fb_backgroundColor="@color/colorPrimary"
+            app:fb_cornerRadius="12dp"
+
+            app:fb_iconColor="#FFF"
+            app:fb_iconPosition="left"
+            app:fb_shape="rectangle"
+            app:fb_text="@string/seventy"
+            app:fb_textColor="#FFF"
+            app:fb_textSize="30dp"
+            app:fb_textPaddingStart="8dp" />
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_height="400dp"
+        android:src="@drawable/sample_chart">
+
+    </ImageView>
+
+
+</LinearLayout>

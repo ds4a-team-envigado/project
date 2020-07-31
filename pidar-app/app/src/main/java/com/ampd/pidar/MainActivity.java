@@ -29,12 +29,14 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.ActivityCompat;
 
 import android.provider.Settings;
+import android.text.TextUtils;
 import android.view.View;
 
 import java.util.Locale;
 
 
 import android.widget.TextView;
+import android.widget.Toast;
 
 import org.jetbrains.annotations.NotNull;
 
@@ -60,6 +62,8 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
     private TextView locationNameTextView;
 
     private SupportMapFragment mapFragment;
+
+    private Municipality _municipality;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -100,8 +104,27 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
     }
 
     private void showSurvey() {
+
+        if(_municipality != null){
+            handleNoDepartment();
+            return;
+        }
+
+
+        if(TextUtils.isEmpty(_municipality.getCode())){
+            handleNoDepartment();
+            return;
+        }
+
+
         final Intent intent = new Intent(this, QuestionActivity.class);
         startActivity(intent);
+
+    }
+
+    private void handleNoDepartment(){
+        Toast.makeText(this, getString(R.string.error_department), Toast.LENGTH_LONG).show();
+        showMunicipalitySelection();
 
     }
 
@@ -152,7 +175,7 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
 
                             latitude = mLastLocation.getLatitude();
                             longitude = mLastLocation.getLongitude();
-                            setupLocationListener();
+
                             setMapLocation();
 
                         } else {
@@ -184,20 +207,20 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
 
     private boolean checkPermissions() {
         int permissionState = ActivityCompat.checkSelfPermission(this,
-                Manifest.permission.ACCESS_COARSE_LOCATION);
+                Manifest.permission.ACCESS_FINE_LOCATION);
         return permissionState == PackageManager.PERMISSION_GRANTED;
     }
 
     private void startLocationPermissionRequest() {
         ActivityCompat.requestPermissions(MainActivity.this,
-                new String[]{Manifest.permission.ACCESS_COARSE_LOCATION},
+                new String[]{Manifest.permission.ACCESS_FINE_LOCATION},
                 REQUEST_PERMISSIONS_REQUEST_CODE);
     }
 
     private void requestPermissions() {
         boolean shouldProvideRationale =
                 ActivityCompat.shouldShowRequestPermissionRationale(this,
-                        Manifest.permission.ACCESS_COARSE_LOCATION);
+                        Manifest.permission.ACCESS_FINE_LOCATION);
 
         // Provide an additional rationale to the user. This would happen if the user denied the
         // request previously, but didn't check the "Don't ask again" checkbox.
@@ -229,7 +252,7 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
             if (grantResults.length <= 0) {
 
             } else if (grantResults[0] == PackageManager.PERMISSION_GRANTED) {
-                // Permission granted.
+                setupLocationListener();
                 getLastLocation();
             } else {
 
@@ -271,6 +294,7 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
     private LocationManager mLocationManager;
 
     private void setupLocationListener() {
+        Timber.e("setupLocationListener");
         mLocationManager = (LocationManager) getSystemService(LOCATION_SERVICE);
 
         if (ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
@@ -313,6 +337,7 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
 
     @Override
     public void didSuccessfully(@NotNull Municipality municipality) {
+        this._municipality = municipality;
         String locationName = "Departamento de: "+municipality.getDepartment()+ ", municipio "+municipality.getName();
 
         locationNameTextView.setText(locationName);
