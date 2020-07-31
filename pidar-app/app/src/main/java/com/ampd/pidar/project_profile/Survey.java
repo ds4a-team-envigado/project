@@ -32,9 +32,7 @@ public class Survey {
         q3.setQuestion("¿Cuál es la cadena productiva que desea impactar?");
         q3.setType(QuestionType.LIST);
 
-        ArrayList<String> chains = new ArrayList<>();
-        chains.add("Arroz");
-        chains.add("Café");
+
 
         ProductiveChainProvider productiveChainProvider = new ProductiveChainProvider();
         q3.setOptions(productiveChainProvider.getProductiveChains());
@@ -46,6 +44,21 @@ public class Survey {
         q4.setType(QuestionType.NUMERIC);
         questions.add(q4);
 
+
+        ListQuestion q5 = new ListQuestion();
+        q5.setQuestion("¿Tipo de proyecto?");
+
+        ArrayList<String> types = new ArrayList<String>();
+
+        types.add("TERRITORIALES");
+        types.add("ASOCIATIVOS");
+        types.add("NACIONALES");
+        q5.setOptions(types);
+
+
+        q5.setComment("");
+        q5.setType(QuestionType.LIST);
+        questions.add(q5);
 
         li = questions.listIterator();
     }
