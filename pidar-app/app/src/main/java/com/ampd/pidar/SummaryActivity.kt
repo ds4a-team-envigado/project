@@ -88,7 +88,7 @@ class SummaryActivity : AppCompatActivity(), ModelInteractor.ModelResponseDelega
             return
         }
 
-        proba = "0";
+
         if(proba.length > 2)
             proba = proba.substring(0,2)
 
