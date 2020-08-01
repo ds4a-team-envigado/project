@@ -102,6 +102,12 @@ class PidarSurveyActivity : AppCompatActivity() {
             .setAction("Action", null).show()
     }
 
+    fun showSummary(){
+        val intent = Intent(this, SummaryActivity::class.java)
+        startActivity(intent)
+        finish()
+    }
+
 
     private fun  showNextQuestion(){
         hideQuestionOptions()
@@ -110,9 +116,7 @@ class PidarSurveyActivity : AppCompatActivity() {
         PidarForm.getInstance().addQuestion(currentQuestion)
 
         if(TextUtils.isEmpty(currentQuestion.question)){
-            val intent = Intent(this, SummaryActivity::class.java)
-            startActivity(intent)
-            return
+            showSummary()
         }
 
 

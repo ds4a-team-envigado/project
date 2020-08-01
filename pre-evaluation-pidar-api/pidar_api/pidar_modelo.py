@@ -275,7 +275,7 @@ def run_model_pidar(registro):
 
     ###################EJEMPLO DE CORRIDA#################
     ##Variables definidas por el usuario
-    registro = {'CP':'AJI', 'DEPARTAMENTO':'SANTANDER','Total_beneficiarios':10,'tipo_proyecto':'ASOCIATIVOS'}
+    #registro = {'CP':'AJIX', 'DEPARTAMENTO':'SANTANDER','Total_beneficiarios':10,'tipo_proyecto':'ASOCIATIVOS'}
     
     # Beneficiarios, $, Rendimiento, Productividad
     ##Función principal
