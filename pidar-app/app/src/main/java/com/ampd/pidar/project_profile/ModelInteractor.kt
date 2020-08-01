@@ -60,5 +60,6 @@ class ModelInteractor {
         fun didSuccessfully(modelResponse: PidarModelResponse)
         fun didNotSuccessfully()
 
+
     }
 }

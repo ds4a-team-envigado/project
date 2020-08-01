@@ -37,7 +37,11 @@
     <string name="not_internet">Por favor valide que tenga acceso a Internet </string>
     <string name="error_department">"No hemos podido verificar que se encuentre en uno de los departamentos donde se pueden presentar Proyectos PIDAR, por favor seleccione un departamento valido  "</string>
     <string name="pidar_summary">Según la información proporcionada la probabilidad de que su Proyecto PIDAR sea cofinanciado es: </string>
-    <string name="seventy">70%</string>
+    <string name="summary_no_chain">No se tiene información de esa cadena productiva en la zona</string>
+    <string name="seventy">0.0 %</string>
+    <string name="summary_chart">Tenga en cuenta estos son los cultivos más productivos en tu departamento, es decir aquellos que más toneladas por hectáreas producen</string>
+    <string name="summary_path">Ruta de estructuración de proyectos PIDAR</string>
+    <string name="more_information">Más Información</string>
 
     <string-array name="chain_options">
         <item>Arroz</item>
