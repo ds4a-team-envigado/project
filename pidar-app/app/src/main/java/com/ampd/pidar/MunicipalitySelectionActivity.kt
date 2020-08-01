@@ -62,10 +62,17 @@ class MunicipalitySelectionActivity : AppCompatActivity(),
 
     private fun nextOnClick(view: View?) {
         var department = departments_spinner.selectedItem.toString()
-        Timber.d("department ${department}")
 
-        PidarForm.getInstance().department  = department
-        val intent = Intent(this, QuestionActivity::class.java)
+        for(municipa in PidarForm.getInstance().municipalities){
+            if(municipa.department.equals(department)){
+                PidarForm.getInstance().department  = municipa.code
+            }
+        }
+
+        Timber.d("PidarForm.getInstance().department ${PidarForm.getInstance().department}")
+
+
+        val intent = Intent(this, PidarSurveyActivity::class.java)
         startActivity(intent)
     }
 

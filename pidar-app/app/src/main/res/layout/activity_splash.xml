@@ -15,7 +15,7 @@
         android:gravity="center"
         android:layout_margin="40dp"
 
-        android:src="@drawable/logo_adr"/>
+        android:src="@drawable/splash"/>
 
 
 

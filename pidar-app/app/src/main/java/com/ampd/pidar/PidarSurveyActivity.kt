@@ -6,18 +6,20 @@ import android.text.TextUtils
 import android.view.MenuItem
 import android.view.View
 import android.widget.ArrayAdapter
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.ampd.pidar.project_profile.ListQuestion
+import com.ampd.pidar.project_profile.PidarSurvey
 import com.ampd.pidar.project_profile.Question
 import com.ampd.pidar.project_profile.QuestionType
-import com.ampd.pidar.project_profile.Survey
 import com.google.android.material.snackbar.Snackbar
 import kotlinx.android.synthetic.main.content_question.*
 
-class QuestionActivity : AppCompatActivity() {
+class PidarSurveyActivity : AppCompatActivity() {
 
 
-    val survey: Survey = Survey();
+    val survey: PidarSurvey =
+        PidarSurvey();
     lateinit var currentQuestion: Question;
 
 
@@ -62,8 +64,24 @@ class QuestionActivity : AppCompatActivity() {
 
     }
 
-    private fun nextOnClick(view: View?) {
-        showNextQuestion()
+    private fun nextOnClick(view: View) {
+
+        if(currentQuestion.type == QuestionType.NUMERIC){
+            currentQuestion.answer = number_answer.text.toString()
+        }
+
+
+        if(currentQuestion.type == QuestionType.LIST){
+            currentQuestion.answer = options_spinner.selectedItem.toString()
+        }
+
+        if(survey.isValidAnswer(currentQuestion)){
+            showNextQuestion()
+        }
+        else{
+            Toast.makeText(this, currentQuestion.comment, Toast.LENGTH_LONG).show()
+        }
+
 
     }
 
@@ -89,6 +107,7 @@ class QuestionActivity : AppCompatActivity() {
         hideQuestionOptions()
 
         currentQuestion  = survey.nextQuestion
+        PidarForm.getInstance().addQuestion(currentQuestion)
 
         if(TextUtils.isEmpty(currentQuestion.question)){
             val intent = Intent(this, SummaryActivity::class.java)
