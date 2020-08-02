@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">Pidar App</string>
+    <string name="pidar_title">Preevaluación PIDAR</string>
+    <string name="title_activity_question">QuestionActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="q_location">¿Desea presentar su proyecto PIDAR en este municipio?</string>
+    <string name="q_location_detection">"Hemos detectado que se encuentra en el"</string>
+    <string name="lorem_ipsum_short"></string>
+    <string name="yes">Si</string>
+    <string name="no">No</string>
+    <string name="error_permission_map">No tenemos permiso para determinar su ubicación</string>
+    <string name="permission_rationale">Test</string>
+    <string name="no_location_detected">No se pudo determinar la ubicación</string>
+    <string name="title_activity_main">MainActivity</string>
+
+
+    <string name="latitude_label">Latitude</string>
+    <string name="longitude_label">Longitude</string>
+
+
+    <string name="permission_denied_explanation">Permission was denied, but is needed for core
+        functionality.</string>
+    <string name="settings">Settings</string>
+    <string name="question_title">A continuación, vamos a hacerle unas preguntas para determinar  la probabilidad de que su proyecto PIDAR sea aprobado por la ADR </string>
+    <string name="next_button">Siguiente</string>
+    <string name="number">Numero</string>
+    <string name="select_municipality">"Por favor seleccione el municipio en donde desea presentar su proyecto PIDAR "</string>
+    <string name="department">Departamento</string>
+    <string name="municipality">Municipio</string>
+    <string name="not_internet">Por favor valide que tenga acceso a Internet </string>
+    <string name="error_department">"No hemos podido verificar que se encuentre en uno de los departamentos donde se pueden presentar Proyectos PIDAR, por favor seleccione un departamento valido  "</string>
+    <string name="pidar_summary">Según la información proporcionada la probabilidad de que su Proyecto PIDAR sea cofinanciado es: </string>
+    <string name="summary_no_chain">No se tiene información de esa cadena productiva en la zona</string>
+    <string name="seventy">0.0 %</string>
+    <string name="summary_chart">Tenga en cuenta estos son los cultivos más productivos en tu departamento, es decir aquellos que más toneladas por hectáreas producen</string>
+    <string name="summary_path">Ruta de estructuración de proyectos PIDAR</string>
+    <string name="more_information">Más Información</string>
+
+    <string-array name="chain_options">
+        <item>Arroz</item>
+        <item>Café</item>
+        <item>Platano</item>
+        <item>Caña Azucar</item>
+    </string-array>
+</resources>

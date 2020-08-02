@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/activity_horizontal_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    android:orientation="vertical">
+
+
+    <ImageView
+        android:layout_marginTop="40dp"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:src="@drawable/logo_adr"></ImageView>
+
+    <TextView
+
+        style="@style/text_center_style"
+        android:layout_marginTop="20dp"
+        android:text="@string/question_title">
+    </TextView>
+
+
+
+    <TextView
+        android:id="@+id/question"
+        style="@style/text_center_style"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:text="@string/question_title">
+    </TextView>
+
+
+
+
+    <LinearLayout
+        android:id="@+id/options_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+
+
+        <Spinner
+            android:id="@+id/options_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/activity_horizontal_margin"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:prompt="@string/department" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/numeric_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:orientation="vertical" >
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/colorPrimary">
+
+            <AutoCompleteTextView
+                android:id="@+id/number_answer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/number"
+                android:inputType="number"
+                android:maxLines="1"
+                android:singleLine="true" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+    </LinearLayout>
+
+
+    <com.github.nikartm.button.FitButton
+        android:id="@+id/next_button"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:layout_margin="32dp"
+        android:enabled="true"
+        android:gravity="center_vertical"
+        app:fb_cornerRadius="2dp"
+        app:fb_shape="rectangle"
+        app:fb_divColor="#fff"
+        app:fb_divWidth="1dp"
+        app:fb_divHeight="40dp"
+        app:fb_rippleColor="#FBE9E7"
+        app:fb_iconWidth="28dp"
+        app:fb_iconHeight="28dp"
+        app:fb_iconPosition="left"
+        app:fb_iconMarginStart="20dp"
+        app:fb_iconMarginEnd="16dp"
+        app:fb_icon="@drawable/ic_thumb_up"
+        app:fb_iconColor="#FFF"
+        app:fb_textPaddingStart="16dp"
+        app:fb_textColor="#FFF"
+        app:fb_text="@string/next_button"
+        app:fb_backgroundColor="@color/colorPrimary"/>
+
+    <LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/yes_no_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+
+        android:orientation="horizontal">
+
+        <com.github.nikartm.button.FitButton
+            android:id="@+id/no_answer"
+            app:fb_backgroundColor="@android:color/holo_red_light"
+            app:fb_shape="circle"
+            app:fb_text="@string/no"
+
+            app:fb_textAllCaps="true"
+            app:fb_textColor="#FFF"
+            app:fb_textPaddingEnd="16dp"
+            app:fb_textPaddingStart="16dp"
+            app:fb_textSize="20dp"
+            style="@style/no_button_style" />
+
+        <com.github.nikartm.button.FitButton
+            android:id="@+id/yes_answer"
+            app:fb_backgroundColor="@android:color/holo_green_light"
+            app:fb_shape="circle"
+            app:fb_text="@string/yes"
+            app:fb_textAllCaps="true"
+            app:fb_textColor="#FFF"
+            app:fb_textPaddingEnd="16dp"
+            app:fb_textPaddingStart="16dp"
+            app:fb_textSize="20dp"
+            style="@style/yes_button_style" />
+
+
+    </LinearLayout>
+</LinearLayout>
