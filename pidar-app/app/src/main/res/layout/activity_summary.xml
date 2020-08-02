@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
@@ -7,7 +12,12 @@
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     android:orientation="vertical">
 
-
+    <ImageView
+        android:layout_marginTop="40dp"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:src="@drawable/logo_adr"></ImageView>
 
     <TextView
         style="@style/text_center_style"
@@ -15,19 +25,39 @@
         android:text="@string/pidar_summary">
     </TextView>
 
+    <TextView
+        android:id="@+id/summary_no_chain"
+        style="@style/text_center_style"
+        android:layout_marginTop="20dp"
+        android:textColor="@android:color/holo_red_light"
+        android:visibility="gone"
+        android:text="@string/summary_no_chain">
+    </TextView>
+
+    <ProgressBar
+        android:id="@+id/progess"
+        android:layout_marginTop="40dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center"
+        android:visibility="visible"/>
 
 
     <LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
-        android:id="@+id/yes_no_layout"
+        android:id="@+id/summary_layout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="5dp"
+        android:layout_marginBottom="20dp"
         android:gravity="center"
-
-        android:orientation="horizontal">
+        android:visibility="gone"
+        android:orientation="vertical">
 
 
         <com.github.nikartm.button.FitButton
+            android:id="@+id/probability"
             android:layout_width="100dp"
             android:layout_height="70dp"
             android:layout_margin="5dp"
@@ -43,16 +73,53 @@
             app:fb_textSize="30dp"
             app:fb_textPaddingStart="8dp" />
 
+        <TextView
+            style="@style/text_center_style"
+            android:layout_marginTop="20dp"
+            android:text="@string/summary_chart">
+        </TextView>
+
+        <ImageView
+            android:id="@+id/chart"
+            android:layout_width="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_height="500dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/sample_chart">
+
+        </ImageView>
+
+
+        <com.github.nikartm.button.FitButton
+            android:id="@+id/next_button"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:layout_margin="32dp"
+            android:enabled="true"
+            android:gravity="center_vertical"
+            app:fb_cornerRadius="2dp"
+            app:fb_shape="rectangle"
+            app:fb_divColor="#fff"
+            app:fb_divWidth="1dp"
+            app:fb_divHeight="40dp"
+            app:fb_rippleColor="#FBE9E7"
+            app:fb_iconWidth="28dp"
+            app:fb_iconHeight="28dp"
+            app:fb_iconPosition="left"
+            app:fb_iconMarginStart="20dp"
+            app:fb_iconMarginEnd="16dp"
+            app:fb_icon="@drawable/ic_thumb_up"
+            app:fb_iconColor="#FFF"
+            app:fb_textPaddingStart="16dp"
+            app:fb_textColor="#FFF"
+            app:fb_text="@string/next_button"
+            app:fb_backgroundColor="@color/colorPrimary"/>
 
     </LinearLayout>
 
-    <ImageView
-        android:layout_width="match_parent"
-        android:layout_marginTop="20dp"
-        android:layout_height="400dp"
-        android:src="@drawable/sample_chart">
 
-    </ImageView>
 
 
 </LinearLayout>
+
+</ScrollView>

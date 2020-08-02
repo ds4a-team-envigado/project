@@ -1,8 +1,7 @@
 package com.ampd.pidar
 
-import com.ampd.pidar.geolocation.GeolocatorService
 import com.ampd.pidar.project_profile.ListQuestion
-import com.ampd.pidar.project_profile.Survey
+import com.ampd.pidar.project_profile.PidarSurvey
 import org.junit.Assert.*
 import org.junit.Test
 
@@ -14,7 +13,7 @@ import org.junit.Test
 class PidarUnitTest {
     @Test
     fun getNextQuestion_Test() {
-        var survey =  Survey();
+        var survey = PidarSurvey();
         var question = survey.nextQuestion;
         assertNotNull(question)
 
@@ -26,7 +25,7 @@ class PidarUnitTest {
 
     @Test
     fun getChainProduction_Test() {
-        var survey =  Survey();
+        var survey = PidarSurvey();
         var question = survey.nextQuestion;
         var question2 = survey.nextQuestion;
         var question3 = survey.nextQuestion as ListQuestion;
